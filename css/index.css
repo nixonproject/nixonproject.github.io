@@ -1,0 +1,168 @@
+@font-face {
+    font-family: inconsolata;
+    src: url(/Inconsolata.otf);
+    font-weight: normal;
+    font-style: normal;	
+}.blink {
+	-webkit-animation: blink 1s linear infinite;
+	-moz-animation: blink 1s linear infinite;
+	-ms-animation: blink 1s linear infinite;
+	-o-animation: blink 1s linear infinite;
+	 animation: blink 1s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+*{
+	font-family:inconsolata;
+	color:white;
+}
+html, body{
+	margin:0 0 0 0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	background-color:black;
+}
+#nav{
+	position:relative;
+	max-width:100%;
+	height:10%;
+	margin:0 auto;
+	z-index:1;
+	opacity:0;
+        right:0%;
+}
+#links{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+#links li{
+	float:right;
+	list-style:none;
+	padding: 0% 2%;
+}
+#nav a{
+	display:block;
+	margin:0;
+	text-decoration:none;
+	color:white;
+	font-size:2vw;
+}
+hr{
+	position:relative;
+	height:.25em;
+	width:8%;
+	left:72%;
+	margin:0;
+	background:tomato;
+	border:none;
+	clear:right;
+}
+#pages{
+	position:relative;
+	width:100%;
+	height:90%;
+}
+#about{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:-200%;
+}
+#about h1, h2{
+	position:relative;
+	left:5%;
+}
+#projects{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:-100%;
+}
+#projects h1{
+	postion:relative;
+	font-size:4vw;
+	opacity:1;
+	text-align:center;
+}
+#projects h2{
+	position:relative;
+	display:show;
+	text-align:center;
+	font-size:3.5vw;
+}
+#projects h2 a{
+	position:relative;
+	opacity:1;
+	text-align:center;
+	text-decoration:none;
+}
+#projects p{
+	position:relative;
+	font-size:2.5vw;
+	width:50%;
+	left:25%;	
+}
+#home{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0%;
+}
+#home h1{
+	font-size:3.75vw;
+	opacity:1;
+}
+#outlinks{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:100%;
+}
+#outlinks h1{
+	position:relative;
+	left:5%;
+}
+#outlinks a{
+	text-decoration:none;
+	color:white;
+}
+#contact{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:200%;
+}
+#contact h1{
+	position:relative;
+	left:5%;
+}
