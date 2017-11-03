@@ -123,7 +123,7 @@ $(document).ready(function(){
         force_dip: true
     });
     $("#intro").typed({
-        strings: ["Hi. I'm Campbell Yamane","I am a third year Cognitive Science major at UCLA",""],
+        strings: ["Hi. I'm Campbell Yamane","I am a fourth year Cognitive Science major at UCLA",""],
         typeSpeed: 1,
         backSpeed: -10,
         showCursor: false,
