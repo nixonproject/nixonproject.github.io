@@ -1,0 +1,304 @@
+<html>
+
+    <head>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/typed.js"></script>
+        <script type="text/javascript" src="js/kwicks.js"></script>
+        <script type="text/javascript" src="js/controls.js"></script>
+        <script type="text/javascript" src="js/restive.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css?v1.11">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <title>Campbell's Portfolio</title>
+    </head>
+
+    <body>
+        <div id="crazy"></div>
+        <div id="hack"><span></span></div>
+        <div id="main">
+            <div id="header">
+                <ul>
+                    <li><span class="menu" onclick="subpage(event)" id="about">About</span></li>
+                    <li><span class="menu" onclick="subpage(event)" id="projects">Projects</span></li>
+                    <li><span class="menu" onclick="subpage(event)" id="links">Links</span></li>
+                    <li><span class="menu" onclick="subpage(event)" id="contact">Contact</span></li>
+                </ul>
+            </div>
+            
+            <div id="logo">
+                <img id="homelog" src="images/google.png"/>
+            </div>
+            <div id="over"></div>
+            <div id="searcher">
+                <input id="intro" type="text" autofocus>
+            </div>
+            <div id="results">
+            </div>
+            <div id="everythingbut">
+                <div id="buttons">
+                    <button id="search">Campbell Search</button>
+                    <button id="lucky">I'm Feeling Crazy</button>
+                </div>
+                <p id="hints" >Click here for hints</p>
+                <p id="commands" >Try these commands: </br><i>skills</i></br><i>experience</i></br><i>education</i></p>
+            </div>
+        </div>
+        <div id="subpages">
+            <div id="aboutdiv" class="sublink">
+                <div id="photo">
+                    <img src="images/about.png"/><br/>
+                </div>
+                <div id="bio">
+                    <img id="me" src="images/photo.png"/>
+                    <div id="aboutme">
+                        <h1>About Me</h1>
+                        <p>
+                            I am a 21 year old college student with a passion for web design and backend algorithm creation.
+                            When I'm not in school, you can find me passionately rooting for the Golden State Warriors or putting
+                            on a show at your local karaoke bar.
+                        </p>
+                    </div>
+                </div> 
+                <ul class="kwicks kwicks-vertical">
+                    <li id="skills">
+                        <h1>Skills</h1>
+                        <div class="content" id="languages">
+                            <table>
+                                <tr>
+                                    <th colspan="2">Programming Languages</th>
+                                </tr>
+                                <tr>
+                                    <td><img class="icons" src="images/svg/cpp-sq.png"/></td>
+                                    <td><img class="icons" src="images/svg/python-sq.png"/></td>
+                                </tr>
+                                <tr>
+                                    <td>C++</td>
+                                    <td>Python</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="icons" src="images/svg/html-sq.png"/></td>
+                                    <td><img class="icons" src="images/svg/css-sq.png"/></td>
+                                </tr>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>CSS</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="icons" src="images/svg/php-sq.png"/></td>
+                                    <td><img class="icons" src="images/svg/sql-sq.png"/></td>
+                                </tr>
+                                <tr>
+                                    <td>PHP</td>
+                                    <td>SQL</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="icons" src="images/svg/js-sq.png"/></td>
+                                    <td><img class="icons" src="images/svg/jquery-sq.png"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Javascript</td>
+                                    <td>jQuery</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="content" id="software">
+                            <table>
+                                <tr>
+                                    <th colspan="2">Software</th>
+                                </tr>
+                                <tr>
+                                    <td><img class="icons" src="images/svg/msw.png"/></td>
+                                    <td><img class="icons" src="images/svg/mse.png"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Microsoft Word</td>
+                                    <td>Microsoft Excel</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="icons" src="images/svg/msp.png"/></td>
+                                    <td><img class="icons" src="images/svg/msout.png"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Microsoft Powerpoint</td>
+                                    <td>Microsoft Outlook</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="icons" src="images/svg/ae.png"/></td>
+                                    <td><img class="icons" src="images/svg/p.png"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Adobe After Effects</td>
+                                    <td>Adobe Photoshop</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="icons" src="images/svg/lr.png"/></td>
+                                    <td><img class="icons" src="images/svg/pr.png"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Adobe Lightroom</td>
+                                    <td>Adobe Premiere Pro</td>
+                                </tr>
+                            </table>                        
+                        </div>
+                    </li> 
+                    <li id="experience">
+                        <h1>Experience</h1>
+                        <div class="content" id="work">
+                            <table>
+                                <tr>
+                                    <th><u>USC Shoah Foundation</u>, Undergraduate Research Assistant (2017 - Present):</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>Analyzed over 50,000 testimonies in SQL databases for patterns in said testimonial data</li>
+                                            <li>Paired mp3 decibel analysis with corresponding testimonial keywords to create ad-hoc emotional-intonation algorithm</li>
+                                            <li>Created Python script that identified and exported ranges of silence in testimonies</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><u>Holyfield</u>, Author, Editor, Podcast Host (2016 - Present):</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>Acquired from self-started basketball website Naismith Nation</li>
+                                            <li>Contributed multiple engaging editorials based on data pattern analysis and extrapolation</li>
+                                            <li>Quickly promoted to editor due to detail-oriented authorship and keen eye</li>
+                                            <li>Created short video animations for social media promotion</li>
+                                            <li>Led analytical discussions on <i>Students of the Game</i> podcast, with topics ranging from sports to politics</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><u>Marin Benefits/Direct Dental</u>, Data Specialist (2014 - Present):</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>Streamlined the firm's operation process by implementing and managing an electronic data interchange for client and employee information, cutting processing time in half</li>
+                                            <li>Updated protocols for quarterly data analysis</li>
+                                            <li>Created new company graphics through Adobe Photoshop</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>                        
+                        </div>
+                    </li>
+                    <li id="education">
+                        <h1>Education</h1>
+                        <div class="content" id="school">
+                            <table>
+                                <tr>
+                                    <td><span class="bold">UCLA</span>, Los Angeles, California</td>
+                                </tr>
+                                <tr>
+                                    <td>Bachelor of Science, Expected Graduation June 2018</td>
+                                </tr>
+                                <tr>
+                                    <td> &nbsp </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="bold">Major</span>: Cognitive Science (Specialization in Computing)</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="bold">Minor</span>: Digital Humanities</td>
+                                </tr>
+                                <tr>
+                                    <td> &nbsp </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="bold">GPA</span>: 3.4</td>
+                                </tr>
+                                <tr>
+                                    <td> &nbsp </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="bold">Relevant Coursework</span>: PIC 10A (Introduction to C++), PIC40A (Programming for the Internet), PSYCH 20 (MATLAB Programming), and COMM 155 (Artificial Intelligence and New Media) </td>
+                                </tr>
+                            </table>                        
+                        </div>
+                    </li> 
+                </ul>
+            </div>     
+            <div id="projectsdiv" class="sublink">
+                <div id="photo">
+                    <img src="images/projects.png"/>
+                </div>    
+                <div class="left projects">
+                    <h1>Spot Me</h1>
+                    <p>
+                        Spot Me is a web app I designed that
+                        creates Spotify playlists based on
+                        certain user-defined presets. Once the
+                        user enters the desired 'seed' song,
+                        they can manipulate energy, loudness,
+                        and danceability values to their liking.<br/><br/>
+                        <a href="spotme" target="_blank">Check Out Spot Me</a>
+                    </p>
+                </div>
+                <div class="middle projects">
+                    <h1>MATLAB Baseball</h1>   
+                    <p>
+                        MATLAB Baseball uses the MATLAB
+                        programming language to simulate a full
+                        length baseball game based on statistics
+                        from the 2015 MLB season. Complete with
+                        some barebones graphics, it uses random
+                        numbers to generate probabalistically
+                        accurate occurrences.<br/><br/>
+                        <a href="https://github.com/campbellyamane/baseball" target="_blank">Check Out The Code For MATLAB Baseball</a>
+                    </p>
+                </div>
+                <div class="right projects">
+                    <h1>SoundTrak</h1>   
+                    <p>
+                        SoundTrak is the product of one of my more
+                        abstract ideas. Using musical artists as 
+                        the sole input, the SoundTrak algorithm 
+                        generates a list of movies based on how their
+                        respective soundtracks relate to the inputted
+                        artist.<br/><br/>
+                        <a href="soundtrak" target="_blank">Check Out SoundTrak</a>
+                    </p>
+                </div>
+            </div>
+            <div id="linksdiv" class="sublink">
+                <div id="photo">
+                    <img src="images/links.png"/>
+                </div>  
+                <ul class="kwicks kwicks-horizontal">                 
+                    <li id="0" onclick="window.open('https://www.linkedin.com/in/campbell-yamane-04a59a77/', '_blank')" class="farleft links">
+                        <img class="pre" src="images/linkedin.png"/>
+                        <img class="post" src="images/linkedin1.png"/>
+                    </li>
+                    <li id="1" onclick="window.open('https://twitter.com/campbellyamane', '_blank')" class="midleft links">
+                        <img class="pre" src="images/twitter.png"/> 
+                        <img class="post" src="images/twitter1.png"/>
+                    </li>
+                    <li id="2" onclick="window.open('https://github.com/campbellyamane', '_blank')" class="midright links">
+                        <img class="pre" src="images/github.png"/>
+                        <img class="post" src="images/github1.png"/>
+                    </li>
+                    <li id="3" onclick="window.open('https://www.holyfield.co/?author=580e5a94b8a79b0f917d69f3', '_blank')" class="farright links">
+                        <img class="pre" src="images/holyfield.png"/>
+                        <img class="post" src="images/holyfield1.png"/>
+                    </li>
+                </ul>
+            </div>
+            <div id="contactdiv" class="sublink">
+                <div id="photo">
+                    <img src="images/contact.png"/>   
+                    <h1>Interested in working with me? Shoot me a message!</h1>
+                    <span id="contact">
+                        <input name="name" id="name" type="text" placeholder="Name"/><br/>
+                        <input name="email" id="email" type="email" placeholder="Email"/><br/>
+                        <textarea name="message" id="message" cols="40" rows="8" placeholder="Message"></textarea><br/> 
+                        <input onclick="send()" name="submit" type="submit" value="Send Message"/>                  
+                    </span>
+                </div>
+            </div>
+            <span id="back" onclick="go_up()">Go Back</span>
+        </div>
+    </body>
+</html>
