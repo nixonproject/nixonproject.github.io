@@ -64,6 +64,65 @@ function arrow_left(){
     
     return div;
 }    
+function arrow_down_left(){
+    var div = document.createElement('div');
+    div.className = 'arrow_down_left';
+    div.style.backgroundColor = 'black';
+    div.style.position = 'absolute';
+    div.style.height = '5%';
+    div.style.bottom = '0%';
+    div.style.left = '0%';
+    div.style.width = '2.5%';
+    div.style.cursor = 'pointer';
+    div.addEventListener("click", down_left_click);
+    
+    return div;
+}  
+
+function arrow_down_right(){
+    var div = document.createElement('div');
+    div.className = 'arrow_down_right';
+    div.style.backgroundColor = 'black';
+    div.style.position = 'absolute';
+    div.style.height = '5%';
+    div.style.bottom = '0%';
+    div.style.right = '0%';
+    div.style.width = '2.5%';
+    div.style.cursor = 'pointer';
+    div.addEventListener("click", down_right_click);
+    
+    return div;
+}  
+ 
+function arrow_up_right(){
+    var div = document.createElement('div');
+    div.className = 'arrow_up_right';
+    div.style.backgroundColor = 'black';
+    div.style.position = 'absolute';
+    div.style.height = '5%';
+    div.style.top = '0%';
+    div.style.right = '0%';
+    div.style.width = '2.5%';
+    div.style.cursor = 'pointer';
+    div.addEventListener("click", up_right_click);
+    
+    return div;
+}   
+ 
+function arrow_up_left(){
+    var div = document.createElement('div');
+    div.className = 'arrow_up_left';
+    div.style.backgroundColor = 'black';
+    div.style.position = 'absolute';
+    div.style.height = '5%';
+    div.style.top = '0%';
+    div.style.left = '0%';
+    div.style.width = '2.5%';
+    div.style.cursor = 'pointer';
+    div.addEventListener("click", up_left_click);
+    
+    return div;
+}    
 
 
 $(document).ready(function(){
@@ -73,6 +132,11 @@ $(document).ready(function(){
     var column_one = document.getElementsByClassName("column_one");
     var column_two = document.getElementsByClassName("column_two");
     var column_three = document.getElementsByClassName("column_three");
+    
+    var up_left = document.getElementsByClassName("diag_lt_top");
+    var up_right = document.getElementsByClassName("diag_rt_top");
+    var down_left = document.getElementsByClassName("diag_lt_bot");
+    var down_right = document.getElementsByClassName("diag_rt_bot");
     
     tracking_array = document.getElementsByClassName("square");
 
@@ -100,6 +164,21 @@ $(document).ready(function(){
     for (var i = 0; i < column_three.length; i++) {
         column_three[i].appendChild(arrow_left());
     }  
+    
+    //diag arrows
+    for (var i = 0; i < up_left.length; i++) {
+        up_left[i].appendChild(arrow_up_left());
+    }   
+    for (var i = 0; i < up_right.length; i++) {
+        up_right[i].appendChild(arrow_up_right());
+    }   
+    for (var i = 0; i < down_left.length; i++) {
+        down_left[i].appendChild(arrow_down_left());
+    }  
+    for (var i = 0; i < down_right.length; i++) {
+        down_right[i].appendChild(arrow_down_right());
+    }  
+    
 
     console.log(tracking_array);
     
@@ -123,6 +202,30 @@ function left_click(){
 }
 function right_click(){    
     $('html,body').animate({
+        scrollLeft: $(window).scrollLeft() + $( window ).width()
+    });
+}
+function down_left_click(){    
+    $('html,body').animate({
+        scrollTop: $(window).scrollTop() + $( window ).height(),
+        scrollLeft: $(window).scrollLeft() - $( window ).width()
+    });
+}
+function down_right_click(){    
+    $('html,body').animate({
+        scrollTop: $(window).scrollTop() + $( window ).height(),
+        scrollLeft: $(window).scrollLeft() + $( window ).width()
+    });
+}
+function up_left_click(){    
+    $('html,body').animate({
+        scrollTop: $(window).scrollTop() - $( window ).height(),
+        scrollLeft: $(window).scrollLeft() - $( window ).width()
+    });
+}
+function up_right_click(){    
+    $('html,body').animate({
+        scrollTop: $(window).scrollTop() - $( window ).height(),
         scrollLeft: $(window).scrollLeft() + $( window ).width()
     });
 }
