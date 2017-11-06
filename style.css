@@ -1,0 +1,26 @@
+h1 {
+  color:purple;
+  font-family: georgia;
+  background-color: white;
+  padding: 50px;
+}
+
+#welcome {
+  color: red;
+  background-color: black;
+  border: 2px dotted yellow;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+img {
+  border: 5px solid lightpink;
+  display: block;
+  margin: auto;
+}
+
+.text {
+  float: middle;
+}
