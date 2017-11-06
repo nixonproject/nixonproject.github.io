@@ -1,7 +1,6 @@
 //global tracking variable
-var current = 0;
+var current = 1;
 
-var tracking_array = [];
 
 
 //arrow building functions
@@ -16,6 +15,7 @@ function arrow_down(){
     div.style.width = '10%';
     div.style.cursor = 'pointer';
     div.addEventListener("click", down_click);
+
     
     return div;
 }  
@@ -189,43 +189,67 @@ function up_click(){
     $('html,body').animate({
         scrollTop: $(window).scrollTop() - $( window ).height()
     });
+    
+    current -= 3;
+    
 }
 function down_click(){    
     $('html,body').animate({
         scrollTop: $(window).scrollTop() + $( window ).height()
     });
+    
+    current += 3;
+    
 }
 function left_click(){    
     $('html,body').animate({
         scrollLeft: $(window).scrollLeft() - $( window ).width()
     });
+    
+    current -= 1;
+    
 }
 function right_click(){    
     $('html,body').animate({
         scrollLeft: $(window).scrollLeft() + $( window ).width()
     });
+    
+    current += 1;
+    
 }
 function down_left_click(){    
     $('html,body').animate({
         scrollTop: $(window).scrollTop() + $( window ).height(),
         scrollLeft: $(window).scrollLeft() - $( window ).width()
     });
+    
+    current += 2;
+    
 }
 function down_right_click(){    
     $('html,body').animate({
         scrollTop: $(window).scrollTop() + $( window ).height(),
         scrollLeft: $(window).scrollLeft() + $( window ).width()
     });
+    
+    current += 4;
+    
 }
 function up_left_click(){    
     $('html,body').animate({
         scrollTop: $(window).scrollTop() - $( window ).height(),
         scrollLeft: $(window).scrollLeft() - $( window ).width()
     });
+    
+    current -= 4;
+    
 }
 function up_right_click(){    
     $('html,body').animate({
         scrollTop: $(window).scrollTop() - $( window ).height(),
         scrollLeft: $(window).scrollLeft() + $( window ).width()
     });
+    
+    current -= 2;
+    
 }
