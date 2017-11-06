@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  font-size: 20px;
+}
+h1 {
+  color: #F8F8FF;
+  font-family: helvetica;
+  padding-left: 50px;
+}
+  img {
+    opacity: 0.75;
+    margin-left: 100px;
+  }
+  a {
+    color: blue;
+  }
+  p {
+    color: #F8F8FF;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+#hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+  padding-left: 100px;
+  padding-right: 50px;
+}
