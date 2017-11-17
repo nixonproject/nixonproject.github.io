@@ -19,6 +19,7 @@ body{
     width:300%;
     background:black;
     height:10%;
+    z-index:1;
 }
 .row_one{
     position:absolute;
