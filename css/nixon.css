@@ -16,6 +16,7 @@ body{
     height:100%;
 }
 #check{
+    position:absolute;
     width:300%;
     background:black;
     height:10%;
