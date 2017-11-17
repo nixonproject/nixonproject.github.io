@@ -19,7 +19,8 @@ body{
     position:absolute;
     width:300%;
     background:black;
-    height:10%;
+    height:5%;
+    bottom:15%;
     z-index:1;
 }
 .row_one{
