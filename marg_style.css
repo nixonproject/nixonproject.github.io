@@ -1,0 +1,23 @@
+body {
+  background-color: lightcyan;
+}
+
+h1 {
+  color:blue;
+  font-family:helvetica;
+  background-color: grey;
+  padding: 50px;
+}
+
+h3 {
+  color:maroon;
+}
+
+p {
+  color:deeppink;
+}
+img {
+  width:50%;
+  height: 50%;
+  margin-eft: 100px;
+}
