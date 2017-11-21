@@ -8,17 +8,16 @@
     </script>
     <script type="text/javascript">        
         $(document).ready(function() {
-            var myLatLng = {lat: -25.363, lng: 131.044};
-
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 4,
-              center: myLatLng
-            });
-
+            var mapOptions = {
+                zoom: 8,
+                center: new google.maps.LatLng(-34.397, 150.644),
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
             var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              title: 'Hello World!'
+                position: (-34.397, 150.644),
+                map: map,
+                title: 'Hello World!'
             });
         });
     </script>
