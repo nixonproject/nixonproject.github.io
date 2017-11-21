@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="/css/test.css" media="screen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyADWkoujHg-Ttjf3kyZ2zOuY5FSPk6OWb8">
+    </script>
+    <script type="text/javascript">        
+        $(document).ready(function() {
+         var mapOptions = {
+            zoom: 8,
+            center: new google.maps.LatLng(-34.397, 150.644),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          }
+          var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        });
+    </script>
+  </head>
+  <body>
+    <div id='container'>
+      <h1>OMG, this is ON TOP OF THE MAP!</h1>
+    </div>
+
+    <div id='map-canvas'></div>
+  </body>
+</html>
