@@ -9,7 +9,7 @@ function showGoogleMaps() {
         zoom: 16, // initialize zoom level - the max value is 21
         streetViewControl: false, // hide the yellow Street View pegman
         scaleControl: true, // allow users to zoom the Google Map
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        mapTypeId: google.maps.MapTypeId.SATELLITE,
         disableDefaultUI: true,
         center: latLng
     };
