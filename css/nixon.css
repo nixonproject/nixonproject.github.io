@@ -25,6 +25,7 @@ body{
     z-index:0;
 }
 #timeline{
+    overflow:scroll;
     position:absolute;
     top:0%;
     left:0%;
