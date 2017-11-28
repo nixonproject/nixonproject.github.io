@@ -3,6 +3,10 @@
     <head>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/nixon.js"></script>
+        <script type="text/javascript" src="js/map.js"></script>
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyADWkoujHg-Ttjf3kyZ2zOuY5FSPk6OWb8">
+        </script>
         <link rel="stylesheet" type="text/css" href="css/nixon.css?v1.11">
         <title>Nixon Project</title>
     </head>
@@ -10,7 +14,6 @@
     <body>
         <div id="one" class="square row_one column_one diag_rt_bot">
             <h1>Intro</h1>
-            <div id="check"></div>
         </div>
         
         <div id="two" class="square row_one column_two diag_rt_bot diag_lt_bot">
@@ -21,6 +24,7 @@
             <h1>3</h1>
         </div>
         
+        <div id="map-canvas" class="square row_two"></div>
         <div id="four" class="square row_two column_one diag_rt_top diag_rt_bot">
             <h1>Timeline</h1>
         </div>
