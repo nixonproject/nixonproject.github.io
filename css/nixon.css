@@ -34,6 +34,9 @@ body{
     height:100%;
     background:rgba(0,0,0,0.1);
 }
+#timeline::-webkit-scrollbar{
+    background:rgba(0,0,0,0);
+}
 .row_one{
     position:absolute;
     top:0%;
