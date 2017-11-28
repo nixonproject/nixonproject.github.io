@@ -24,6 +24,13 @@ body{
     height:100%;
     z-index:0;
 }
+#timeline{
+    position:absolute;
+    top:100%;
+    left:0%;
+    width:60%;
+    background:rgba(0,0,0,0.1);
+}
 .row_one{
     position:absolute;
     top:0%;
