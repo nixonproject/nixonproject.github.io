@@ -8,6 +8,29 @@
         <script type="text/javascript" src="js/nixon.js"></script>
         <script type="text/javascript" src="js/map.js"></script>
         <link rel="stylesheet" type="text/css" href="css/nixon.css?v1.11">
+        <script>
+            var current_height = 0;
+            var timeline_pos = 0;
+            var lon = [27.1959739, 38.8977, 36.0544];
+            var lat = [78.02423269999997, 77.0365, 112.1401];
+            $(document).ready(function() {
+                $(window).on("mousewheel", function(e){
+                    e.preventDefault();
+                });
+                $('.t_down').click(function() {
+                    current_height += $(window).height();
+                    timeline_pos += 1;
+                    $("#timeline").animate({ scrollTop: current_height}, 600);
+                    load(lon[timeline_pos],lat[timeline_pos]);
+                });
+                $('.t_up').click(function() {
+                    current_height -= $(window).height();
+                    timeline_pos -= 1;
+                    $("#timeline").animate({ scrollTop: current_height}, 600);
+                    load(lon[timeline_pos],lat[timeline_pos]);
+                });
+            });
+        </script>
         <title>Nixon Project</title>
     </head>
 
@@ -26,22 +49,20 @@
         
         <div id="map-canvas"></div>
         <div id="four" class="square row_two column_one diag_rt_top diag_rt_bot">
-            <div id="timeline" onclick="load()">
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
-                <h3>Filler</h3>
+            <div id="timeline">
+                <div class="timeline_point">
+                    <h3>1</h3>
+                    <div class="t_down"></div>
+                </div>
+                <div class="timeline_point">
+                    <div class="t_up"></div>
+                    <h3>2</h3>
+                    <div class="t_down"></div>
+                </div>
+                <div class="timeline_point">
+                    <div class="t_up"></div>
+                    <h3>3</h3>
+                </div>
             </div>
         </div>
         

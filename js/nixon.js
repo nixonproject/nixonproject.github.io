@@ -2,7 +2,6 @@
 var current = 1;
 
 
-
 //arrow building functions
 function arrow_down(){
     var div = document.createElement('div');

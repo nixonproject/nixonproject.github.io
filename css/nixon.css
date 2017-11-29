@@ -32,10 +32,38 @@ body{
     left:0%;
     width:55%;
     height:100%;
-    background:rgba(0,0,0,0.1);
+    background:rgba(0,0,0,0);
 }
 #timeline::-webkit-scrollbar{
     background:rgba(0,0,0,0);
+}
+.timeline_point{
+    position:relative;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,0);
+}
+.timeline_point h3{
+    position:relative;
+    top:20%;
+}
+.t_up{
+    position:absolute;
+    top:7%;
+    left:47%;
+    height:5%;
+    width:5%;
+    background:black;
+    cursor:pointer;
+}
+.t_down{
+    position:absolute;
+    top:85%;
+    left:47%;
+    height:5%;
+    width:5%;
+    background:black;
+    cursor:pointer;
 }
 .row_one{
     position:absolute;

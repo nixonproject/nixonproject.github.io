@@ -27,8 +27,8 @@ function showGoogleMaps() {
     
 }
 
-function load(){
-    position = [78.02423269999997, 27.1959739];
+function load(x, y){
+    position = [x, y];
     showGoogleMaps();
 }
 
