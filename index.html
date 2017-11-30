@@ -14,6 +14,12 @@
             var lon = [27.1959739, 38.8977, 36.0544];
             var lat = [78.02423269999997, 77.0365, 112.1401];
             $(document).ready(function() {
+                var audios = [
+                    '1.mp3',
+                    '2.mp3',
+                    '3.mp3'
+                ];
+                
                 $(window).on("mousewheel", function(e){
                     e.preventDefault();
                 });
@@ -22,12 +28,19 @@
                     timeline_pos += 1;
                     $("#timeline").animate({ scrollTop: current_height}, 600);
                     load(lon[timeline_pos],lat[timeline_pos]);
+                    var tag = document.getElementById('audio');
+                    tag.setAttribute("src", audios[timeline_pos]);
+                    tag.load();
                 });
                 $('.t_up').click(function() {
                     current_height -= $(window).height();
                     timeline_pos -= 1;
                     $("#timeline").animate({ scrollTop: current_height}, 600);
                     load(lon[timeline_pos],lat[timeline_pos]);
+                    var tag = document.getElementById('audio');
+                    tag.setAttribute("src", audios[timeline_pos]);
+                    tag.load();
+
                 });
             });
         </script>
@@ -50,18 +63,25 @@
         <div id="map-canvas"></div>
         <div id="four" class="square row_two column_one diag_rt_top diag_rt_bot">
             <div id="timeline">
+                <audio id="audio" autoplay></audio>
                 <div class="timeline_point">
-                    <h3>1</h3>
+                    <h3>March 17, 1969</h3>
+                    <p>Final decision to carpet bomb Cambodia. Written in Haldeman’s diary about “Operation Breakfast”</p>
+                    <div class="clipping"><p>newspaper</p></div>
                     <div class="t_down"></div>
                 </div>
                 <div class="timeline_point">
                     <div class="t_up"></div>
-                    <h3>2</h3>
+                    <h3>October 26, 1972</h3>
+                    <p>Kissinger goes live in a news conference and says “Peace is at hand” </p>
+                    <div class="clipping"><p>newspaper</p></div>
                     <div class="t_down"></div>
                 </div>
                 <div class="timeline_point">
                     <div class="t_up"></div>
-                    <h3>3</h3>
+                    <h3>December 14, 1972</h3>
+                    <p>Kissinger and Haig convince Nixon to resume bombing in Vietnam</p>
+                    <div class="clipping"><p>newspaper</p></div>
                 </div>
             </div>
         </div>

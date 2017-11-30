@@ -191,6 +191,8 @@ function up_click(){
     
     current -= 3;
     
+    audio_check(current);
+    
 }
 function down_click(){    
     $('html,body').animate({
@@ -198,6 +200,8 @@ function down_click(){
     });
     
     current += 3;
+    
+    audio_check(current);
     
 }
 function left_click(){    
@@ -207,6 +211,8 @@ function left_click(){
     
     current -= 1;
     
+    audio_check(current);
+    
 }
 function right_click(){    
     $('html,body').animate({
@@ -214,6 +220,8 @@ function right_click(){
     });
     
     current += 1;
+    
+    audio_check(current);
     
 }
 function down_left_click(){    
@@ -224,6 +232,8 @@ function down_left_click(){
     
     current += 2;
     
+    audio_check(current);
+    
 }
 function down_right_click(){    
     $('html,body').animate({
@@ -232,6 +242,8 @@ function down_right_click(){
     });
     
     current += 4;
+    
+    audio_check(current);
     
 }
 function up_left_click(){    
@@ -242,6 +254,8 @@ function up_left_click(){
     
     current -= 4;
     
+    audio_check(current);
+    
 }
 function up_right_click(){    
     $('html,body').animate({
@@ -251,4 +265,23 @@ function up_right_click(){
     
     current -= 2;
     
+    audio_check(current);
+    
+}
+
+function audio_check(x){
+    console.log(current_height);
+    if (x == 4){
+        var tag = document.getElementById('audio');
+        tag.setAttribute("src", '1.mp3');
+        tag.load();       
+    }
+    else{
+        var tag = document.getElementById('audio');
+        tag.src = "";        
+        $("#timeline").animate({ scrollTop: 0}, 600);
+        timeline_pos = 0;      
+        current_height = 0;        
+        load(lon[0],lat[0]);
+    }
 }

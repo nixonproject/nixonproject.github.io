@@ -32,7 +32,7 @@ body{
     left:0%;
     width:55%;
     height:100%;
-    background:rgba(0,0,0,0);
+    background:rgba(0,0,0,0.2);
 }
 #timeline::-webkit-scrollbar{
     background:rgba(0,0,0,0);
@@ -45,7 +45,24 @@ body{
 }
 .timeline_point h3{
     position:relative;
-    top:20%;
+    color:white;
+    top:12%;
+    font-size:10vh;
+}
+.timeline_point p{
+    position:relative;
+    color:white;
+    top:15%;
+    font-size:5vh;
+}
+.clipping{
+    position:absolute;
+    color:white;
+    top:40%;
+    width:50%;
+    height:40%;
+    font-size:5vh;
+    background:rgba(29, 202, 255, 0.3);
 }
 .t_up{
     position:absolute;
