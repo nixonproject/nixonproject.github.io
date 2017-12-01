@@ -1,0 +1,24 @@
+.wrapper{
+	width:600px;
+	background:green;
+	margin:0 auto;
+}
+.heading{
+	height:100px;
+	background:red;
+	padding:20px;
+	text-align:center;
+}
+
+.content{
+	min-height:400px;
+	background:blue;
+	width:400px;
+	float:left;
+}
+.sidebar{
+	width:200px;
+	float:right;
+	background:purple;
+	min-height:400px;
+}
