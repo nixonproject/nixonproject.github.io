@@ -1,20 +1,7 @@
-g.link {
-    stroke: #ccc;
-    stroke-width: 1.5px;
-}
-
-.node text {
-    pointer-events: none;
-    font: 10px sans-serif;
-}
-
-.node {
-    stroke: #fff;
-    stroke-width: 1.5px;
-}
-
-.node circle{
-    stroke:#fff;
-    stroke-width:3px;
-    fill:#555;
+#cy {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 10%;
+    left: 0px;
 }
