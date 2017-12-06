@@ -4,123 +4,107 @@ var current = 1;
 
 //arrow building functions
 function arrow_down(){
-    var div = document.createElement('div');
-    div.className = 'arrow_down';
-    div.style.backgroundColor = 'black';
-    div.style.position = 'absolute';
-    div.style.height = '5%';
-    div.style.bottom = '0%';
-    div.style.left = '45%';
-    div.style.width = '10%';
-    div.style.cursor = 'pointer';
-    div.addEventListener("click", down_click);
+    var img = document.createElement('img');
+    img.className = 'arrow_down';
+    img.style.position = 'absolute';
+    img.style.bottom = '0%';
+    img.style.left = '45%';
+    img.style.cursor = 'pointer';
+    img.src = 'images/arrows/down.png';
+    img.addEventListener("click", down_click);
 
     
-    return div;
+    return img;
 }  
 
 function arrow_up(){
-    var div = document.createElement('div');
-    div.className = 'arrow_up';
-    div.style.backgroundColor = 'black';
-    div.style.position = 'absolute';
-    div.style.height = '5%';
-    div.style.top = '0%';
-    div.style.left = '45%';
-    div.style.width = '10%';    
-    div.style.cursor = 'pointer';
-    div.addEventListener("click", up_click);
+    var img = document.createElement('img');
+    img.className = 'arrow_up';
+    img.style.position = 'absolute';
+    img.style.top = '0%';
+    img.style.left = '45%';
+    img.style.cursor = 'pointer';
+    img.src = 'images/arrows/up.png';
+    img.addEventListener("click", up_click);
     
-    return div;
+    return img;
 }  
  
 function arrow_right(){
-    var div = document.createElement('div');
-    div.className = 'arrow_right';
-    div.style.backgroundColor = 'black';
-    div.style.position = 'absolute';
-    div.style.height = '20%';
-    div.style.top = '40%';
-    div.style.right = '0%';
-    div.style.width = '2.5%';
-    div.style.cursor = 'pointer';
-    div.addEventListener("click", right_click);
+    var img = document.createElement('img');
+    img.className = 'arrow_right';
+    img.style.position = 'absolute';
+    img.style.top = '40%';
+    img.style.right = '0%';
+    img.style.cursor = 'pointer';
+    img.src = 'images/arrows/right.png';
+    img.addEventListener("click", right_click);
     
-    return div;
+    return img;
 }   
  
 function arrow_left(){
-    var div = document.createElement('div');
-    div.className = 'arrow_left';
-    div.style.backgroundColor = 'black';
-    div.style.position = 'absolute';
-    div.style.height = '20%';
-    div.style.top = '40%';
-    div.style.left = '0%';
-    div.style.width = '2.5%';
-    div.style.cursor = 'pointer';
-    div.addEventListener("click", left_click);
+    var img = document.createElement('img');
+    img.className = 'arrow_left';
+    img.style.position = 'absolute';
+    img.style.top = '40%';
+    img.style.left = '0%';
+    img.style.cursor = 'pointer';
+    img.src = 'images/arrows/left.png';
+    img.addEventListener("click", left_click);
     
-    return div;
+    return img;
 }    
 function arrow_down_left(){
-    var div = document.createElement('div');
-    div.className = 'arrow_down_left';
-    div.style.backgroundColor = 'black';
-    div.style.position = 'absolute';
-    div.style.height = '5%';
-    div.style.bottom = '0%';
-    div.style.left = '0%';
-    div.style.width = '2.5%';
-    div.style.cursor = 'pointer';
-    div.addEventListener("click", down_left_click);
+    var img = document.createElement('img');
+    img.className = 'arrow_down_left';
+    img.style.position = 'absolute';
+    img.style.bottom = '0%';
+    img.style.left = '0%';
+    img.style.cursor = 'pointer';
+    img.src = 'images/arrows/down_left.png';
+    img.addEventListener("click", down_left_click);
     
-    return div;
+    return img;
 }  
 
 function arrow_down_right(){
-    var div = document.createElement('div');
-    div.className = 'arrow_down_right';
-    div.style.backgroundColor = 'black';
-    div.style.position = 'absolute';
-    div.style.height = '5%';
-    div.style.bottom = '0%';
-    div.style.right = '0%';
-    div.style.width = '2.5%';
-    div.style.cursor = 'pointer';
-    div.addEventListener("click", down_right_click);
+    var img = document.createElement('img');
+    img.className = 'arrow_down_right';
+    img.style.position = 'absolute';
+    img.style.bottom = '0%';
+    img.style.right = '0%';
+    img.style.cursor = 'pointer';
+    img.src = 'images/arrows/down_right.png';
+    img.addEventListener("click", down_right_click);
     
-    return div;
+    return img;
 }  
  
 function arrow_up_right(){
-    var div = document.createElement('div');
-    div.className = 'arrow_up_right';
-    div.style.backgroundColor = 'black';
-    div.style.position = 'absolute';
-    div.style.height = '5%';
-    div.style.top = '0%';
-    div.style.right = '0%';
-    div.style.width = '2.5%';
-    div.style.cursor = 'pointer';
-    div.addEventListener("click", up_right_click);
+    var img = document.createElement('img');
+    img.className = 'arrow_up_right';
+    img.style.position = 'absolute';
+    img.style.top = '0%';
+    img.style.right = '0%';
+    img.style.cursor = 'pointer';
+    img.src = 'images/arrows/up_right.png';
+    img.addEventListener("click", up_right_click);
     
-    return div;
+    return img;
 }   
  
 function arrow_up_left(){
-    var div = document.createElement('div');
-    div.className = 'arrow_up_left';
-    div.style.backgroundColor = 'black';
-    div.style.position = 'absolute';
-    div.style.height = '5%';
-    div.style.top = '0%';
-    div.style.left = '0%';
-    div.style.width = '2.5%';
-    div.style.cursor = 'pointer';
-    div.addEventListener("click", up_left_click);
+    var img = document.createElement('img');
+    img.className = 'arrow_up_left';
+    img.style.position = 'absolute';
+    img.style.top = '0%';
+    img.style.left = '0%';
+    img.style.cursor = 'pointer';
+    img.src = 'images/arrows/up_left.png';
+    img.addEventListener("click", up_left_click);
     
-    return div;
+    return img;
 }    
 
 
