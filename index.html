@@ -263,10 +263,14 @@
         </div>
         <!--Network Graph-->
         <div id="five" class="square row_two column_two diag_rt_top diag_rt_bot diag_lt_top diag_lt_bot">
+            <h1>Nixon's Inner Circle</h1>
             <div id="cy"></div>
-            <button id="change-twomode-network">Vietnam Network (THIS IS A BUTTON TRY CLICKING ON ME!!!!)</button>
-            <button id="change-concentric-network">Nixon's Circle (THIS IS ANOTHER BUTTON TRY CLICKING ON ME!!!!)</button>
-            <div class="info">
+            <div id="network-control">
+                <button id="change-twomode-network">Vietnam Network </button>
+                <button id="change-concentric-network">Nixon's Circle</button>
+            </div>
+
+            <div class="info" id="nixon-network">
                 <h1>Network Analysis Pt. 1</h1>
                 <p>
                     In this Nixon-centric network analysis, records of conversations used from October 12th,
@@ -292,7 +296,29 @@
                     perhaps translating to taking up some influence on the administration’s decisions.
                 </p>
             </div>
+            <div class="info" id="convo-network">
+                <h1>Network Analysis Pt. 2</h1>
+                <p>
+                    This bimodal network analysis uses edges to denote connections between key figures,
+                    with each node having been present in conversation(s) together. Because of the
+                    sheer volume of names in the data, conversations were selected according to our
+                    list of key dates and decisions leading up to the December Bombings. With these
+                    parameters we only included edges that had a weight above five, meaning that each
+                    actor had to at least participate in five conversations together. Using the two-mode
+                    method of analysis, we were able to visualize the interconnectedness and density of
+                    powerful members in Nixon’s cabinet, as well as those who are more on the periphery.
+                </p><br/>
+                <p>
+                    The network again shows Stephen B. Bull, Henry Kissinger, and H.R. Haldeman as nodes
+                    holding the most weight. However, amidst those with broad-reaching authority in the
+                    administration are important members of staff who facilitate these conversations and
+                    connections, such as the White House operator, the White House photographer, and Nixon’s
+                    personal valet, Manolo Sanchez, who has a significant between-centrality. The role these
+                    staff members play is essential in allowing the network to function. <br/>
 
+                    Each network was made using OpenRefine, RStudio, D3.js, and Cytoscape.
+                </p>
+            </div>
         </div>
         
         <div id="six" class="square row_two column_three diag_lt_top diag_lt_bot">

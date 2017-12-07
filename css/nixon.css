@@ -138,8 +138,9 @@ ol{
 #three{   
     background:red; 
 }
-#five{   
-    background:white;
+#five {
+    color: white;
+    background: linear-gradient(to right, black, #4E4E4E);
 }
 #six{   
     background:blue; 
@@ -152,4 +153,28 @@ ol{
 }
 #nine{   
     background:gold; 
+}
+
+/*Section 5 Styling*/
+#five h1{
+    color:white;
+    font-family:spectral sans-serif;
+}
+#five .info{
+    position:relative;
+    z-index:200;
+    height:100vh;
+    width:80vw;
+    display:none;
+    margin:auto;
+}
+#five #nixon-network{
+    height:10vh;
+}
+#five canvas{
+    left:0 !important;
+}
+#five .button{
+    position:relative;
+    z-index:500
 }

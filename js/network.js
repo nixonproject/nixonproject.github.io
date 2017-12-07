@@ -1065,7 +1065,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 454,
                 "name" : "Scott; Hugh (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 357,
                 "selected" : false
             },
@@ -1080,7 +1080,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 808,
                 "name" : "Timmons; William E. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 356,
                 "selected" : false
             },
@@ -1095,7 +1095,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 799,
                 "name" : "Timmons; William E. (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 7,
+                "Weight" : 7,
                 "SUID" : 355,
                 "selected" : false
             },
@@ -1110,7 +1110,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 798,
                 "name" : "Timmons; William E. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 7,
+                "Weight" : 7,
                 "SUID" : 354,
                 "selected" : false
             },
@@ -1125,7 +1125,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 797,
                 "name" : "Timmons; William E. (interacts with) Sanchez; Manolo",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 353,
                 "selected" : false
             },
@@ -1140,7 +1140,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 796,
                 "name" : "Timmons; William E. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 352,
                 "selected" : false
             },
@@ -1155,7 +1155,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 334,
                 "name" : "Shultz; George P. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 351,
                 "selected" : false
             },
@@ -1170,7 +1170,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 323,
                 "name" : "Shultz; George P. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 10,
+                "Weight" : 10,
                 "SUID" : 350,
                 "selected" : false
             },
@@ -1185,7 +1185,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 322,
                 "name" : "Shultz; George P. (interacts with) Sanchez; Manolo",
                 "interaction" : "interacts with",
-                "weight" : 14,
+                "Weight" : 14,
                 "SUID" : 349,
                 "selected" : false
             },
@@ -1200,7 +1200,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 321,
                 "name" : "Shultz; George P. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 8,
+                "Weight" : 8,
                 "SUID" : 348,
                 "selected" : false
             },
@@ -1215,7 +1215,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 313,
                 "name" : "Shultz; George P. (interacts with) Ehrlichman; John D.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 347,
                 "selected" : false
             },
@@ -1230,7 +1230,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1618,
                 "name" : "Camp David Operator (interacts with) Hirsch; William",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 346,
                 "selected" : false
             },
@@ -1245,7 +1245,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1610,
                 "name" : "Camp David Operator (interacts with) United States Secret Service agents",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 345,
                 "selected" : false
             },
@@ -1260,7 +1260,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1606,
                 "name" : "Camp David Operator (interacts with) White House tour group",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 344,
                 "selected" : false
             },
@@ -1275,7 +1275,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1599,
                 "name" : "Camp David Operator (interacts with) Nixon; Richard M. (President)",
                 "interaction" : "interacts with",
-                "weight" : 7,
+                "Weight" : 7,
                 "SUID" : 343,
                 "selected" : false
             },
@@ -1290,7 +1290,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1552,
                 "name" : "Camp David Operator (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 10,
+                "Weight" : 10,
                 "SUID" : 342,
                 "selected" : false
             },
@@ -1305,7 +1305,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1551,
                 "name" : "Camp David Operator (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 7,
+                "Weight" : 7,
                 "SUID" : 341,
                 "selected" : false
             },
@@ -1320,7 +1320,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1549,
                 "name" : "Camp David Operator (interacts with) Chapin; Dwight L.",
                 "interaction" : "interacts with",
-                "weight" : 8,
+                "Weight" : 8,
                 "SUID" : 340,
                 "selected" : false
             },
@@ -1335,7 +1335,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1462,
                 "name" : "Butterfield; Alexander P. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 15,
+                "Weight" : 15,
                 "SUID" : 339,
                 "selected" : false
             },
@@ -1350,7 +1350,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1308,
                 "name" : "Kissinger; Henry A. (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 10,
+                "Weight" : 10,
                 "SUID" : 338,
                 "selected" : false
             },
@@ -1365,7 +1365,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1301,
                 "name" : "Kissinger; Henry A. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 31,
+                "Weight" : 31,
                 "SUID" : 337,
                 "selected" : false
             },
@@ -1380,7 +1380,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1300,
                 "name" : "Kissinger; Henry A. (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 10,
+                "Weight" : 10,
                 "SUID" : 336,
                 "selected" : false
             },
@@ -1395,7 +1395,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1299,
                 "name" : "Kissinger; Henry A. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 31,
+                "Weight" : 31,
                 "SUID" : 335,
                 "selected" : false
             },
@@ -1410,7 +1410,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1175,
                 "name" : "Sanchez; Manolo (interacts with) White House tour group",
                 "interaction" : "interacts with",
-                "weight" : 7,
+                "Weight" : 7,
                 "SUID" : 334,
                 "selected" : false
             },
@@ -1425,7 +1425,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1168,
                 "name" : "Sanchez; Manolo (interacts with) Nixon; Richard M. (President)",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 333,
                 "selected" : false
             },
@@ -1440,7 +1440,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1162,
                 "name" : "Sanchez; Manolo (interacts with) Scali; John A.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 332,
                 "selected" : false
             },
@@ -1455,7 +1455,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1161,
                 "name" : "Sanchez; Manolo (interacts with) Krock; Arthur",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 331,
                 "selected" : false
             },
@@ -1470,7 +1470,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1160,
                 "name" : "Sanchez; Manolo (interacts with) Armstrong; Anne L.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 330,
                 "selected" : false
             },
@@ -1485,7 +1485,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1159,
                 "name" : "Sanchez; Manolo (interacts with) Malek; Frederic V.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 329,
                 "selected" : false
             },
@@ -1500,7 +1500,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1158,
                 "name" : "Sanchez; Manolo (interacts with) Brown; William H.; III",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 328,
                 "selected" : false
             },
@@ -1515,7 +1515,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1157,
                 "name" : "Sanchez; Manolo (interacts with) Holman; Benjamin F.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 327,
                 "selected" : false
             },
@@ -1530,7 +1530,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1156,
                 "name" : "Sanchez; Manolo (interacts with) McCaw; Arthur B.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 326,
                 "selected" : false
             },
@@ -1545,7 +1545,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1155,
                 "name" : "Sanchez; Manolo (interacts with) Ware; Ted",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 325,
                 "selected" : false
             },
@@ -1560,7 +1560,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1154,
                 "name" : "Sanchez; Manolo (interacts with) Blake; John L.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 324,
                 "selected" : false
             },
@@ -1575,7 +1575,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1153,
                 "name" : "Sanchez; Manolo (interacts with) Britton; Theodore R.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 323,
                 "selected" : false
             },
@@ -1590,7 +1590,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1152,
                 "name" : "Sanchez; Manolo (interacts with) LaFontant; Jewell R.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 322,
                 "selected" : false
             },
@@ -1605,7 +1605,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1151,
                 "name" : "Sanchez; Manolo (interacts with) Edwards; Alfred",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 321,
                 "selected" : false
             },
@@ -1620,7 +1620,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1150,
                 "name" : "Sanchez; Manolo (interacts with) Jones; Reuben R.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 320,
                 "selected" : false
             },
@@ -1635,7 +1635,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1149,
                 "name" : "Sanchez; Manolo (interacts with) Mitchell; Edward E.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 319,
                 "selected" : false
             },
@@ -1650,7 +1650,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1148,
                 "name" : "Sanchez; Manolo (interacts with) Payton; Sallyanne",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 318,
                 "selected" : false
             },
@@ -1665,7 +1665,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1147,
                 "name" : "Sanchez; Manolo (interacts with) Daniels; Joseph W.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 317,
                 "selected" : false
             },
@@ -1680,7 +1680,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1146,
                 "name" : "Sanchez; Manolo (interacts with) Miller; Donald L.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 316,
                 "selected" : false
             },
@@ -1695,7 +1695,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1145,
                 "name" : "Sanchez; Manolo (interacts with) Shuman; Jerome",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 315,
                 "selected" : false
             },
@@ -1710,7 +1710,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1144,
                 "name" : "Sanchez; Manolo (interacts with) Koontz; Elizabeth D.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 314,
                 "selected" : false
             },
@@ -1725,7 +1725,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1143,
                 "name" : "Sanchez; Manolo (interacts with) Adams; Samuel G.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 313,
                 "selected" : false
             },
@@ -1740,7 +1740,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1142,
                 "name" : "Sanchez; Manolo (interacts with) Thomas; Stanley B.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 312,
                 "selected" : false
             },
@@ -1755,7 +1755,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1141,
                 "name" : "Sanchez; Manolo (interacts with) Parker; William W.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 311,
                 "selected" : false
             },
@@ -1770,7 +1770,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1140,
                 "name" : "Sanchez; Manolo (interacts with) Johnson; James E.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 310,
                 "selected" : false
             },
@@ -1785,7 +1785,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1139,
                 "name" : "Sanchez; Manolo (interacts with) James; Daniel (\"Chappie\"); Jr. (Brig. Gen.)",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 309,
                 "selected" : false
             },
@@ -1800,7 +1800,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1138,
                 "name" : "Sanchez; Manolo (interacts with) Singletary; Samuel P.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 308,
                 "selected" : false
             },
@@ -1815,7 +1815,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1137,
                 "name" : "Sanchez; Manolo (interacts with) Hobson; Lois",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 307,
                 "selected" : false
             },
@@ -1830,7 +1830,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1136,
                 "name" : "Sanchez; Manolo (interacts with) Sydnor; Norris",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 306,
                 "selected" : false
             },
@@ -1845,7 +1845,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1135,
                 "name" : "Sanchez; Manolo (interacts with) Scott; Stanley S.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 305,
                 "selected" : false
             },
@@ -1860,7 +1860,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1134,
                 "name" : "Sanchez; Manolo (interacts with) Jenkins; John L.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 304,
                 "selected" : false
             },
@@ -1875,7 +1875,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1133,
                 "name" : "Sanchez; Manolo (interacts with) Jackson; Samuel C.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 303,
                 "selected" : false
             },
@@ -1890,7 +1890,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1132,
                 "name" : "Sanchez; Manolo (interacts with) Houston; Norman B.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 302,
                 "selected" : false
             },
@@ -1905,7 +1905,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1131,
                 "name" : "Sanchez; Manolo (interacts with) Toote; Gloria E. A.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 301,
                 "selected" : false
             },
@@ -1920,7 +1920,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1130,
                 "name" : "Sanchez; Manolo (interacts with) Alexander; T. M.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 300,
                 "selected" : false
             },
@@ -1935,7 +1935,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1129,
                 "name" : "Sanchez; Manolo (interacts with) Sweeney; Alfred",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 299,
                 "selected" : false
             },
@@ -1950,7 +1950,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1128,
                 "name" : "Sanchez; Manolo (interacts with) Lewis; Colston A.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 298,
                 "selected" : false
             },
@@ -1965,7 +1965,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1127,
                 "name" : "Sanchez; Manolo (interacts with) Haley; George W.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 297,
                 "selected" : false
             },
@@ -1980,7 +1980,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1126,
                 "name" : "Sanchez; Manolo (interacts with) Higgins; Connie Mack",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 296,
                 "selected" : false
             },
@@ -1995,7 +1995,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1125,
                 "name" : "Sanchez; Manolo (interacts with) Kent; Frank",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 295,
                 "selected" : false
             },
@@ -2010,7 +2010,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1124,
                 "name" : "Sanchez; Manolo (interacts with) Calhoun; John",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 294,
                 "selected" : false
             },
@@ -2025,7 +2025,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1123,
                 "name" : "Sanchez; Manolo (interacts with) Reid; Art",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 293,
                 "selected" : false
             },
@@ -2040,7 +2040,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1122,
                 "name" : "Sanchez; Manolo (interacts with) Brown; Robert J.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 292,
                 "selected" : false
             },
@@ -2055,7 +2055,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1121,
                 "name" : "Sanchez; Manolo (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 291,
                 "selected" : false
             },
@@ -2070,7 +2070,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1119,
                 "name" : "Sanchez; Manolo (interacts with) Chapin; Dwight L.",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 290,
                 "selected" : false
             },
@@ -2085,7 +2085,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1112,
                 "name" : "Sanchez; Manolo (interacts with) Cox; Tricia Nixon",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 289,
                 "selected" : false
             },
@@ -2100,7 +2100,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1107,
                 "name" : "Sanchez; Manolo (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 19,
+                "Weight" : 19,
                 "SUID" : 288,
                 "selected" : false
             },
@@ -2115,7 +2115,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1100,
                 "name" : "Sanchez; Manolo (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 66,
+                "Weight" : 66,
                 "SUID" : 287,
                 "selected" : false
             },
@@ -2130,7 +2130,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1099,
                 "name" : "Sanchez; Manolo (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 19,
+                "Weight" : 19,
                 "SUID" : 286,
                 "selected" : false
             },
@@ -2145,7 +2145,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1098,
                 "name" : "Sanchez; Manolo (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 41,
+                "Weight" : 41,
                 "SUID" : 285,
                 "selected" : false
             },
@@ -2160,7 +2160,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1097,
                 "name" : "Sanchez; Manolo (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 46,
+                "Weight" : 46,
                 "SUID" : 284,
                 "selected" : false
             },
@@ -2175,7 +2175,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1096,
                 "name" : "Sanchez; Manolo (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 93,
+                "Weight" : 93,
                 "SUID" : 283,
                 "selected" : false
             },
@@ -2190,7 +2190,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 950,
                 "name" : "Colson; Charles W. (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 282,
                 "selected" : false
             },
@@ -2205,7 +2205,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 944,
                 "name" : "Colson; Charles W. (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 7,
+                "Weight" : 7,
                 "SUID" : 281,
                 "selected" : false
             },
@@ -2220,7 +2220,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 943,
                 "name" : "Colson; Charles W. (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 12,
+                "Weight" : 12,
                 "SUID" : 280,
                 "selected" : false
             },
@@ -2235,7 +2235,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 942,
                 "name" : "Colson; Charles W. (interacts with) Sanchez; Manolo",
                 "interaction" : "interacts with",
-                "weight" : 35,
+                "Weight" : 35,
                 "SUID" : 279,
                 "selected" : false
             },
@@ -2250,7 +2250,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 941,
                 "name" : "Colson; Charles W. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 19,
+                "Weight" : 19,
                 "SUID" : 278,
                 "selected" : false
             },
@@ -2265,7 +2265,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 940,
                 "name" : "Colson; Charles W. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 13,
+                "Weight" : 13,
                 "SUID" : 277,
                 "selected" : false
             },
@@ -2280,7 +2280,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 939,
                 "name" : "Colson; Charles W. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 28,
+                "Weight" : 28,
                 "SUID" : 276,
                 "selected" : false
             },
@@ -2295,7 +2295,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 938,
                 "name" : "Colson; Charles W. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 22,
+                "Weight" : 22,
                 "SUID" : 275,
                 "selected" : false
             },
@@ -2310,7 +2310,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 872,
                 "name" : "White House photographer (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 16,
+                "Weight" : 16,
                 "SUID" : 274,
                 "selected" : false
             },
@@ -2325,7 +2325,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 871,
                 "name" : "White House photographer (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 273,
                 "selected" : false
             },
@@ -2340,7 +2340,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 870,
                 "name" : "White House photographer (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 15,
+                "Weight" : 15,
                 "SUID" : 272,
                 "selected" : false
             },
@@ -2355,7 +2355,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 869,
                 "name" : "White House photographer (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 17,
+                "Weight" : 17,
                 "SUID" : 271,
                 "selected" : false
             },
@@ -2370,7 +2370,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 868,
                 "name" : "White House photographer (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 23,
+                "Weight" : 23,
                 "SUID" : 270,
                 "selected" : false
             },
@@ -2385,7 +2385,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 867,
                 "name" : "White House photographer (interacts with) Sanchez; Manolo",
                 "interaction" : "interacts with",
-                "weight" : 24,
+                "Weight" : 24,
                 "SUID" : 269,
                 "selected" : false
             },
@@ -2400,7 +2400,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 866,
                 "name" : "White House photographer (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 23,
+                "Weight" : 23,
                 "SUID" : 268,
                 "selected" : false
             },
@@ -2415,7 +2415,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 865,
                 "name" : "White House photographer (interacts with) Colson; Charles W.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 267,
                 "selected" : false
             },
@@ -2430,7 +2430,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 723,
                 "name" : "Ziegler; Ronald L. (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 266,
                 "selected" : false
             },
@@ -2445,7 +2445,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 714,
                 "name" : "Ziegler; Ronald L. (interacts with) Atkins; Oliver F. (\"Ollie\")",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 265,
                 "selected" : false
             },
@@ -2460,7 +2460,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 712,
                 "name" : "Ziegler; Ronald L. (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 13,
+                "Weight" : 13,
                 "SUID" : 264,
                 "selected" : false
             },
@@ -2475,7 +2475,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 711,
                 "name" : "Ziegler; Ronald L. (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 27,
+                "Weight" : 27,
                 "SUID" : 263,
                 "selected" : false
             },
@@ -2490,7 +2490,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 710,
                 "name" : "Ziegler; Ronald L. (interacts with) Sanchez; Manolo",
                 "interaction" : "interacts with",
-                "weight" : 42,
+                "Weight" : 42,
                 "SUID" : 262,
                 "selected" : false
             },
@@ -2505,7 +2505,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 709,
                 "name" : "Ziegler; Ronald L. (interacts with) White House photographer",
                 "interaction" : "interacts with",
-                "weight" : 13,
+                "Weight" : 13,
                 "SUID" : 261,
                 "selected" : false
             },
@@ -2520,7 +2520,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 708,
                 "name" : "Ziegler; Ronald L. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 23,
+                "Weight" : 23,
                 "SUID" : 260,
                 "selected" : false
             },
@@ -2535,7 +2535,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 707,
                 "name" : "Ziegler; Ronald L. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 31,
+                "Weight" : 31,
                 "SUID" : 259,
                 "selected" : false
             },
@@ -2550,7 +2550,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 706,
                 "name" : "Ziegler; Ronald L. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 52,
+                "Weight" : 52,
                 "SUID" : 258,
                 "selected" : false
             },
@@ -2565,7 +2565,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 705,
                 "name" : "Ziegler; Ronald L. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 48,
+                "Weight" : 48,
                 "SUID" : 257,
                 "selected" : false
             },
@@ -2580,7 +2580,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 704,
                 "name" : "Ziegler; Ronald L. (interacts with) Colson; Charles W.",
                 "interaction" : "interacts with",
-                "weight" : 14,
+                "Weight" : 14,
                 "SUID" : 256,
                 "selected" : false
             },
@@ -2595,7 +2595,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 617,
                 "name" : "Ehrlichman; John D. (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 7,
+                "Weight" : 7,
                 "SUID" : 255,
                 "selected" : false
             },
@@ -2610,7 +2610,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 605,
                 "name" : "Ehrlichman; John D. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 19,
+                "Weight" : 19,
                 "SUID" : 254,
                 "selected" : false
             },
@@ -2625,7 +2625,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 604,
                 "name" : "Ehrlichman; John D. (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 253,
                 "selected" : false
             },
@@ -2640,7 +2640,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 603,
                 "name" : "Ehrlichman; John D. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 21,
+                "Weight" : 21,
                 "SUID" : 252,
                 "selected" : false
             },
@@ -2655,7 +2655,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 602,
                 "name" : "Ehrlichman; John D. (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 24,
+                "Weight" : 24,
                 "SUID" : 251,
                 "selected" : false
             },
@@ -2670,7 +2670,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 601,
                 "name" : "Ehrlichman; John D. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 37,
+                "Weight" : 37,
                 "SUID" : 250,
                 "selected" : false
             },
@@ -2685,7 +2685,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 600,
                 "name" : "Ehrlichman; John D. (interacts with) Sanchez; Manolo",
                 "interaction" : "interacts with",
-                "weight" : 35,
+                "Weight" : 35,
                 "SUID" : 249,
                 "selected" : false
             },
@@ -2700,7 +2700,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 599,
                 "name" : "Ehrlichman; John D. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 28,
+                "Weight" : 28,
                 "SUID" : 248,
                 "selected" : false
             },
@@ -2715,7 +2715,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 598,
                 "name" : "Ehrlichman; John D. (interacts with) Colson; Charles W.",
                 "interaction" : "interacts with",
-                "weight" : 12,
+                "Weight" : 12,
                 "SUID" : 247,
                 "selected" : false
             },
@@ -2730,7 +2730,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 597,
                 "name" : "Ehrlichman; John D. (interacts with) White House photographer",
                 "interaction" : "interacts with",
-                "weight" : 13,
+                "Weight" : 13,
                 "SUID" : 246,
                 "selected" : false
             },
@@ -2745,7 +2745,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 596,
                 "name" : "Ehrlichman; John D. (interacts with) Ziegler; Ronald L.",
                 "interaction" : "interacts with",
-                "weight" : 21,
+                "Weight" : 21,
                 "SUID" : 245,
                 "selected" : false
             },
@@ -2760,7 +2760,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1762,
                 "name" : "White House operator (interacts with) Nixon; Richard M. (President)",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 244,
                 "selected" : false
             },
@@ -2775,7 +2775,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 277,
                 "name" : "White House operator (interacts with) United States Secret Service agents",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 243,
                 "selected" : false
             },
@@ -2790,7 +2790,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 272,
                 "name" : "White House operator (interacts with) White House tour group",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 242,
                 "selected" : false
             },
@@ -2805,7 +2805,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 271,
                 "name" : "White House operator (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 241,
                 "selected" : false
             },
@@ -2820,7 +2820,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 218,
                 "name" : "White House operator (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 240,
                 "selected" : false
             },
@@ -2835,7 +2835,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 216,
                 "name" : "White House operator (interacts with) Chapin; Dwight L.",
                 "interaction" : "interacts with",
-                "weight" : 8,
+                "Weight" : 8,
                 "SUID" : 239,
                 "selected" : false
             },
@@ -2850,7 +2850,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 215,
                 "name" : "White House operator (interacts with) Blass; Stephen",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 238,
                 "selected" : false
             },
@@ -2865,7 +2865,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 214,
                 "name" : "White House operator (interacts with) Giusti; Dave",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 237,
                 "selected" : false
             },
@@ -2880,7 +2880,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 213,
                 "name" : "White House operator (interacts with) Galbreath; Daniel M.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 236,
                 "selected" : false
             },
@@ -2895,7 +2895,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 212,
                 "name" : "White House operator (interacts with) Moore; Richard A.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 235,
                 "selected" : false
             },
@@ -2910,7 +2910,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 211,
                 "name" : "White House operator (interacts with) Hirsch; William",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 234,
                 "selected" : false
             },
@@ -2925,7 +2925,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 210,
                 "name" : "White House operator (interacts with) Higby; Lawrence M.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 233,
                 "selected" : false
             },
@@ -2940,7 +2940,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 209,
                 "name" : "White House operator (interacts with) Cox; Tricia Nixon",
                 "interaction" : "interacts with",
-                "weight" : 8,
+                "Weight" : 8,
                 "SUID" : 232,
                 "selected" : false
             },
@@ -2955,7 +2955,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 208,
                 "name" : "White House operator (interacts with) Acker; Marjorie P.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 231,
                 "selected" : false
             },
@@ -2970,7 +2970,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 204,
                 "name" : "White House operator (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 10,
+                "Weight" : 10,
                 "SUID" : 230,
                 "selected" : false
             },
@@ -2985,7 +2985,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 199,
                 "name" : "White House operator (interacts with) Timmons; William E.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 229,
                 "selected" : false
             },
@@ -3000,7 +3000,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 188,
                 "name" : "White House operator (interacts with) Shultz; George P.",
                 "interaction" : "interacts with",
-                "weight" : 8,
+                "Weight" : 8,
                 "SUID" : 228,
                 "selected" : false
             },
@@ -3015,7 +3015,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 183,
                 "name" : "White House operator (interacts with) Atkins; Oliver F. (\"Ollie\")",
                 "interaction" : "interacts with",
-                "weight" : 8,
+                "Weight" : 8,
                 "SUID" : 227,
                 "selected" : false
             },
@@ -3030,7 +3030,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 181,
                 "name" : "White House operator (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 47,
+                "Weight" : 47,
                 "SUID" : 226,
                 "selected" : false
             },
@@ -3045,7 +3045,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 180,
                 "name" : "White House operator (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 20,
+                "Weight" : 20,
                 "SUID" : 225,
                 "selected" : false
             },
@@ -3060,7 +3060,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 179,
                 "name" : "White House operator (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 32,
+                "Weight" : 32,
                 "SUID" : 224,
                 "selected" : false
             },
@@ -3075,7 +3075,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 178,
                 "name" : "White House operator (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 30,
+                "Weight" : 30,
                 "SUID" : 223,
                 "selected" : false
             },
@@ -3090,7 +3090,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 177,
                 "name" : "White House operator (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 81,
+                "Weight" : 81,
                 "SUID" : 222,
                 "selected" : false
             },
@@ -3105,7 +3105,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 176,
                 "name" : "White House operator (interacts with) Sanchez; Manolo",
                 "interaction" : "interacts with",
-                "weight" : 79,
+                "Weight" : 79,
                 "SUID" : 221,
                 "selected" : false
             },
@@ -3120,7 +3120,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 175,
                 "name" : "White House operator (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 72,
+                "Weight" : 72,
                 "SUID" : 220,
                 "selected" : false
             },
@@ -3135,7 +3135,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 174,
                 "name" : "White House operator (interacts with) Colson; Charles W.",
                 "interaction" : "interacts with",
-                "weight" : 16,
+                "Weight" : 16,
                 "SUID" : 219,
                 "selected" : false
             },
@@ -3150,7 +3150,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 173,
                 "name" : "White House operator (interacts with) White House photographer",
                 "interaction" : "interacts with",
-                "weight" : 17,
+                "Weight" : 17,
                 "SUID" : 218,
                 "selected" : false
             },
@@ -3165,7 +3165,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 172,
                 "name" : "White House operator (interacts with) Ziegler; Ronald L.",
                 "interaction" : "interacts with",
-                "weight" : 34,
+                "Weight" : 34,
                 "SUID" : 217,
                 "selected" : false
             },
@@ -3180,7 +3180,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 171,
                 "name" : "White House operator (interacts with) Ehrlichman; John D.",
                 "interaction" : "interacts with",
-                "weight" : 22,
+                "Weight" : 22,
                 "SUID" : 216,
                 "selected" : false
             },
@@ -3195,7 +3195,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 163,
                 "name" : "Scowcroft; Brent G. (Gen.) (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 215,
                 "selected" : false
             },
@@ -3210,7 +3210,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 161,
                 "name" : "Scowcroft; Brent G. (Gen.) (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 214,
                 "selected" : false
             },
@@ -3225,7 +3225,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 159,
                 "name" : "Scowcroft; Brent G. (Gen.) (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 213,
                 "selected" : false
             },
@@ -3240,7 +3240,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 146,
                 "name" : "Kennedy; David M. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 212,
                 "selected" : false
             },
@@ -3255,7 +3255,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 144,
                 "name" : "Kennedy; David M. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 211,
                 "selected" : false
             },
@@ -3270,7 +3270,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 142,
                 "name" : "Kennedy; David M. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 210,
                 "selected" : false
             },
@@ -3285,7 +3285,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 128,
                 "name" : "Richardson; Elliot L. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 209,
                 "selected" : false
             },
@@ -3300,7 +3300,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 126,
                 "name" : "Richardson; Elliot L. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 208,
                 "selected" : false
             },
@@ -3315,7 +3315,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 124,
                 "name" : "Richardson; Elliot L. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 207,
                 "selected" : false
             },
@@ -3330,7 +3330,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 109,
                 "name" : "Hodgson; James D. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 206,
                 "selected" : false
             },
@@ -3345,7 +3345,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 107,
                 "name" : "Hodgson; James D. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 205,
                 "selected" : false
             },
@@ -3360,7 +3360,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 105,
                 "name" : "Hodgson; James D. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 204,
                 "selected" : false
             },
@@ -3375,7 +3375,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 89,
                 "name" : "Campbell; J. Philip (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 203,
                 "selected" : false
             },
@@ -3390,7 +3390,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 87,
                 "name" : "Campbell; J. Philip (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 202,
                 "selected" : false
             },
@@ -3405,7 +3405,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 85,
                 "name" : "Campbell; J. Philip (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 201,
                 "selected" : false
             },
@@ -3420,7 +3420,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 68,
                 "name" : "Morton; Rogers C. B. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 200,
                 "selected" : false
             },
@@ -3435,7 +3435,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 66,
                 "name" : "Morton; Rogers C. B. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 199,
                 "selected" : false
             },
@@ -3450,7 +3450,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 64,
                 "name" : "Morton; Rogers C. B. (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 198,
                 "selected" : false
             },
@@ -3465,7 +3465,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1392,
                 "name" : "Haig; Alexander M.; Jr. (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 197,
                 "selected" : false
             },
@@ -3480,7 +3480,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1390,
                 "name" : "Haig; Alexander M.; Jr. (interacts with) Stapp; Donna",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 196,
                 "selected" : false
             },
@@ -3495,7 +3495,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1389,
                 "name" : "Haig; Alexander M.; Jr. (interacts with) Stapp; Curtis C. (Mrs.)",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 195,
                 "selected" : false
             },
@@ -3510,7 +3510,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1388,
                 "name" : "Haig; Alexander M.; Jr. (interacts with) Stapp; Curtis C.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 194,
                 "selected" : false
             },
@@ -3525,7 +3525,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1387,
                 "name" : "Haig; Alexander M.; Jr. (interacts with) Atkins; Oliver F. (\"Ollie\")",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 193,
                 "selected" : false
             },
@@ -3540,7 +3540,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1386,
                 "name" : "Haig; Alexander M.; Jr. (interacts with) Getty; Jean Paul",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 192,
                 "selected" : false
             },
@@ -3555,7 +3555,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1385,
                 "name" : "Haig; Alexander M.; Jr. (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 10,
+                "Weight" : 10,
                 "SUID" : 191,
                 "selected" : false
             },
@@ -3570,7 +3570,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1384,
                 "name" : "Haig; Alexander M.; Jr. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 37,
+                "Weight" : 37,
                 "SUID" : 190,
                 "selected" : false
             },
@@ -3585,7 +3585,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1643,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Chapin; Dwight L.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 189,
                 "selected" : false
             },
@@ -3600,7 +3600,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1267,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Nixon; Richard M. (President)",
                 "interaction" : "interacts with",
-                "weight" : 7,
+                "Weight" : 7,
                 "SUID" : 188,
                 "selected" : false
             },
@@ -3615,7 +3615,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1220,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 187,
                 "selected" : false
             },
@@ -3630,7 +3630,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1214,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Moore; Richard A.",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 186,
                 "selected" : false
             },
@@ -3645,7 +3645,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1211,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Cox; Tricia Nixon",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 185,
                 "selected" : false
             },
@@ -3660,7 +3660,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1210,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Acker; Marjorie P.",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 184,
                 "selected" : false
             },
@@ -3675,7 +3675,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1206,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 11,
+                "Weight" : 11,
                 "SUID" : 183,
                 "selected" : false
             },
@@ -3690,7 +3690,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1204,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Stapp; Donna",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 182,
                 "selected" : false
             },
@@ -3705,7 +3705,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1203,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Stapp; Curtis C. (Mrs.)",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 181,
                 "selected" : false
             },
@@ -3720,7 +3720,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1202,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Stapp; Curtis C.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 180,
                 "selected" : false
             },
@@ -3735,7 +3735,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1201,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Atkins; Oliver F. (\"Ollie\")",
                 "interaction" : "interacts with",
-                "weight" : 11,
+                "Weight" : 11,
                 "SUID" : 179,
                 "selected" : false
             },
@@ -3750,7 +3750,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1200,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Getty; Jean Paul",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 178,
                 "selected" : false
             },
@@ -3765,7 +3765,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1199,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 25,
+                "Weight" : 25,
                 "SUID" : 177,
                 "selected" : false
             },
@@ -3780,7 +3780,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1198,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 44,
+                "Weight" : 44,
                 "SUID" : 176,
                 "selected" : false
             },
@@ -3795,7 +3795,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1197,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 66,
+                "Weight" : 66,
                 "SUID" : 175,
                 "selected" : false
             },
@@ -3810,7 +3810,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1196,
                 "name" : "Haldeman; H. R. (\"Bob\") (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 51,
+                "Weight" : 51,
                 "SUID" : 174,
                 "selected" : false
             },
@@ -3825,7 +3825,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1078,
                 "name" : "Bull; Stephen B. (interacts with) Nixon; Richard M. (President)",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 173,
                 "selected" : false
             },
@@ -3840,7 +3840,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1031,
                 "name" : "Bull; Stephen B. (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 172,
                 "selected" : false
             },
@@ -3855,7 +3855,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1029,
                 "name" : "Bull; Stephen B. (interacts with) Chapin; Dwight L.",
                 "interaction" : "interacts with",
-                "weight" : 8,
+                "Weight" : 8,
                 "SUID" : 171,
                 "selected" : false
             },
@@ -3870,7 +3870,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1025,
                 "name" : "Bull; Stephen B. (interacts with) Moore; Richard A.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 170,
                 "selected" : false
             },
@@ -3885,7 +3885,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1022,
                 "name" : "Bull; Stephen B. (interacts with) Cox; Tricia Nixon",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 169,
                 "selected" : false
             },
@@ -3900,7 +3900,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1021,
                 "name" : "Bull; Stephen B. (interacts with) Acker; Marjorie P.",
                 "interaction" : "interacts with",
-                "weight" : 6,
+                "Weight" : 6,
                 "SUID" : 168,
                 "selected" : false
             },
@@ -3915,7 +3915,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1017,
                 "name" : "Bull; Stephen B. (interacts with) Eisenhower; Julie Nixon",
                 "interaction" : "interacts with",
-                "weight" : 12,
+                "Weight" : 12,
                 "SUID" : 167,
                 "selected" : false
             },
@@ -3930,7 +3930,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1015,
                 "name" : "Bull; Stephen B. (interacts with) Stapp; Donna",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 166,
                 "selected" : false
             },
@@ -3945,7 +3945,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1014,
                 "name" : "Bull; Stephen B. (interacts with) Stapp; Curtis C. (Mrs.)",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 165,
                 "selected" : false
             },
@@ -3960,7 +3960,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1013,
                 "name" : "Bull; Stephen B. (interacts with) Stapp; Curtis C.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 164,
                 "selected" : false
             },
@@ -3975,7 +3975,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1012,
                 "name" : "Bull; Stephen B. (interacts with) Atkins; Oliver F. (\"Ollie\")",
                 "interaction" : "interacts with",
-                "weight" : 9,
+                "Weight" : 9,
                 "SUID" : 163,
                 "selected" : false
             },
@@ -3990,7 +3990,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1011,
                 "name" : "Bull; Stephen B. (interacts with) Getty; Jean Paul",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 162,
                 "selected" : false
             },
@@ -4005,7 +4005,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1010,
                 "name" : "Bull; Stephen B. (interacts with) Butterfield; Alexander P.",
                 "interaction" : "interacts with",
-                "weight" : 24,
+                "Weight" : 24,
                 "SUID" : 161,
                 "selected" : false
             },
@@ -4020,7 +4020,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1009,
                 "name" : "Bull; Stephen B. (interacts with) Kissinger; Henry A.",
                 "interaction" : "interacts with",
-                "weight" : 45,
+                "Weight" : 45,
                 "SUID" : 160,
                 "selected" : false
             },
@@ -4035,7 +4035,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1008,
                 "name" : "Bull; Stephen B. (interacts with) Sanchez; Manolo",
                 "interaction" : "interacts with",
-                "weight" : 95,
+                "Weight" : 95,
                 "SUID" : 159,
                 "selected" : false
             },
@@ -4050,7 +4050,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1007,
                 "name" : "Bull; Stephen B. (interacts with) Camp David Operator",
                 "interaction" : "interacts with",
-                "weight" : 62,
+                "Weight" : 62,
                 "SUID" : 158,
                 "selected" : false
             },
@@ -4065,7 +4065,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1006,
                 "name" : "Bull; Stephen B. (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 49,
+                "Weight" : 49,
                 "SUID" : 157,
                 "selected" : false
             },
@@ -4080,7 +4080,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 1005,
                 "name" : "Bull; Stephen B. (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 94,
+                "Weight" : 94,
                 "SUID" : 156,
                 "selected" : false
             },
@@ -4095,7 +4095,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 46,
                 "name" : "Cabinet officers (interacts with) Haig; Alexander M.; Jr.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 155,
                 "selected" : false
             },
@@ -4110,7 +4110,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 44,
                 "name" : "Cabinet officers (interacts with) Haldeman; H. R. (\"Bob\")",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 154,
                 "selected" : false
             },
@@ -4125,7 +4125,7 @@ $("#change-twomode-network").on('click',function(){
                 "Column" : 42,
                 "name" : "Cabinet officers (interacts with) Bull; Stephen B.",
                 "interaction" : "interacts with",
-                "weight" : 5,
+                "Weight" : 5,
                 "SUID" : 153,
                 "selected" : false
             },
@@ -7000,7 +7000,7 @@ var cy = cytoscape({
             "shape" : "ellipse",
             "background-opacity" : 1.0,
             "height" : 20.0,
-            "color" : "rgb(204,204,204)",
+            "color" : "black",
             "border-width" : 0.0,
             "font-size" : 8,
             "content" : "data(name)"
@@ -7017,7 +7017,7 @@ var cy = cytoscape({
             "opacity" : 1.0,
             "target-arrow-color" : "rgb(0,0,0)",
             "target-arrow-shape" : "none",
-            "color" : "rgb(0,0,0)",
+            "color" : "black",
             "source-arrow-shape" : "none",
             "content" : "",
             "line-color" : "rgb(102,102,102)",
