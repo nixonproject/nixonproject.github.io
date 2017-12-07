@@ -32,6 +32,7 @@ ol{
 #one{
     background:black;
     color:white;
+    overflow:scroll;
 }
 #one h1{
     position:absolute;
@@ -40,7 +41,7 @@ ol{
 }
 #one p{
     left:3%;
-    font-size:2.6vh;
+    font-size:2.4vh;
     font-family:Georgia;
 }
 #first_p:first-letter {
