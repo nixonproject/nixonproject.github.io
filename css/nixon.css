@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     z-index:1;
+    font-family:Courier;
 }
 html{
     overflow:hidden;
@@ -28,6 +29,32 @@ ol{
     left:10%;
     text-align:left;
 }
+#one{
+    background:black;
+    color:white;
+    font-family:Courier;
+}
+#one h1{
+    position:absolute;
+    padding-top:2%;
+    left:2%;
+}
+#one p{
+    padding-top:7%;
+    font-size:2.5vh;
+}
+#title_image{
+    z-index:-1;
+    float:left;
+    max-height:100%;
+}
+#two{
+    
+    background:yellow;    
+}
+#three{   
+    background:red; 
+}
 #map-canvas{
     position:absolute;
     top:100%;
@@ -44,7 +71,7 @@ ol{
     left:0%;
     width:55%;
     height:100%;
-    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    background:rgba(0,0,0,0);
 }
 #timeline::-webkit-scrollbar{
     background:rgba(0,0,0,0);
@@ -52,8 +79,8 @@ ol{
 .timeline_point{
     position:relative;
     height:100%;
-    width:100%;
-    background:rgba(0,0,0,0);
+    width:88%;
+    background:black;
 }
 .timeline_point .date_div{
     position:absolute;
@@ -75,6 +102,7 @@ ol{
 .dates{
     position: relative;
     top: 50%;
+    left:45%;
     transform: translateY(-50%);
 }
 .clipping{
@@ -92,7 +120,6 @@ ol{
     left:47%;
     height:5%;
     width:5%;
-    background:black;
     cursor:pointer;
 }
 .t_down{
@@ -101,8 +128,22 @@ ol{
     left:47%;
     height:5%;
     width:5%;
-    background:black;
     cursor:pointer;
+}
+#five{   
+    background:white;
+}
+#six{   
+    background:blue; 
+}
+#seven{  
+    background:aqua;  
+}
+#eight{   
+    background:brown; 
+}
+#nine{   
+    background:gold; 
 }
 .row_one{
     position:absolute;
@@ -127,29 +168,4 @@ ol{
 .column_three{
     position:absolute;
     left:200%;
-}
-#one{
-    background:green;
-}
-#two{
-    
-    background:yellow;    
-}
-#three{   
-    background:red; 
-}
-#five{   
-    background:white;
-}
-#six{   
-    background:blue; 
-}
-#seven{  
-    background:aqua;  
-}
-#eight{   
-    background:brown; 
-}
-#nine{   
-    background:gold; 
 }
