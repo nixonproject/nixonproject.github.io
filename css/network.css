@@ -5,3 +5,8 @@
     top: 10%;
     left: 0px;
 }
+
+#change-concentric-network, #change-twomode-network {
+    position:relative;
+    z-index:100;
+}

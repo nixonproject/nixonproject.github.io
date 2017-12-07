@@ -1,6 +1,6 @@
-var cy = cytoscape({
-    container: document.getElementById('cy'),
-    elements:  {
+$("#change-twomode-network").on('click',function(){
+    cy.elements().remove();
+    cy.add( {
         "nodes" : [ {
             "data" : {
                 "id" : "152",
@@ -4131,28 +4131,2878 @@ var cy = cytoscape({
             },
             "selected" : false
         } ]
+    });
+    cy.fit();
+});
+$("#change-concentric-network").on('click',function(){
+    cy.elements().remove();
+    cy.add({
+        "nodes" : [ {
+            "data" : {
+                "id" : "124",
+                "shared_name" : "William P. Rogers",
+                "name" : "William P. Rogers",
+                "SUID" : 124,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 108.62816187033525,
+                "y" : -85.08985124117932
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "123",
+                "shared_name" : "William E. Timmons",
+                "name" : "William E. Timmons",
+                "SUID" : 123,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -146.12470023281207,
+                "y" : -83.93179321289062
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "122",
+                "shared_name" : "White House photographer",
+                "name" : "White House photographer",
+                "SUID" : 122,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -148.23767796864638,
+                "y" : 72.843818802766
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "121",
+                "shared_name" : "White House operator",
+                "name" : "White House operator",
+                "SUID" : 121,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 83.04367395529619,
+                "y" : -125.1963652182301
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "120",
+                "shared_name" : "Vernon A. Walters",
+                "name" : "Vernon A. Walters",
+                "SUID" : 120,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 21.183246098850873,
+                "y" : 147.651924271516
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "119",
+                "shared_name" : "Tricia Nixon Cox",
+                "name" : "Tricia Nixon Cox",
+                "SUID" : 119,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -23.022190607692096,
+                "y" : 172.560615677766
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "118",
+                "shared_name" : "Thomas H. (Adm.) Moorer",
+                "name" : "Thomas H. (Adm.) Moorer",
+                "SUID" : 118,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -124.3561520945085,
+                "y" : -170.427177290984
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "117",
+                "shared_name" : "\"Thelma C. (\"\"Pat\"\") (Ryan) Nixon\"",
+                "name" : "\"Thelma C. (\"\"Pat\"\") (Ryan) Nixon\"",
+                "SUID" : 117,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -124.33207563271651,
+                "y" : 20.28226484768787
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "116",
+                "shared_name" : "Stephen B. Bull",
+                "name" : "Stephen B. Bull",
+                "SUID" : 116,
+                "selected" : true
+            },
+            "position" : {
+                "x" : -186.97555541992188,
+                "y" : -52.363179847069894
+            },
+            "selected" : true
+        }, {
+            "data" : {
+                "id" : "115",
+                "shared_name" : "Spiro T. (Vice President) Agnew",
+                "name" : "Spiro T. (Vice President) Agnew",
+                "SUID" : 115,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -61.62134984841475,
+                "y" : -75.65409074313244
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "114",
+                "shared_name" : "Rose Mary Woods",
+                "name" : "Rose Mary Woods",
+                "SUID" : 114,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -97.04014257302413,
+                "y" : 98.08057417385974
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "113",
+                "shared_name" : "Ronald W. Reagan",
+                "name" : "Ronald W. Reagan",
+                "SUID" : 113,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 179.1250490773665,
+                "y" : -120.10175309664807
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "112",
+                "shared_name" : "Ronald L. Ziegler",
+                "name" : "Ronald L. Ziegler",
+                "SUID" : 112,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 129.9736818898665,
+                "y" : 138.06897749417226
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "111",
+                "shared_name" : "Robert H. Finch",
+                "name" : "Robert H. Finch",
+                "SUID" : 111,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -214.0878415476335,
+                "y" : -28.495918135710568
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "110",
+                "shared_name" : "Richard K. Cook",
+                "name" : "Richard K. Cook",
+                "SUID" : 110,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 121.28370996603837,
+                "y" : 192.1991654824535
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "109",
+                "shared_name" : "Richard A. Moore",
+                "name" : "Richard A. Moore",
+                "SUID" : 109,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 184.67210718283525,
+                "y" : 124.77848066800037
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "108",
+                "shared_name" : "Peter M. Flanigan",
+                "name" : "Peter M. Flanigan",
+                "SUID" : 108,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -213.20835529003696,
+                "y" : -82.25969377265709
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "107",
+                "shared_name" : "Peter G. Peterson",
+                "name" : "Peter G. Peterson",
+                "SUID" : 107,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -8.255810297633502,
+                "y" : -87.01651750094494
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "106",
+                "shared_name" : "\"Oliver F. (\"\"Ollie\"\") Atkins\"",
+                "name" : "\"Oliver F. (\"\"Ollie\"\") Atkins\"",
+                "SUID" : 106,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 31.067828618382123,
+                "y" : -132.4165113974293
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "105",
+                "shared_name" : "Melvin R. Laird",
+                "name" : "Melvin R. Laird",
+                "SUID" : 105,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 274.70062255859375,
+                "y" : 36.08540788398521
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "104",
+                "shared_name" : "Mark I. Goode",
+                "name" : "Mark I. Goode",
+                "SUID" : 104,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 28.413989507053998,
+                "y" : -184.9870565939625
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "103",
+                "shared_name" : "Marjorie P. Acker",
+                "name" : "Marjorie P. Acker",
+                "SUID" : 103,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 130.22706934103837,
+                "y" : -159.2928541708668
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "102",
+                "shared_name" : "Manolo Sanchez",
+                "name" : "Manolo Sanchez",
+                "SUID" : 102,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -220.86539892068038,
+                "y" : 56.251777787140995
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "101",
+                "shared_name" : "Kenneth R. Cole Jr.",
+                "name" : "Kenneth R. Cole Jr.",
+                "SUID" : 101,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -83.159985102321,
+                "y" : -127.89786515719494
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "100",
+                "shared_name" : "Julie Nixon Eisenhower",
+                "name" : "Julie Nixon Eisenhower",
+                "SUID" : 100,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -18.502026117946002,
+                "y" : -210.29065309054454
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "99",
+                "shared_name" : "John N. Mitchell",
+                "name" : "John N. Mitchell",
+                "SUID" : 99,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 139.9890627492415,
+                "y" : 80.01819624417224
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "98",
+                "shared_name" : "John K. Andrews Jr. ",
+                "name" : "John K. Andrews Jr. ",
+                "SUID" : 98,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 86.59471460471025,
+                "y" : 92.373848099641
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "97",
+                "shared_name" : "John E. Nidecker",
+                "name" : "John E. Nidecker",
+                "SUID" : 97,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 48.655795537327435,
+                "y" : -74.91309342867932
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "96",
+                "shared_name" : "John D. Ehrlichman",
+                "name" : "John D. Ehrlichman",
+                "SUID" : 96,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -142.9912076365007,
+                "y" : 137.55423750393788
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "95",
+                "shared_name" : "John C. Whitaker",
+                "name" : "John C. Whitaker",
+                "SUID" : 95,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 199.31135889181962,
+                "y" : -58.65334306246838
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "94",
+                "shared_name" : "John B. Connally",
+                "name" : "John B. Connally",
+                "SUID" : 94,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -69.55733922829756,
+                "y" : 51.58811201565662
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "93",
+                "shared_name" : "James H. Cavanaugh",
+                "name" : "James H. Cavanaugh",
+                "SUID" : 93,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 31.594653569553998,
+                "y" : 88.01163496487537
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "92",
+                "shared_name" : "\"James D. (\"\"Don\"\") Hughes\"",
+                "name" : "\"James D. (\"\"Don\"\") Hughes\"",
+                "SUID" : 92,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 74.0647463429915,
+                "y" : 151.00293745510976
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "91",
+                "shared_name" : "Hugh Scott",
+                "name" : "Hugh Scott",
+                "SUID" : 91,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 81.09572168478837,
+                "y" : -194.32847962863048
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "90",
+                "shared_name" : "Herbert Stein",
+                "name" : "Herbert Stein",
+                "SUID" : 90,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 3.886157475803998,
+                "y" : 225.75168623440663
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "89",
+                "shared_name" : "Henry A. Kissinger",
+                "name" : "Henry A. Kissinger",
+                "SUID" : 89,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -28.09192327370772,
+                "y" : -145.72672257906993
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "88",
+                "shared_name" : "\"H. R. (\"\"Bob\"\") Haldeman\"",
+                "name" : "\"H. R. (\"\"Bob\"\") Haldeman\"",
+                "SUID" : 88,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 213.0214942251957,
+                "y" : 78.36886596679688
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "87",
+                "shared_name" : "Gerald R. Ford",
+                "name" : "Gerald R. Ford",
+                "SUID" : 87,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -124.96670965066085,
+                "y" : 188.742012162141
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "86",
+                "shared_name" : "George P. Shultz",
+                "name" : "George P. Shultz",
+                "SUID" : 86,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 211.79320093283525,
+                "y" : -1.2934340048511928
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "85",
+                "shared_name" : "George H. W. Bush",
+                "name" : "George H. W. Bush",
+                "SUID" : 85,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -155.29155782570967,
+                "y" : -30.549110274382443
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "84",
+                "shared_name" : "Frederic V. Malek",
+                "name" : "Frederic V. Malek",
+                "SUID" : 84,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 78.73596521506181,
+                "y" : -26.13826737887463
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "83",
+                "shared_name" : "Elliot L. Richardson",
+                "name" : "Elliot L. Richardson",
+                "SUID" : 83,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -181.50215581765303,
+                "y" : 20.107811112336307
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "82",
+                "shared_name" : "\"Egil (\"\"Bud\"\") Krogh Jr.\"",
+                "name" : "\"Egil (\"\"Bud\"\") Krogh Jr.\"",
+                "SUID" : 82,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -74.32699254861006,
+                "y" : 148.309639115266
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "81",
+                "shared_name" : "Donald H. Rumsfeld",
+                "name" : "Donald H. Rumsfeld",
+                "SUID" : 81,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 160.292895757054,
+                "y" : 31.287727494172245
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "80",
+                "shared_name" : "Clark MacGregor",
+                "name" : "Clark MacGregor",
+                "SUID" : 80,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -28.654308832789752,
+                "y" : 108.23105635159412
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "79",
+                "shared_name" : "Charles W. Colson",
+                "name" : "Charles W. Colson",
+                "SUID" : 79,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 59.815341435764935,
+                "y" : 207.50455488675038
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "78",
+                "shared_name" : "\"Caspar W. (\"\"Cap\"\") Weinberger\"",
+                "name" : "\"Caspar W. (\"\"Cap\"\") Weinberger\"",
+                "SUID" : 78,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -65.59505132546553,
+                "y" : 213.56314863675038
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "77",
+                "shared_name" : "Earl L. Butz",
+                "name" : "Earl L. Butz",
+                "SUID" : 77,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -72.1603513132585,
+                "y" : -191.1671560812672
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "76",
+                "shared_name" : "Brent G. (Gen.) Scowcroft",
+                "name" : "Brent G. (Gen.) Scowcroft",
+                "SUID" : 76,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -162.02020028939376,
+                "y" : -129.47808824069102
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "75",
+                "shared_name" : "Arthur F. Burns",
+                "name" : "Arthur F. Burns",
+                "SUID" : 75,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 144.68455835471025,
+                "y" : -16.36818681246838
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "74",
+                "shared_name" : "Alexander P. Butterfield",
+                "name" : "Alexander P. Butterfield",
+                "SUID" : 74,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 149.14900537619462,
+                "y" : -66.75841508395276
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "73",
+                "shared_name" : "Alexander M. Haig Jr.",
+                "name" : "Alexander M. Haig Jr.",
+                "SUID" : 73,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -193.79484609475264,
+                "y" : 116.78360762112537
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "72",
+                "shared_name" : "Richard M. Nixon",
+                "name" : "Richard M. Nixon",
+                "SUID" : 72,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -1.4374814402116272,
+                "y" : 7.14969648831287
+            },
+            "selected" : false
+        } ],
+            "edges" : [ {
+            "data" : {
+                "id" : "176",
+                "source" : "72",
+                "target" : "124",
+                "shared_name" : "Richard M. Nixon (interacts with) William P. Rogers",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) William P. Rogers",
+                "interaction" : "interacts with",
+                "SUID" : 176,
+                "Weight" : 31,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "175",
+                "source" : "72",
+                "target" : "123",
+                "shared_name" : "Richard M. Nixon (interacts with) William E. Timmons",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) William E. Timmons",
+                "interaction" : "interacts with",
+                "SUID" : 175,
+                "Weight" : 9,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "174",
+                "source" : "72",
+                "target" : "122",
+                "shared_name" : "Richard M. Nixon (interacts with) White House photographer",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) White House photographer",
+                "interaction" : "interacts with",
+                "SUID" : 174,
+                "Weight" : 139,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "173",
+                "source" : "72",
+                "target" : "121",
+                "shared_name" : "Richard M. Nixon (interacts with) White House operator",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) White House operator",
+                "interaction" : "interacts with",
+                "SUID" : 173,
+                "Weight" : 248,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "172",
+                "source" : "72",
+                "target" : "120",
+                "shared_name" : "Richard M. Nixon (interacts with) Vernon A. Walters",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Vernon A. Walters",
+                "interaction" : "interacts with",
+                "SUID" : 172,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "171",
+                "source" : "72",
+                "target" : "119",
+                "shared_name" : "Richard M. Nixon (interacts with) Tricia Nixon Cox",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Tricia Nixon Cox",
+                "interaction" : "interacts with",
+                "SUID" : 171,
+                "Weight" : 16,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "170",
+                "source" : "72",
+                "target" : "118",
+                "shared_name" : "Richard M. Nixon (interacts with) Thomas H. (Adm.) Moorer",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Thomas H. (Adm.) Moorer",
+                "interaction" : "interacts with",
+                "SUID" : 170,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "169",
+                "source" : "72",
+                "target" : "117",
+                "shared_name" : "Richard M. Nixon (interacts with) \"Thelma C. (\"\"Pat\"\") (Ryan) Nixon\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"Thelma C. (\"\"Pat\"\") (Ryan) Nixon\"",
+                "interaction" : "interacts with",
+                "SUID" : 169,
+                "Weight" : 24,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "168",
+                "source" : "72",
+                "target" : "116",
+                "shared_name" : "Richard M. Nixon (interacts with) Stephen B. Bull",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Stephen B. Bull",
+                "interaction" : "interacts with",
+                "SUID" : 168,
+                "Weight" : 662,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "167",
+                "source" : "72",
+                "target" : "115",
+                "shared_name" : "Richard M. Nixon (interacts with) Spiro T. (Vice President) Agnew",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Spiro T. (Vice President) Agnew",
+                "interaction" : "interacts with",
+                "SUID" : 167,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "166",
+                "source" : "72",
+                "target" : "114",
+                "shared_name" : "Richard M. Nixon (interacts with) Rose Mary Woods",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Rose Mary Woods",
+                "interaction" : "interacts with",
+                "SUID" : 166,
+                "Weight" : 149,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "165",
+                "source" : "72",
+                "target" : "113",
+                "shared_name" : "Richard M. Nixon (interacts with) Ronald W. Reagan",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Ronald W. Reagan",
+                "interaction" : "interacts with",
+                "SUID" : 165,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "164",
+                "source" : "72",
+                "target" : "112",
+                "shared_name" : "Richard M. Nixon (interacts with) Ronald L. Ziegler",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Ronald L. Ziegler",
+                "interaction" : "interacts with",
+                "SUID" : 164,
+                "Weight" : 162,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "163",
+                "source" : "72",
+                "target" : "111",
+                "shared_name" : "Richard M. Nixon (interacts with) Robert H. Finch",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Robert H. Finch",
+                "interaction" : "interacts with",
+                "SUID" : 163,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "162",
+                "source" : "72",
+                "target" : "110",
+                "shared_name" : "Richard M. Nixon (interacts with) Richard K. Cook",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Richard K. Cook",
+                "interaction" : "interacts with",
+                "SUID" : 162,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "161",
+                "source" : "72",
+                "target" : "109",
+                "shared_name" : "Richard M. Nixon (interacts with) Richard A. Moore",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Richard A. Moore",
+                "interaction" : "interacts with",
+                "SUID" : 161,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "160",
+                "source" : "72",
+                "target" : "108",
+                "shared_name" : "Richard M. Nixon (interacts with) Peter M. Flanigan",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Peter M. Flanigan",
+                "interaction" : "interacts with",
+                "SUID" : 160,
+                "Weight" : 19,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "159",
+                "source" : "72",
+                "target" : "107",
+                "shared_name" : "Richard M. Nixon (interacts with) Peter G. Peterson",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Peter G. Peterson",
+                "interaction" : "interacts with",
+                "SUID" : 159,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "158",
+                "source" : "72",
+                "target" : "106",
+                "shared_name" : "Richard M. Nixon (interacts with) \"Oliver F. (\"\"Ollie\"\") Atkins\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"Oliver F. (\"\"Ollie\"\") Atkins\"",
+                "interaction" : "interacts with",
+                "SUID" : 158,
+                "Weight" : 12,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "157",
+                "source" : "72",
+                "target" : "105",
+                "shared_name" : "Richard M. Nixon (interacts with) Melvin R. Laird",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Melvin R. Laird",
+                "interaction" : "interacts with",
+                "SUID" : 157,
+                "Weight" : 8,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "156",
+                "source" : "72",
+                "target" : "104",
+                "shared_name" : "Richard M. Nixon (interacts with) Mark I. Goode",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Mark I. Goode",
+                "interaction" : "interacts with",
+                "SUID" : 156,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "155",
+                "source" : "72",
+                "target" : "103",
+                "shared_name" : "Richard M. Nixon (interacts with) Marjorie P. Acker",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Marjorie P. Acker",
+                "interaction" : "interacts with",
+                "SUID" : 155,
+                "Weight" : 13,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "154",
+                "source" : "72",
+                "target" : "102",
+                "shared_name" : "Richard M. Nixon (interacts with) Manolo Sanchez",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Manolo Sanchez",
+                "interaction" : "interacts with",
+                "SUID" : 154,
+                "Weight" : 204,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "153",
+                "source" : "72",
+                "target" : "101",
+                "shared_name" : "Richard M. Nixon (interacts with) Kenneth R. Cole Jr.",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Kenneth R. Cole Jr.",
+                "interaction" : "interacts with",
+                "SUID" : 153,
+                "Weight" : 15,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "152",
+                "source" : "72",
+                "target" : "100",
+                "shared_name" : "Richard M. Nixon (interacts with) Julie Nixon Eisenhower",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Julie Nixon Eisenhower",
+                "interaction" : "interacts with",
+                "SUID" : 152,
+                "Weight" : 23,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "151",
+                "source" : "72",
+                "target" : "99",
+                "shared_name" : "Richard M. Nixon (interacts with) John N. Mitchell",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John N. Mitchell",
+                "interaction" : "interacts with",
+                "SUID" : 151,
+                "Weight" : 28,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "150",
+                "source" : "72",
+                "target" : "98",
+                "shared_name" : "Richard M. Nixon (interacts with) John K. Andrews Jr. ",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John K. Andrews Jr. ",
+                "interaction" : "interacts with",
+                "SUID" : 150,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "149",
+                "source" : "72",
+                "target" : "97",
+                "shared_name" : "Richard M. Nixon (interacts with) John E. Nidecker",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John E. Nidecker",
+                "interaction" : "interacts with",
+                "SUID" : 149,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "148",
+                "source" : "72",
+                "target" : "96",
+                "shared_name" : "Richard M. Nixon (interacts with) John D. Ehrlichman",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John D. Ehrlichman",
+                "interaction" : "interacts with",
+                "SUID" : 148,
+                "Weight" : 89,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "147",
+                "source" : "72",
+                "target" : "95",
+                "shared_name" : "Richard M. Nixon (interacts with) John C. Whitaker",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John C. Whitaker",
+                "interaction" : "interacts with",
+                "SUID" : 147,
+                "Weight" : 8,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "146",
+                "source" : "72",
+                "target" : "94",
+                "shared_name" : "Richard M. Nixon (interacts with) John B. Connally",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John B. Connally",
+                "interaction" : "interacts with",
+                "SUID" : 146,
+                "Weight" : 44,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "145",
+                "source" : "72",
+                "target" : "93",
+                "shared_name" : "Richard M. Nixon (interacts with) James H. Cavanaugh",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) James H. Cavanaugh",
+                "interaction" : "interacts with",
+                "SUID" : 145,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "144",
+                "source" : "72",
+                "target" : "92",
+                "shared_name" : "Richard M. Nixon (interacts with) \"James D. (\"\"Don\"\") Hughes\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"James D. (\"\"Don\"\") Hughes\"",
+                "interaction" : "interacts with",
+                "SUID" : 144,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "143",
+                "source" : "72",
+                "target" : "91",
+                "shared_name" : "Richard M. Nixon (interacts with) Hugh Scott",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Hugh Scott",
+                "interaction" : "interacts with",
+                "SUID" : 143,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "142",
+                "source" : "72",
+                "target" : "90",
+                "shared_name" : "Richard M. Nixon (interacts with) Herbert Stein",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Herbert Stein",
+                "interaction" : "interacts with",
+                "SUID" : 142,
+                "Weight" : 12,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "141",
+                "source" : "72",
+                "target" : "89",
+                "shared_name" : "Richard M. Nixon (interacts with) Henry A. Kissinger",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Henry A. Kissinger",
+                "interaction" : "interacts with",
+                "SUID" : 141,
+                "Weight" : 235,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "140",
+                "source" : "72",
+                "target" : "88",
+                "shared_name" : "Richard M. Nixon (interacts with) \"H. R. (\"\"Bob\"\") Haldeman\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"H. R. (\"\"Bob\"\") Haldeman\"",
+                "interaction" : "interacts with",
+                "SUID" : 140,
+                "Weight" : 314,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "139",
+                "source" : "72",
+                "target" : "87",
+                "shared_name" : "Richard M. Nixon (interacts with) Gerald R. Ford",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Gerald R. Ford",
+                "interaction" : "interacts with",
+                "SUID" : 139,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "138",
+                "source" : "72",
+                "target" : "86",
+                "shared_name" : "Richard M. Nixon (interacts with) George P. Shultz",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) George P. Shultz",
+                "interaction" : "interacts with",
+                "SUID" : 138,
+                "Weight" : 50,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "137",
+                "source" : "72",
+                "target" : "85",
+                "shared_name" : "Richard M. Nixon (interacts with) George H. W. Bush",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) George H. W. Bush",
+                "interaction" : "interacts with",
+                "SUID" : 137,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "136",
+                "source" : "72",
+                "target" : "84",
+                "shared_name" : "Richard M. Nixon (interacts with) Frederic V. Malek",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Frederic V. Malek",
+                "interaction" : "interacts with",
+                "SUID" : 136,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "135",
+                "source" : "72",
+                "target" : "83",
+                "shared_name" : "Richard M. Nixon (interacts with) Elliot L. Richardson",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Elliot L. Richardson",
+                "interaction" : "interacts with",
+                "SUID" : 135,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "134",
+                "source" : "72",
+                "target" : "82",
+                "shared_name" : "Richard M. Nixon (interacts with) \"Egil (\"\"Bud\"\") Krogh Jr.\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"Egil (\"\"Bud\"\") Krogh Jr.\"",
+                "interaction" : "interacts with",
+                "SUID" : 134,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "133",
+                "source" : "72",
+                "target" : "81",
+                "shared_name" : "Richard M. Nixon (interacts with) Donald H. Rumsfeld",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Donald H. Rumsfeld",
+                "interaction" : "interacts with",
+                "SUID" : 133,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "132",
+                "source" : "72",
+                "target" : "80",
+                "shared_name" : "Richard M. Nixon (interacts with) Clark MacGregor",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Clark MacGregor",
+                "interaction" : "interacts with",
+                "SUID" : 132,
+                "Weight" : 37,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "131",
+                "source" : "72",
+                "target" : "79",
+                "shared_name" : "Richard M. Nixon (interacts with) Charles W. Colson",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Charles W. Colson",
+                "interaction" : "interacts with",
+                "SUID" : 131,
+                "Weight" : 60,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "130",
+                "source" : "72",
+                "target" : "78",
+                "shared_name" : "Richard M. Nixon (interacts with) \"Caspar W. (\"\"Cap\"\") Weinberger\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"Caspar W. (\"\"Cap\"\") Weinberger\"",
+                "interaction" : "interacts with",
+                "SUID" : 130,
+                "Weight" : 10,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "129",
+                "source" : "72",
+                "target" : "77",
+                "shared_name" : "Richard M. Nixon (interacts with) Earl L. Butz",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Earl L. Butz",
+                "interaction" : "interacts with",
+                "SUID" : 129,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "128",
+                "source" : "72",
+                "target" : "76",
+                "shared_name" : "Richard M. Nixon (interacts with) Brent G. (Gen.) Scowcroft",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Brent G. (Gen.) Scowcroft",
+                "interaction" : "interacts with",
+                "SUID" : 128,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "127",
+                "source" : "72",
+                "target" : "75",
+                "shared_name" : "Richard M. Nixon (interacts with) Arthur F. Burns",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Arthur F. Burns",
+                "interaction" : "interacts with",
+                "SUID" : 127,
+                "Weight" : 11,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "126",
+                "source" : "72",
+                "target" : "74",
+                "shared_name" : "Richard M. Nixon (interacts with) Alexander P. Butterfield",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Alexander P. Butterfield",
+                "interaction" : "interacts with",
+                "SUID" : 126,
+                "Weight" : 285,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "125",
+                "source" : "72",
+                "target" : "73",
+                "shared_name" : "Richard M. Nixon (interacts with) Alexander M. Haig Jr.",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Alexander M. Haig Jr.",
+                "interaction" : "interacts with",
+                "SUID" : 125,
+                "Weight" : 74,
+                "selected" : false
+            },
+            "selected" : false
+        } ]
+    });
+    cy.fit();
+});
+var cy = cytoscape({
+    container: document.getElementById('cy'),
+    elements: {
+        "nodes" : [ {
+            "data" : {
+                "id" : "124",
+                "shared_name" : "William P. Rogers",
+                "name" : "William P. Rogers",
+                "SUID" : 124,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 108.62816187033525,
+                "y" : -85.08985124117932
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "123",
+                "shared_name" : "William E. Timmons",
+                "name" : "William E. Timmons",
+                "SUID" : 123,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -146.12470023281207,
+                "y" : -83.93179321289062
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "122",
+                "shared_name" : "White House photographer",
+                "name" : "White House photographer",
+                "SUID" : 122,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -148.23767796864638,
+                "y" : 72.843818802766
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "121",
+                "shared_name" : "White House operator",
+                "name" : "White House operator",
+                "SUID" : 121,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 83.04367395529619,
+                "y" : -125.1963652182301
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "120",
+                "shared_name" : "Vernon A. Walters",
+                "name" : "Vernon A. Walters",
+                "SUID" : 120,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 21.183246098850873,
+                "y" : 147.651924271516
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "119",
+                "shared_name" : "Tricia Nixon Cox",
+                "name" : "Tricia Nixon Cox",
+                "SUID" : 119,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -23.022190607692096,
+                "y" : 172.560615677766
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "118",
+                "shared_name" : "Thomas H. (Adm.) Moorer",
+                "name" : "Thomas H. (Adm.) Moorer",
+                "SUID" : 118,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -124.3561520945085,
+                "y" : -170.427177290984
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "117",
+                "shared_name" : "\"Thelma C. (\"\"Pat\"\") (Ryan) Nixon\"",
+                "name" : "\"Thelma C. (\"\"Pat\"\") (Ryan) Nixon\"",
+                "SUID" : 117,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -124.33207563271651,
+                "y" : 20.28226484768787
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "116",
+                "shared_name" : "Stephen B. Bull",
+                "name" : "Stephen B. Bull",
+                "SUID" : 116,
+                "selected" : true
+            },
+            "position" : {
+                "x" : -186.97555541992188,
+                "y" : -52.363179847069894
+            },
+            "selected" : true
+        }, {
+            "data" : {
+                "id" : "115",
+                "shared_name" : "Spiro T. (Vice President) Agnew",
+                "name" : "Spiro T. (Vice President) Agnew",
+                "SUID" : 115,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -61.62134984841475,
+                "y" : -75.65409074313244
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "114",
+                "shared_name" : "Rose Mary Woods",
+                "name" : "Rose Mary Woods",
+                "SUID" : 114,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -97.04014257302413,
+                "y" : 98.08057417385974
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "113",
+                "shared_name" : "Ronald W. Reagan",
+                "name" : "Ronald W. Reagan",
+                "SUID" : 113,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 179.1250490773665,
+                "y" : -120.10175309664807
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "112",
+                "shared_name" : "Ronald L. Ziegler",
+                "name" : "Ronald L. Ziegler",
+                "SUID" : 112,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 129.9736818898665,
+                "y" : 138.06897749417226
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "111",
+                "shared_name" : "Robert H. Finch",
+                "name" : "Robert H. Finch",
+                "SUID" : 111,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -214.0878415476335,
+                "y" : -28.495918135710568
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "110",
+                "shared_name" : "Richard K. Cook",
+                "name" : "Richard K. Cook",
+                "SUID" : 110,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 121.28370996603837,
+                "y" : 192.1991654824535
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "109",
+                "shared_name" : "Richard A. Moore",
+                "name" : "Richard A. Moore",
+                "SUID" : 109,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 184.67210718283525,
+                "y" : 124.77848066800037
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "108",
+                "shared_name" : "Peter M. Flanigan",
+                "name" : "Peter M. Flanigan",
+                "SUID" : 108,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -213.20835529003696,
+                "y" : -82.25969377265709
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "107",
+                "shared_name" : "Peter G. Peterson",
+                "name" : "Peter G. Peterson",
+                "SUID" : 107,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -8.255810297633502,
+                "y" : -87.01651750094494
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "106",
+                "shared_name" : "\"Oliver F. (\"\"Ollie\"\") Atkins\"",
+                "name" : "\"Oliver F. (\"\"Ollie\"\") Atkins\"",
+                "SUID" : 106,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 31.067828618382123,
+                "y" : -132.4165113974293
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "105",
+                "shared_name" : "Melvin R. Laird",
+                "name" : "Melvin R. Laird",
+                "SUID" : 105,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 274.70062255859375,
+                "y" : 36.08540788398521
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "104",
+                "shared_name" : "Mark I. Goode",
+                "name" : "Mark I. Goode",
+                "SUID" : 104,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 28.413989507053998,
+                "y" : -184.9870565939625
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "103",
+                "shared_name" : "Marjorie P. Acker",
+                "name" : "Marjorie P. Acker",
+                "SUID" : 103,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 130.22706934103837,
+                "y" : -159.2928541708668
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "102",
+                "shared_name" : "Manolo Sanchez",
+                "name" : "Manolo Sanchez",
+                "SUID" : 102,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -220.86539892068038,
+                "y" : 56.251777787140995
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "101",
+                "shared_name" : "Kenneth R. Cole Jr.",
+                "name" : "Kenneth R. Cole Jr.",
+                "SUID" : 101,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -83.159985102321,
+                "y" : -127.89786515719494
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "100",
+                "shared_name" : "Julie Nixon Eisenhower",
+                "name" : "Julie Nixon Eisenhower",
+                "SUID" : 100,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -18.502026117946002,
+                "y" : -210.29065309054454
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "99",
+                "shared_name" : "John N. Mitchell",
+                "name" : "John N. Mitchell",
+                "SUID" : 99,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 139.9890627492415,
+                "y" : 80.01819624417224
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "98",
+                "shared_name" : "John K. Andrews Jr. ",
+                "name" : "John K. Andrews Jr. ",
+                "SUID" : 98,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 86.59471460471025,
+                "y" : 92.373848099641
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "97",
+                "shared_name" : "John E. Nidecker",
+                "name" : "John E. Nidecker",
+                "SUID" : 97,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 48.655795537327435,
+                "y" : -74.91309342867932
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "96",
+                "shared_name" : "John D. Ehrlichman",
+                "name" : "John D. Ehrlichman",
+                "SUID" : 96,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -142.9912076365007,
+                "y" : 137.55423750393788
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "95",
+                "shared_name" : "John C. Whitaker",
+                "name" : "John C. Whitaker",
+                "SUID" : 95,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 199.31135889181962,
+                "y" : -58.65334306246838
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "94",
+                "shared_name" : "John B. Connally",
+                "name" : "John B. Connally",
+                "SUID" : 94,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -69.55733922829756,
+                "y" : 51.58811201565662
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "93",
+                "shared_name" : "James H. Cavanaugh",
+                "name" : "James H. Cavanaugh",
+                "SUID" : 93,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 31.594653569553998,
+                "y" : 88.01163496487537
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "92",
+                "shared_name" : "\"James D. (\"\"Don\"\") Hughes\"",
+                "name" : "\"James D. (\"\"Don\"\") Hughes\"",
+                "SUID" : 92,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 74.0647463429915,
+                "y" : 151.00293745510976
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "91",
+                "shared_name" : "Hugh Scott",
+                "name" : "Hugh Scott",
+                "SUID" : 91,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 81.09572168478837,
+                "y" : -194.32847962863048
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "90",
+                "shared_name" : "Herbert Stein",
+                "name" : "Herbert Stein",
+                "SUID" : 90,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 3.886157475803998,
+                "y" : 225.75168623440663
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "89",
+                "shared_name" : "Henry A. Kissinger",
+                "name" : "Henry A. Kissinger",
+                "SUID" : 89,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -28.09192327370772,
+                "y" : -145.72672257906993
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "88",
+                "shared_name" : "\"H. R. (\"\"Bob\"\") Haldeman\"",
+                "name" : "\"H. R. (\"\"Bob\"\") Haldeman\"",
+                "SUID" : 88,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 213.0214942251957,
+                "y" : 78.36886596679688
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "87",
+                "shared_name" : "Gerald R. Ford",
+                "name" : "Gerald R. Ford",
+                "SUID" : 87,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -124.96670965066085,
+                "y" : 188.742012162141
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "86",
+                "shared_name" : "George P. Shultz",
+                "name" : "George P. Shultz",
+                "SUID" : 86,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 211.79320093283525,
+                "y" : -1.2934340048511928
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "85",
+                "shared_name" : "George H. W. Bush",
+                "name" : "George H. W. Bush",
+                "SUID" : 85,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -155.29155782570967,
+                "y" : -30.549110274382443
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "84",
+                "shared_name" : "Frederic V. Malek",
+                "name" : "Frederic V. Malek",
+                "SUID" : 84,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 78.73596521506181,
+                "y" : -26.13826737887463
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "83",
+                "shared_name" : "Elliot L. Richardson",
+                "name" : "Elliot L. Richardson",
+                "SUID" : 83,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -181.50215581765303,
+                "y" : 20.107811112336307
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "82",
+                "shared_name" : "\"Egil (\"\"Bud\"\") Krogh Jr.\"",
+                "name" : "\"Egil (\"\"Bud\"\") Krogh Jr.\"",
+                "SUID" : 82,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -74.32699254861006,
+                "y" : 148.309639115266
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "81",
+                "shared_name" : "Donald H. Rumsfeld",
+                "name" : "Donald H. Rumsfeld",
+                "SUID" : 81,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 160.292895757054,
+                "y" : 31.287727494172245
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "80",
+                "shared_name" : "Clark MacGregor",
+                "name" : "Clark MacGregor",
+                "SUID" : 80,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -28.654308832789752,
+                "y" : 108.23105635159412
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "79",
+                "shared_name" : "Charles W. Colson",
+                "name" : "Charles W. Colson",
+                "SUID" : 79,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 59.815341435764935,
+                "y" : 207.50455488675038
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "78",
+                "shared_name" : "\"Caspar W. (\"\"Cap\"\") Weinberger\"",
+                "name" : "\"Caspar W. (\"\"Cap\"\") Weinberger\"",
+                "SUID" : 78,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -65.59505132546553,
+                "y" : 213.56314863675038
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "77",
+                "shared_name" : "Earl L. Butz",
+                "name" : "Earl L. Butz",
+                "SUID" : 77,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -72.1603513132585,
+                "y" : -191.1671560812672
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "76",
+                "shared_name" : "Brent G. (Gen.) Scowcroft",
+                "name" : "Brent G. (Gen.) Scowcroft",
+                "SUID" : 76,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -162.02020028939376,
+                "y" : -129.47808824069102
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "75",
+                "shared_name" : "Arthur F. Burns",
+                "name" : "Arthur F. Burns",
+                "SUID" : 75,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 144.68455835471025,
+                "y" : -16.36818681246838
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "74",
+                "shared_name" : "Alexander P. Butterfield",
+                "name" : "Alexander P. Butterfield",
+                "SUID" : 74,
+                "selected" : false
+            },
+            "position" : {
+                "x" : 149.14900537619462,
+                "y" : -66.75841508395276
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "73",
+                "shared_name" : "Alexander M. Haig Jr.",
+                "name" : "Alexander M. Haig Jr.",
+                "SUID" : 73,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -193.79484609475264,
+                "y" : 116.78360762112537
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "72",
+                "shared_name" : "Richard M. Nixon",
+                "name" : "Richard M. Nixon",
+                "SUID" : 72,
+                "selected" : false
+            },
+            "position" : {
+                "x" : -1.4374814402116272,
+                "y" : 7.14969648831287
+            },
+            "selected" : false
+        } ],
+        "edges" : [ {
+            "data" : {
+                "id" : "176",
+                "source" : "72",
+                "target" : "124",
+                "shared_name" : "Richard M. Nixon (interacts with) William P. Rogers",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) William P. Rogers",
+                "interaction" : "interacts with",
+                "SUID" : 176,
+                "Weight" : 31,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "175",
+                "source" : "72",
+                "target" : "123",
+                "shared_name" : "Richard M. Nixon (interacts with) William E. Timmons",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) William E. Timmons",
+                "interaction" : "interacts with",
+                "SUID" : 175,
+                "Weight" : 9,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "174",
+                "source" : "72",
+                "target" : "122",
+                "shared_name" : "Richard M. Nixon (interacts with) White House photographer",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) White House photographer",
+                "interaction" : "interacts with",
+                "SUID" : 174,
+                "Weight" : 139,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "173",
+                "source" : "72",
+                "target" : "121",
+                "shared_name" : "Richard M. Nixon (interacts with) White House operator",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) White House operator",
+                "interaction" : "interacts with",
+                "SUID" : 173,
+                "Weight" : 248,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "172",
+                "source" : "72",
+                "target" : "120",
+                "shared_name" : "Richard M. Nixon (interacts with) Vernon A. Walters",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Vernon A. Walters",
+                "interaction" : "interacts with",
+                "SUID" : 172,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "171",
+                "source" : "72",
+                "target" : "119",
+                "shared_name" : "Richard M. Nixon (interacts with) Tricia Nixon Cox",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Tricia Nixon Cox",
+                "interaction" : "interacts with",
+                "SUID" : 171,
+                "Weight" : 16,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "170",
+                "source" : "72",
+                "target" : "118",
+                "shared_name" : "Richard M. Nixon (interacts with) Thomas H. (Adm.) Moorer",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Thomas H. (Adm.) Moorer",
+                "interaction" : "interacts with",
+                "SUID" : 170,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "169",
+                "source" : "72",
+                "target" : "117",
+                "shared_name" : "Richard M. Nixon (interacts with) \"Thelma C. (\"\"Pat\"\") (Ryan) Nixon\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"Thelma C. (\"\"Pat\"\") (Ryan) Nixon\"",
+                "interaction" : "interacts with",
+                "SUID" : 169,
+                "Weight" : 24,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "168",
+                "source" : "72",
+                "target" : "116",
+                "shared_name" : "Richard M. Nixon (interacts with) Stephen B. Bull",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Stephen B. Bull",
+                "interaction" : "interacts with",
+                "SUID" : 168,
+                "Weight" : 662,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "167",
+                "source" : "72",
+                "target" : "115",
+                "shared_name" : "Richard M. Nixon (interacts with) Spiro T. (Vice President) Agnew",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Spiro T. (Vice President) Agnew",
+                "interaction" : "interacts with",
+                "SUID" : 167,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "166",
+                "source" : "72",
+                "target" : "114",
+                "shared_name" : "Richard M. Nixon (interacts with) Rose Mary Woods",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Rose Mary Woods",
+                "interaction" : "interacts with",
+                "SUID" : 166,
+                "Weight" : 149,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "165",
+                "source" : "72",
+                "target" : "113",
+                "shared_name" : "Richard M. Nixon (interacts with) Ronald W. Reagan",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Ronald W. Reagan",
+                "interaction" : "interacts with",
+                "SUID" : 165,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "164",
+                "source" : "72",
+                "target" : "112",
+                "shared_name" : "Richard M. Nixon (interacts with) Ronald L. Ziegler",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Ronald L. Ziegler",
+                "interaction" : "interacts with",
+                "SUID" : 164,
+                "Weight" : 162,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "163",
+                "source" : "72",
+                "target" : "111",
+                "shared_name" : "Richard M. Nixon (interacts with) Robert H. Finch",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Robert H. Finch",
+                "interaction" : "interacts with",
+                "SUID" : 163,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "162",
+                "source" : "72",
+                "target" : "110",
+                "shared_name" : "Richard M. Nixon (interacts with) Richard K. Cook",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Richard K. Cook",
+                "interaction" : "interacts with",
+                "SUID" : 162,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "161",
+                "source" : "72",
+                "target" : "109",
+                "shared_name" : "Richard M. Nixon (interacts with) Richard A. Moore",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Richard A. Moore",
+                "interaction" : "interacts with",
+                "SUID" : 161,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "160",
+                "source" : "72",
+                "target" : "108",
+                "shared_name" : "Richard M. Nixon (interacts with) Peter M. Flanigan",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Peter M. Flanigan",
+                "interaction" : "interacts with",
+                "SUID" : 160,
+                "Weight" : 19,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "159",
+                "source" : "72",
+                "target" : "107",
+                "shared_name" : "Richard M. Nixon (interacts with) Peter G. Peterson",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Peter G. Peterson",
+                "interaction" : "interacts with",
+                "SUID" : 159,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "158",
+                "source" : "72",
+                "target" : "106",
+                "shared_name" : "Richard M. Nixon (interacts with) \"Oliver F. (\"\"Ollie\"\") Atkins\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"Oliver F. (\"\"Ollie\"\") Atkins\"",
+                "interaction" : "interacts with",
+                "SUID" : 158,
+                "Weight" : 12,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "157",
+                "source" : "72",
+                "target" : "105",
+                "shared_name" : "Richard M. Nixon (interacts with) Melvin R. Laird",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Melvin R. Laird",
+                "interaction" : "interacts with",
+                "SUID" : 157,
+                "Weight" : 8,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "156",
+                "source" : "72",
+                "target" : "104",
+                "shared_name" : "Richard M. Nixon (interacts with) Mark I. Goode",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Mark I. Goode",
+                "interaction" : "interacts with",
+                "SUID" : 156,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "155",
+                "source" : "72",
+                "target" : "103",
+                "shared_name" : "Richard M. Nixon (interacts with) Marjorie P. Acker",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Marjorie P. Acker",
+                "interaction" : "interacts with",
+                "SUID" : 155,
+                "Weight" : 13,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "154",
+                "source" : "72",
+                "target" : "102",
+                "shared_name" : "Richard M. Nixon (interacts with) Manolo Sanchez",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Manolo Sanchez",
+                "interaction" : "interacts with",
+                "SUID" : 154,
+                "Weight" : 204,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "153",
+                "source" : "72",
+                "target" : "101",
+                "shared_name" : "Richard M. Nixon (interacts with) Kenneth R. Cole Jr.",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Kenneth R. Cole Jr.",
+                "interaction" : "interacts with",
+                "SUID" : 153,
+                "Weight" : 15,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "152",
+                "source" : "72",
+                "target" : "100",
+                "shared_name" : "Richard M. Nixon (interacts with) Julie Nixon Eisenhower",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Julie Nixon Eisenhower",
+                "interaction" : "interacts with",
+                "SUID" : 152,
+                "Weight" : 23,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "151",
+                "source" : "72",
+                "target" : "99",
+                "shared_name" : "Richard M. Nixon (interacts with) John N. Mitchell",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John N. Mitchell",
+                "interaction" : "interacts with",
+                "SUID" : 151,
+                "Weight" : 28,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "150",
+                "source" : "72",
+                "target" : "98",
+                "shared_name" : "Richard M. Nixon (interacts with) John K. Andrews Jr. ",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John K. Andrews Jr. ",
+                "interaction" : "interacts with",
+                "SUID" : 150,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "149",
+                "source" : "72",
+                "target" : "97",
+                "shared_name" : "Richard M. Nixon (interacts with) John E. Nidecker",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John E. Nidecker",
+                "interaction" : "interacts with",
+                "SUID" : 149,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "148",
+                "source" : "72",
+                "target" : "96",
+                "shared_name" : "Richard M. Nixon (interacts with) John D. Ehrlichman",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John D. Ehrlichman",
+                "interaction" : "interacts with",
+                "SUID" : 148,
+                "Weight" : 89,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "147",
+                "source" : "72",
+                "target" : "95",
+                "shared_name" : "Richard M. Nixon (interacts with) John C. Whitaker",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John C. Whitaker",
+                "interaction" : "interacts with",
+                "SUID" : 147,
+                "Weight" : 8,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "146",
+                "source" : "72",
+                "target" : "94",
+                "shared_name" : "Richard M. Nixon (interacts with) John B. Connally",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) John B. Connally",
+                "interaction" : "interacts with",
+                "SUID" : 146,
+                "Weight" : 44,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "145",
+                "source" : "72",
+                "target" : "93",
+                "shared_name" : "Richard M. Nixon (interacts with) James H. Cavanaugh",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) James H. Cavanaugh",
+                "interaction" : "interacts with",
+                "SUID" : 145,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "144",
+                "source" : "72",
+                "target" : "92",
+                "shared_name" : "Richard M. Nixon (interacts with) \"James D. (\"\"Don\"\") Hughes\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"James D. (\"\"Don\"\") Hughes\"",
+                "interaction" : "interacts with",
+                "SUID" : 144,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "143",
+                "source" : "72",
+                "target" : "91",
+                "shared_name" : "Richard M. Nixon (interacts with) Hugh Scott",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Hugh Scott",
+                "interaction" : "interacts with",
+                "SUID" : 143,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "142",
+                "source" : "72",
+                "target" : "90",
+                "shared_name" : "Richard M. Nixon (interacts with) Herbert Stein",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Herbert Stein",
+                "interaction" : "interacts with",
+                "SUID" : 142,
+                "Weight" : 12,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "141",
+                "source" : "72",
+                "target" : "89",
+                "shared_name" : "Richard M. Nixon (interacts with) Henry A. Kissinger",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Henry A. Kissinger",
+                "interaction" : "interacts with",
+                "SUID" : 141,
+                "Weight" : 235,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "140",
+                "source" : "72",
+                "target" : "88",
+                "shared_name" : "Richard M. Nixon (interacts with) \"H. R. (\"\"Bob\"\") Haldeman\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"H. R. (\"\"Bob\"\") Haldeman\"",
+                "interaction" : "interacts with",
+                "SUID" : 140,
+                "Weight" : 314,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "139",
+                "source" : "72",
+                "target" : "87",
+                "shared_name" : "Richard M. Nixon (interacts with) Gerald R. Ford",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Gerald R. Ford",
+                "interaction" : "interacts with",
+                "SUID" : 139,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "138",
+                "source" : "72",
+                "target" : "86",
+                "shared_name" : "Richard M. Nixon (interacts with) George P. Shultz",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) George P. Shultz",
+                "interaction" : "interacts with",
+                "SUID" : 138,
+                "Weight" : 50,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "137",
+                "source" : "72",
+                "target" : "85",
+                "shared_name" : "Richard M. Nixon (interacts with) George H. W. Bush",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) George H. W. Bush",
+                "interaction" : "interacts with",
+                "SUID" : 137,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "136",
+                "source" : "72",
+                "target" : "84",
+                "shared_name" : "Richard M. Nixon (interacts with) Frederic V. Malek",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Frederic V. Malek",
+                "interaction" : "interacts with",
+                "SUID" : 136,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "135",
+                "source" : "72",
+                "target" : "83",
+                "shared_name" : "Richard M. Nixon (interacts with) Elliot L. Richardson",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Elliot L. Richardson",
+                "interaction" : "interacts with",
+                "SUID" : 135,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "134",
+                "source" : "72",
+                "target" : "82",
+                "shared_name" : "Richard M. Nixon (interacts with) \"Egil (\"\"Bud\"\") Krogh Jr.\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"Egil (\"\"Bud\"\") Krogh Jr.\"",
+                "interaction" : "interacts with",
+                "SUID" : 134,
+                "Weight" : 5,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "133",
+                "source" : "72",
+                "target" : "81",
+                "shared_name" : "Richard M. Nixon (interacts with) Donald H. Rumsfeld",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Donald H. Rumsfeld",
+                "interaction" : "interacts with",
+                "SUID" : 133,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "132",
+                "source" : "72",
+                "target" : "80",
+                "shared_name" : "Richard M. Nixon (interacts with) Clark MacGregor",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Clark MacGregor",
+                "interaction" : "interacts with",
+                "SUID" : 132,
+                "Weight" : 37,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "131",
+                "source" : "72",
+                "target" : "79",
+                "shared_name" : "Richard M. Nixon (interacts with) Charles W. Colson",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Charles W. Colson",
+                "interaction" : "interacts with",
+                "SUID" : 131,
+                "Weight" : 60,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "130",
+                "source" : "72",
+                "target" : "78",
+                "shared_name" : "Richard M. Nixon (interacts with) \"Caspar W. (\"\"Cap\"\") Weinberger\"",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) \"Caspar W. (\"\"Cap\"\") Weinberger\"",
+                "interaction" : "interacts with",
+                "SUID" : 130,
+                "Weight" : 10,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "129",
+                "source" : "72",
+                "target" : "77",
+                "shared_name" : "Richard M. Nixon (interacts with) Earl L. Butz",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Earl L. Butz",
+                "interaction" : "interacts with",
+                "SUID" : 129,
+                "Weight" : 7,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "128",
+                "source" : "72",
+                "target" : "76",
+                "shared_name" : "Richard M. Nixon (interacts with) Brent G. (Gen.) Scowcroft",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Brent G. (Gen.) Scowcroft",
+                "interaction" : "interacts with",
+                "SUID" : 128,
+                "Weight" : 6,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "127",
+                "source" : "72",
+                "target" : "75",
+                "shared_name" : "Richard M. Nixon (interacts with) Arthur F. Burns",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Arthur F. Burns",
+                "interaction" : "interacts with",
+                "SUID" : 127,
+                "Weight" : 11,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "126",
+                "source" : "72",
+                "target" : "74",
+                "shared_name" : "Richard M. Nixon (interacts with) Alexander P. Butterfield",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Alexander P. Butterfield",
+                "interaction" : "interacts with",
+                "SUID" : 126,
+                "Weight" : 285,
+                "selected" : false
+            },
+            "selected" : false
+        }, {
+            "data" : {
+                "id" : "125",
+                "source" : "72",
+                "target" : "73",
+                "shared_name" : "Richard M. Nixon (interacts with) Alexander M. Haig Jr.",
+                "shared_interaction" : "interacts with",
+                "name" : "Richard M. Nixon (interacts with) Alexander M. Haig Jr.",
+                "interaction" : "interacts with",
+                "SUID" : 125,
+                "Weight" : 74,
+                "selected" : false
+            },
+            "selected" : false
+        } ]
     },
     layout: {
-        name: 'preset'
+        name: 'concentric'
     },
     style: [ {
         "selector" : "node",
         "css" : {
-            "color" : "black",
-            "background-opacity" : 1.0,
-            "shape" : "ellipse",
-            "font-size" : 25,
-            "text-opacity" : 1.0,
-            "width" : 10.0,
+            "border-opacity" : 1.0,
             "font-family" : "SansSerif",
             "font-weight" : "normal",
-            "background-color" : "rgb(0,0,0)",
+            "text-opacity" : 1.0,
             "border-color" : "rgb(0,0,0)",
-            "border-opacity" : 1.0,
-            "height" : 10.0,
-            "border-width" : 0.0,
             "text-valign" : "bottom",
             "text-halign" : "right",
+            "background-color" : "rgb(0,0,0)",
+            "width" : 20.0,
+            "shape" : "ellipse",
+            "background-opacity" : 1.0,
+            "height" : 20.0,
+            "color" : "rgb(204,204,204)",
+            "border-width" : 0.0,
+            "font-size" : 8,
             "content" : "data(name)"
         }
     }, {
@@ -4163,43 +7013,43 @@ var cy = cytoscape({
     }, {
         "selector" : "edge",
         "css" : {
-            "opacity" : .8,
-            "font-size" : 15,
-            "line-style" : "solid",
-            "source-arrow-color" : "rgb(0,0,0)",
-            "content" : "",
+            "font-size" : 10,
+            "opacity" : 1.0,
             "target-arrow-color" : "rgb(0,0,0)",
-            "font-family" : "SansSerif",
-            "font-weight" : "normal",
             "target-arrow-shape" : "none",
-            "text-opacity" : 1.0,
-            "source-arrow-shape" : "none",
             "color" : "rgb(0,0,0)",
+            "source-arrow-shape" : "none",
+            "content" : "",
             "line-color" : "rgb(102,102,102)",
-            "width" : 1.0
+            "line-style" : "solid",
+            "width" : 1.0,
+            "text-opacity" : 1.0,
+            "source-arrow-color" : "rgb(0,0,0)",
+            "font-family" : "SansSerif",
+            "font-weight" : "normal"
         }
     }, {
-        "selector" : "edge[weight > 95]",
+        "selector" : "edge[Weight > 662]",
         "css" : {
             "width" : 1.0
         }
     }, {
-        "selector" : "edge[weight = 95]",
+        "selector" : "edge[Weight = 662]",
         "css" : {
-            "width" : 26.165413533834588
+            "width" : 14.01049222444233
         }
     }, {
-        "selector" : "edge[weight > 5][weight < 95]",
+        "selector" : "edge[Weight > 5][Weight < 662]",
         "css" : {
-            "width" : "mapData(weight,5,95,2.481203007518797,26.165413533834588)"
+            "width" : "mapData(Weight,5,662,2.481203007518797,14.01049222444233)"
         }
     }, {
-        "selector" : "edge[weight = 5]",
+        "selector" : "edge[Weight = 5]",
         "css" : {
             "width" : 2.481203007518797
         }
     }, {
-        "selector" : "edge[weight < 5]",
+        "selector" : "edge[Weight < 5]",
         "css" : {
             "width" : 1.0
         }

@@ -7,9 +7,6 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/nixon.js"></script>
         <script type="text/javascript" src="js/map.js"></script>
-        <script type="text/javascript" src="js/network.js"></script>
-        <script type="text/javascript" src="js/cytoscape.min.js"></script>
-
         <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/nixon.css">
         <link href="css/network.css" rel="stylesheet"/>
@@ -267,6 +264,8 @@
         <!--Network Graph-->
         <div id="five" class="square row_two column_two diag_rt_top diag_rt_bot diag_lt_top diag_lt_bot">
             <div id="cy"></div>
+            <button id="change-twomode-network">Vietnam Network (THIS IS A BUTTON TRY CLICKING ON ME!!!!)</button>
+            <button id="change-concentric-network">Nixon's Circle (THIS IS ANOTHER BUTTON TRY CLICKING ON ME!!!!)</button>
             <div class="info">
                 <h1>Network Analysis Pt. 1</h1>
                 <p>
@@ -364,7 +363,9 @@
                 and providing our group with useful and important resources.
             </p>
         </div>
-
+        <!--don't move these! these need the DOM to be loaded before the code can be executed-->
+        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script src="js/cytoscape.min.js" type="text/javascript"></script>
         <script src="js/network.js" type="text/javascript"></script>
     </body>
     
