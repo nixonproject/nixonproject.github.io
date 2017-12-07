@@ -4132,6 +4132,80 @@ $("#change-twomode-network").on('click',function(){
             "selected" : false
         } ]
     });
+    cy.style([ {
+        "selector" : "node",
+        "css" : {
+            "height" : 30.0,
+            "text-valign" : "bottom",
+            "text-halign" : "right",
+            "font-family" : "SansSerif",
+            "font-weight" : "normal",
+            "color" : "black",
+            "border-color" : "rgb(0,0,0)",
+            "background-color" : "rgb(0,0,0)",
+            "shape" : "ellipse",
+            "font-size" : 30,
+            "width" : 30.0,
+            "border-width" : 0.0,
+            "background-opacity" : 1.0,
+            "border-opacity" : 1.0,
+            "text-opacity" : 1.0,
+            "content" : "data(name)"
+        }
+    }, {
+        "selector" : "node:selected",
+        "css" : {
+            "background-color" : "rgb(255,255,0)"
+        }
+    }, {
+        "selector" : "edge",
+        "css" : {
+            "line-style" : "solid",
+            "line-color" : "rgb(102,102,102)",
+            "color" : "rgb(0,0,0)",
+            "font-family" : "SansSerif",
+            "font-weight" : "normal",
+            "opacity" : .8,
+            "font-size" : 30,
+            "width" : 1.0,
+            "text-opacity" : 1.0,
+            "content" : "",
+            "source-arrow-color" : "rgb(0,0,0)",
+            "source-arrow-shape" : "none",
+            "target-arrow-shape" : "none",
+            "target-arrow-color" : "rgb(0,0,0)"
+        }
+    }, {
+        "selector" : "edge[Weight > 95]",
+        "css" : {
+            "width" : 1.0
+        }
+    }, {
+        "selector" : "edge[Weight = 95]",
+        "css" : {
+            "width" : 26.165413533834588
+        }
+    }, {
+        "selector" : "edge[Weight > 5][Weight < 95]",
+        "css" : {
+            "width" : "mapData(Weight,5,95,2.481203007518797,26.165413533834588)"
+        }
+    }, {
+        "selector" : "edge[Weight = 5]",
+        "css" : {
+            "width" : 2.481203007518797
+        }
+    }, {
+        "selector" : "edge[Weight < 5]",
+        "css" : {
+            "width" : 1.0
+        }
+    }, {
+        "selector" : "edge:selected",
+        "css" : {
+            "line-color" : "rgb(255,0,0)"
+        }
+    } ]);
     cy.fit();
 });
 $("#change-concentric-network").on('click',function(){
@@ -5557,6 +5631,86 @@ $("#change-concentric-network").on('click',function(){
             "selected" : false
         } ]
     });
+    var layout = cy.layout({
+        name: 'concentric'
+    });
+    layout.run();
+    cy.style(
+        [ {
+            "selector" : "node",
+            "css" : {
+                "border-opacity" : 1.0,
+                "font-family" : "SansSerif",
+                "font-weight" : "normal",
+                "text-opacity" : 1.0,
+                "border-color" : "rgb(0,0,0)",
+                "text-valign" : "bottom",
+                "text-halign" : "right",
+                "background-color" : "rgb(0,0,0)",
+                "width" : 20.0,
+                "shape" : "ellipse",
+                "background-opacity" : 1.0,
+                "height" : 20.0,
+                "color" : "black",
+                "border-width" : 0.0,
+                "font-size" : 15,
+                "content" : "data(name)"
+            }
+        }, {
+            "selector" : "node:selected",
+            "css" : {
+                "background-color" : "rgb(255,255,0)"
+            }
+        }, {
+            "selector" : "edge",
+            "css" : {
+                "font-size" : 15,
+                "opacity" : 1.0,
+                "target-arrow-color" : "rgb(0,0,0)",
+                "target-arrow-shape" : "none",
+                "color" : "black",
+                "source-arrow-shape" : "none",
+                "content" : "",
+                "line-color" : "rgb(102,102,102)",
+                "line-style" : "solid",
+                "width" : 1.0,
+                "text-opacity" : 1.0,
+                "source-arrow-color" : "rgb(0,0,0)",
+                "font-family" : "SansSerif",
+                "font-weight" : "normal"
+            }
+        }, {
+            "selector" : "edge[Weight > 662]",
+            "css" : {
+                "width" : 1.0
+            }
+        }, {
+            "selector" : "edge[Weight = 662]",
+            "css" : {
+                "width" : 14.01049222444233
+            }
+        }, {
+            "selector" : "edge[Weight > 5][Weight < 662]",
+            "css" : {
+                "width" : "mapData(Weight,5,662,2.481203007518797,14.01049222444233)"
+            }
+        }, {
+            "selector" : "edge[Weight = 5]",
+            "css" : {
+                "width" : 2.481203007518797
+            }
+        }, {
+            "selector" : "edge[Weight < 5]",
+            "css" : {
+                "width" : 1.0
+            }
+        }, {
+            "selector" : "edge:selected",
+            "css" : {
+                "line-color" : "rgb(255,0,0)"
+            }
+        } ]
+    );
     cy.fit();
 });
 var cy = cytoscape({
@@ -7002,7 +7156,7 @@ var cy = cytoscape({
             "height" : 20.0,
             "color" : "black",
             "border-width" : 0.0,
-            "font-size" : 8,
+            "font-size" : 15,
             "content" : "data(name)"
         }
     }, {
@@ -7013,7 +7167,7 @@ var cy = cytoscape({
     }, {
         "selector" : "edge",
         "css" : {
-            "font-size" : 10,
+            "font-size" : 15,
             "opacity" : 1.0,
             "target-arrow-color" : "rgb(0,0,0)",
             "target-arrow-shape" : "none",
