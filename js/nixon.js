@@ -1,5 +1,9 @@
 //global tracking variable
-var current = 1;
+var current = 0;
+var cell_names = ["Introduction","Conversation Analysis","Topic Modeling","Timeline of Events",
+                  "Nixon's Inner Circle","Conversation Influences", "The Bombings",
+                  "About Key Figures","Conclusion"];
+var cell_id = ['one','two','three','four','five','six','seven','eight','nine'];
 
 
 //arrow building functions
@@ -12,7 +16,8 @@ function arrow_down(){
     img.style.cursor = 'pointer';
     img.src = 'images/arrows/down.png';
     img.addEventListener("click", down_click);
-
+    img.style.opacity = '0.5';
+    img.style.zIndex = '10';
     
     return img;
 }  
@@ -26,6 +31,8 @@ function arrow_up(){
     img.style.cursor = 'pointer';
     img.src = 'images/arrows/up.png';
     img.addEventListener("click", up_click);
+    img.style.opacity = '0.5';
+    img.style.zIndex = '10';
     
     return img;
 }  
@@ -39,6 +46,8 @@ function arrow_right(){
     img.style.cursor = 'pointer';
     img.src = 'images/arrows/right.png';
     img.addEventListener("click", right_click);
+    img.style.opacity = '0.5';
+    img.style.zIndex = '10';
     
     return img;
 }   
@@ -52,6 +61,8 @@ function arrow_left(){
     img.style.cursor = 'pointer';
     img.src = 'images/arrows/left.png';
     img.addEventListener("click", left_click);
+    img.style.opacity = '0.5';
+    img.style.zIndex = '10';
     
     return img;
 }    
@@ -64,6 +75,8 @@ function arrow_down_left(){
     img.style.cursor = 'pointer';
     img.src = 'images/arrows/down_left.png';
     img.addEventListener("click", down_left_click);
+    img.style.opacity = '0.5';
+    img.style.zIndex = '10';
     
     return img;
 }  
@@ -77,6 +90,8 @@ function arrow_down_right(){
     img.style.cursor = 'pointer';
     img.src = 'images/arrows/down_right.png';
     img.addEventListener("click", down_right_click);
+    img.style.opacity = '0.5';
+    img.style.zIndex = '10';
     
     return img;
 }  
@@ -90,6 +105,8 @@ function arrow_up_right(){
     img.style.cursor = 'pointer';
     img.src = 'images/arrows/up_right.png';
     img.addEventListener("click", up_right_click);
+    img.style.opacity = '0.5';
+    img.style.zIndex = '10';
     
     return img;
 }   
@@ -103,6 +120,8 @@ function arrow_up_left(){
     img.style.cursor = 'pointer';
     img.src = 'images/arrows/up_left.png';
     img.addEventListener("click", up_left_click);
+    img.style.opacity = '0.5';
+    img.style.zIndex = '10';
     
     return img;
 }    
@@ -164,6 +183,116 @@ $(document).ready(function(){
     
 
     console.log(tracking_array);
+    
+    $("img").on("mouseleave", function(e){
+        $('#temp').fadeTo(200, 0.5);
+        $('#temp').attr("id", "");
+        $('.arrow_name').fadeOut(200, function(e){
+                $('.arrow_name').remove();                
+            }
+        );
+    });
+    
+    $("img").on("mouseenter", function(e){
+        var p = document.createElement('p');
+        p.className = 'arrow_name';
+        p.style.display = 'none';
+        p.style.position = 'absolute';
+        p.style.width = '93vw';
+        p.style.zIndex = '5';
+        p.style.color = '#d3d3d3';
+        p.style.fontFamily = 'Courier';
+        switch(e.target.className) {
+            case 'arrow_down':
+                var t = document.createTextNode(cell_names[current+3]);
+                $(this).attr("id", "temp");
+                p.style.left = '0%';
+                p.style.textAlign = 'center';
+                p.style.bottom = '8%';
+                p.appendChild(t);
+                document.getElementById(cell_id[current]).appendChild(p);
+                $('.arrow_name').fadeIn(200);
+                $(this).fadeTo(200, 1);
+                break;
+            case 'arrow_up':
+                var t = document.createTextNode(cell_names[current-3]);
+                $(this).attr("id", "temp");
+                p.style.left = '0%';
+                p.style.textAlign = 'center';
+                p.style.top = '8%';
+                p.appendChild(t);
+                document.getElementById(cell_id[current]).appendChild(p);
+                $('.arrow_name').fadeIn(200);
+                $(this).fadeTo(200, 1);
+                break;
+            case 'arrow_left':
+                var t = document.createTextNode(cell_names[current-1]);
+                $(this).attr("id", "temp");
+                p.style.left = '4%';
+                p.style.textAlign = 'left';
+                p.style.bottom = '55%';
+                p.appendChild(t);
+                document.getElementById(cell_id[current]).appendChild(p);
+                $('.arrow_name').fadeIn(200);
+                $(this).fadeTo(200, 1);
+                break;
+            case 'arrow_right':
+                var t = document.createTextNode(cell_names[current+1]);
+                $(this).attr("id", "temp");
+                p.style.left = '4%';
+                p.style.textAlign = 'right';
+                p.style.bottom = '55%';
+                p.appendChild(t);
+                document.getElementById(cell_id[current]).appendChild(p);
+                $('.arrow_name').fadeIn(200);
+                $(this).fadeTo(200, 1);
+                break;
+            case 'arrow_down_right':
+                var t = document.createTextNode(cell_names[current+4]);
+                $(this).attr("id", "temp");
+                p.style.left = '4%';
+                p.style.textAlign = 'right';
+                p.style.bottom = '3%';
+                p.appendChild(t);
+                document.getElementById(cell_id[current]).appendChild(p);
+                $('.arrow_name').fadeIn(200);
+                $(this).fadeTo(200, 1);
+                break;
+            case 'arrow_down_left':
+                var t = document.createTextNode(cell_names[current+2]);
+                $(this).attr("id", "temp");
+                p.style.left = '3%';
+                p.style.textAlign = 'left';
+                p.style.bottom = '3%';
+                p.appendChild(t);
+                document.getElementById(cell_id[current]).appendChild(p);
+                $('.arrow_name').fadeIn(200);
+                $(this).fadeTo(200, 1);
+                break;
+            case 'arrow_up_right':
+                var t = document.createTextNode(cell_names[current-2]);
+                $(this).attr("id", "temp");
+                p.style.left = '3%';
+                p.style.textAlign = 'right';
+                p.style.top = '3%';
+                p.appendChild(t);
+                document.getElementById(cell_id[current]).appendChild(p);
+                $('.arrow_name').fadeIn(200);
+                $(this).fadeTo(200, 1);
+                break;
+            case 'arrow_up_left':
+                var t = document.createTextNode(cell_names[current-4]);
+                $(this).attr("id", "temp");
+                p.style.left = '3%';
+                p.style.textAlign = 'left';
+                p.style.top = '3%';
+                p.appendChild(t);
+                document.getElementById(cell_id[current]).appendChild(p);
+                $('.arrow_name').fadeIn(200);
+                $(this).fadeTo(200, 1);
+                break;
+        }
+    });
     
 });
 
@@ -255,7 +384,7 @@ function up_right_click(){
 
 function audio_check(x){
     console.log(current_height);
-    if (x == 4){
+    if (x == 3){
         var tag = document.getElementById('audio');
         tag.setAttribute("src", '1.mp3');
         tag.load();       

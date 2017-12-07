@@ -32,7 +32,6 @@ ol{
 #one{
     background:black;
     color:white;
-    font-family:Courier;
 }
 #one h1{
     position:absolute;
@@ -40,8 +39,16 @@ ol{
     left:2%;
 }
 #one p{
-    padding-top:7%;
-    font-size:2.5vh;
+    left:3%;
+    font-size:2.6vh;
+    font-family:Georgia;
+}
+#first_p:first-letter {
+	font-size:10vh;
+	padding:0 .1em 0 0;
+	height:.7em;
+	line-height:.85em;
+	float:left;
 }
 #title_image{
     z-index:-1;
@@ -63,6 +70,7 @@ ol{
     height:100%;
     z-index:0;
 }
+
 #timeline{
     overflow-y:scroll;
     overflow-x:hidden;
@@ -131,7 +139,8 @@ ol{
     cursor:pointer;
 }
 #five{   
-    background:white;
+    background:black;
+    color:white;
 }
 #six{   
     background:blue; 
