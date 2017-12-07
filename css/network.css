@@ -1,7 +1,14 @@
-#cy {
-    width: 90%;
-    height: 90%;
+#change-concentric-network, #change-twomode-network {
+    position:relative;
+    z-index:100;
+}
+#cy{
+    width: 80vw;
+    height: 60vh;
     position: absolute;
-    top: 10%;
-    left: 0px;
+    top: 25vh;
+    left: 10vw;
+    z-index:200;
+    background-color:#bdc3c7;
+    border:solid 5px #7f8c8d;
 }
