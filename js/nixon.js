@@ -230,7 +230,7 @@ $(document).ready(function(){
                 $(this).attr("id", "temp");
                 p.style.left = '4%';
                 p.style.textAlign = 'left';
-                p.style.bottom = '55%';
+                p.style.bottom = '54%';
                 p.appendChild(t);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
@@ -241,7 +241,7 @@ $(document).ready(function(){
                 $(this).attr("id", "temp");
                 p.style.left = '4%';
                 p.style.textAlign = 'right';
-                p.style.bottom = '55%';
+                p.style.bottom = '54%';
                 p.appendChild(t);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
