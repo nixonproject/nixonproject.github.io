@@ -32,6 +32,7 @@ ol{
 #one{
     background:black;
     color:white;
+    overflow:scroll;
 }
 #one h1{
     position:absolute;
@@ -40,7 +41,7 @@ ol{
 }
 #one p{
     left:3%;
-    font-size:2.6vh;
+    font-size:2.4vh;
     font-family:Georgia;
 }
 #first_p:first-letter {
@@ -69,6 +70,14 @@ ol{
     width:100%;
     height:100%;
     z-index:0;
+}
+#map_tint{
+    position:absolute;
+    top:100%;
+    left:0%;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.3);
 }
 #timeline{
     overflow-y:scroll;
