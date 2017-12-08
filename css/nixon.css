@@ -58,15 +58,17 @@ ol{
     left:-20%;
     z-index:-1;
     max-height:100%;
-    
+
 }
-#two{ 
+
+#two{
     background: linear-gradient(to right, black, #4E4E4E);
 }
-#three{  
-    background:#4E4E4E; 
+
+#three{
+    background:#4E4E4E;
 }
-#four{   
+#four{
     background:rgba(0,0,0,0);
 }
 #map-canvas{
@@ -152,7 +154,7 @@ ol{
     width:5%;
     cursor:pointer;
 }
-#five{   
+#five{
     color: white;
     background: linear-gradient(to right, black, #4E4E4E);
 }
@@ -163,32 +165,44 @@ ol{
     font-family:spectral sans-serif;
 }
 #five .info{
-    position:relative;
-    z-index:200;
-    height:100vh;
-    width:80vw;
-    display:none;
-    margin:auto;
+    position: absolute;
+    height: 65vh;
+    width: 25vw;
+    display: none;
+    right: 5vw;
+    margin-top: 5vh;
+    overflow-y: scroll;
+    font-size:20px;
 }
-#five #nixon-network{
-    height:10vh;
-}
+#five .active{display:block;}
+#five .active.button{background-color:#95a5a6;}
 #five canvas{
     left:0 !important;
 }
 #five .button{
-    position:relative;
-    z-index:500;
+    position:absolute;
+    font-size:12px;
+    padding: 5px 2px 5px 2px;
+    background-color:#ecf0f1;
+    color:black;
+    display:inline-block;
+    cursor:pointer;
+    width:11vw;
 }
-#six{  
+#five #change-concentric-network{right:5vw;}
+#five #change-twomode-network{right:18vw;}
+
+
+#six{
     background:#4E4E4E;
 }
-#seven{  
+#seven{
 }
-#eight{   
+
+#eight{
     background: linear-gradient(to right, black, #4E4E4E);
 }
-#nine{   
+#nine{
     background:#4E4E4E;
 }
 .row_one{
