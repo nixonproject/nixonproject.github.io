@@ -17,8 +17,7 @@
             var lon = [27.1959739, 38.8977, 36.0544];
             var lat = [78.02423269999997, 77.0365, 112.1401];
             $(document).ready(function() {
-                alert(window.innerWidth);
-                if (window.innerWidth < 800){
+                if (typeof window.orientation !== 'undefined') {
                     $('html').hide();
                     alert('Please load this website on a larger screen');
                 }
