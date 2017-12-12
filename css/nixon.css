@@ -64,6 +64,8 @@ ol{
 #two{
     background: linear-gradient(to right, black, #4E4E4E);
 }
+#two #chart {width:60vw;height:60vh;margin:15px 15px 15px 6vw;}
+#two svg{background-color:lightgrey; padding:10px; border:solid 4px darkgray;}
 
 #three{
     background:#4E4E4E;
@@ -192,7 +194,6 @@ ol{
 #five #change-concentric-network{right:5vw;}
 #five #change-twomode-network{right:18vw;}
 
-
 #six{
     background:#4E4E4E;
 }
@@ -229,3 +230,4 @@ ol{
     position:absolute;
     left:200%;
 }
+
