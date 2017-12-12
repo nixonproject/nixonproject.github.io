@@ -28,7 +28,7 @@
                     '3.mp3'
                 ];
 
-                $(window).on("mousewheel", function(e){
+                $("#four").on("mousewheel", function(e){
                     e.preventDefault();
                 });
                 $('.t_down').click(function() {
@@ -278,15 +278,13 @@
         </div>
         <!--Network Graph-->
         <div id="five" class="square row_two column_two diag_rt_top diag_rt_bot diag_lt_top diag_lt_bot">
-            <h1>Nixon's Inner Circle</h1>
+            <h1>Nixon's Network</h1>
             <div id="cy"></div>
             <div id="network-control">
-                <button id="change-twomode-network">Vietnam Network </button>
-                <button id="change-concentric-network">Nixon's Circle</button>
+                <div id="change-twomode-network" class="button" onclick="switchNetworkTab('nixon-network','convo-network')">Vietnam Network</div>
+                <div id="change-concentric-network" class="button active" onclick="switchNetworkTab('convo-network','nixon-network')">Nixon's Circle</div>
             </div>
-
-            <div class="info" id="nixon-network">
-                <h1>Network Analysis Pt. 1</h1>
+            <div class="info active" id="nixon-network" >
                 <p>
                     In this Nixon-centric network analysis, records of conversations used from October 12th,
                     1972 to December 15th, 1972 are arranged into a one-mode network. These key dates were
@@ -298,7 +296,8 @@
                     in the dataset, parameters were set for a minimum amount of conversations with Nixon, to
                     ensure a manageable and legible network. For this reason, each edge has a minimum weight
                     of five conversations with Nixon.
-                </p><br/>
+                </p>
+                <br/>
                 <p>
                     Through the creation of this network, we were able to see that Stephen B. Bull, H.R. Haldeman,
                     Alexander Butterfield, and Henry Kissinger were the persons with the most weight during this
@@ -312,7 +311,6 @@
                 </p>
             </div>
             <div class="info" id="convo-network">
-                <h1>Network Analysis Pt. 2</h1>
                 <p>
                     This bimodal network analysis uses edges to denote connections between key figures,
                     with each node having been present in conversation(s) together. Because of the
@@ -409,6 +407,7 @@
         <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
         <script src="js/cytoscape.min.js" type="text/javascript"></script>
         <script src="js/network.js" type="text/javascript"></script>
+        <script src="js/network-script.js" type="text/javascript"></script>
     </body>
 
 </html>
