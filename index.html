@@ -133,25 +133,30 @@
 
         <div id="two" class="square row_one column_two diag_rt_bot diag_lt_bot">
             <h1>Conversation Analysis</h1>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="#" onclick="drawWordCloud(1)">Topic 1</a>
-                    <a href="#" onclick="drawWordCloud(2)">Topic 2</a>
-                    <a href="#" onclick="drawWordCloud(3)">Topic 3</a>
-                    <a href="#" onclick="drawWordCloud(4)">Topic 4</a>
-                    <a href="#" onclick="drawWordCloud(5)">Topic 5</a>
-                    <a href="#" onclick="drawWordCloud(6)">Topic 6</a>
-                    <a href="#" onclick="drawWordCloud(7)">Topic 7</a>
-                    <a href="#" onclick="drawWordCloud(8)">Topic 8</a>
-                    <a href="#" onclick="drawWordCloud(9)">Topic 9</a>
-                    <a href="#" onclick="drawWordCloud(10)">Topic 20</a>
-                </div>
-                <svg></svg>
-            </div>
 
             <div id="chart">
                 <h3 id="topic"></h3>
+            </div>
+            <div id="description">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Change Topic</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#" onclick="drawWordCloud(1)">Topic 1</a>
+                        <a href="#" onclick="drawWordCloud(2)">Topic 2</a>
+                        <a href="#" onclick="drawWordCloud(3)">Topic 3</a>
+                        <a href="#" onclick="drawWordCloud(4)">Topic 4</a>
+                        <a href="#" onclick="drawWordCloud(5)">Topic 5</a>
+                        <a href="#" onclick="drawWordCloud(6)">Topic 6</a>
+                        <a href="#" onclick="drawWordCloud(7)">Topic 7</a>
+                        <a href="#" onclick="drawWordCloud(8)">Topic 8</a>
+                        <a href="#" onclick="drawWordCloud(9)">Topic 9</a>
+                        <a href="#" onclick="drawWordCloud(10)">Topic 20</a>
+                    </div>
+                    <svg></svg>
+                </div>
+                <div id="text">
+
+                </div>
             </div>
         </div>
 

@@ -66,6 +66,13 @@ ol{
 }
 #two #chart {width:60vw;height:60vh;margin:15px 15px 15px 6vw;}
 #two svg{background-color:lightgrey; padding:10px; border:solid 4px darkgray;}
+#two #description{
+    width:25vw;
+    height:65vh;
+    position:absolute;
+    right:5vw;
+    top:25vh;
+}
 
 #three{
     background:#4E4E4E;
