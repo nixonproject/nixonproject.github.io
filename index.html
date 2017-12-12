@@ -12,15 +12,14 @@
         <link rel="stylesheet" type="text/css" href="css/nixon.css">
         <link href="css/network.css" rel="stylesheet"/>
         <script>
+            if (typeof window.orientation !== 'undefined') {
+                window.location.replace("404.html");
+            }
             var current_height = 0;
             var timeline_pos = 0;
             var lon = [27.1959739, 38.8977, 36.0544];
             var lat = [78.02423269999997, 77.0365, 112.1401];
             $(document).ready(function() {
-                if (typeof window.orientation !== 'undefined') {
-                    $('html').hide();
-                    alert('Please load this website on a larger screen');
-                }
                 
                 
                 var audios = [
