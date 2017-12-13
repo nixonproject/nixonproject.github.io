@@ -1,0 +1,2106 @@
+{
+  "topics": {
+    "topic": [
+      {
+        "-id": "0",
+        "-alpha": "0.5",
+        "-totalTokens": "1545",
+        "-titles": "day, settle, put, accept, hanoi, gave, issue, november, commission, accepted",
+        "word": [
+          {
+            "-weight": "0.02459546925566343",
+            "-count": "38",
+            "#text": "day"
+          },
+          {
+            "-weight": "0.020711974110032363",
+            "-count": "32",
+            "#text": "settle"
+          },
+          {
+            "-weight": "0.017475728155339806",
+            "-count": "27",
+            "#text": "put"
+          },
+          {
+            "-weight": "0.016828478964401296",
+            "-count": "26",
+            "#text": "accept"
+          },
+          {
+            "-weight": "0.016181229773462782",
+            "-count": "25",
+            "#text": "hanoi"
+          },
+          {
+            "-weight": "0.01423948220064725",
+            "-count": "22",
+            "#text": "gave"
+          },
+          {
+            "-weight": "0.013592233009708738",
+            "-count": "21",
+            "#text": "issue"
+          },
+          {
+            "-weight": "0.012297734627831715",
+            "-count": "19",
+            "#text": "november"
+          },
+          {
+            "-weight": "0.011650485436893204",
+            "-count": "18",
+            "#text": "commission"
+          },
+          {
+            "-weight": "0.011650485436893204",
+            "-count": "18",
+            "#text": "accepted"
+          },
+          {
+            "-weight": "0.011650485436893204",
+            "-count": "18",
+            "#text": "week"
+          },
+          {
+            "-weight": "0.011003236245954692",
+            "-count": "17",
+            "#text": "agreement"
+          },
+          {
+            "-weight": "0.011003236245954692",
+            "-count": "17",
+            "#text": "wanted"
+          },
+          {
+            "-weight": "0.010355987055016181",
+            "-count": "16",
+            "#text": "international"
+          },
+          {
+            "-weight": "0.010355987055016181",
+            "-count": "16",
+            "#text": "concessions"
+          },
+          {
+            "-weight": "0.010355987055016181",
+            "-count": "16",
+            "#text": "concession"
+          },
+          {
+            "-weight": "0.009708737864077669",
+            "-count": "15",
+            "#text": "monday"
+          },
+          {
+            "-weight": "0.009061488673139158",
+            "-count": "14",
+            "#text": "text"
+          },
+          {
+            "-weight": "0.009061488673139158",
+            "-count": "14",
+            "#text": "language"
+          },
+          {
+            "-weight": "0.009061488673139158",
+            "-count": "14",
+            "#text": "sullivan"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "future deadline"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "put sullivan's"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "settling quickly"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "cold-blooded analysis"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "preamble sign"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "reasons reasons"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "accept supervise"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "sabotage settle"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "figure cept tentatively accepted day dmz proposal gave week"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "communications transportation"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "sunday language"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "asked recess"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "rooms assholes rooms"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "word supervise text circulating"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "christmas truce proposal"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "concession played"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "week assurance"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "wanted issue"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "tuesday language agreement unresolved"
+          },
+          {
+            "-weight": "0.006622516556291391",
+            "-count": "2",
+            "#text": "guise language immediately introduced"
+          }
+        ]
+      },
+      {
+        "-id": "1",
+        "-alpha": "0.5",
+        "-totalTokens": "2556",
+        "-titles": "point, henry, thieu, hanoi, problem, deal, north, agree, military, bombing",
+        "word": [
+          {
+            "-weight": "0.03560250391236307",
+            "-count": "91",
+            "#text": "point"
+          },
+          {
+            "-weight": "0.035211267605633804",
+            "-count": "90",
+            "#text": "henry"
+          },
+          {
+            "-weight": "0.027777777777777776",
+            "-count": "71",
+            "#text": "thieu"
+          },
+          {
+            "-weight": "0.026604068857589983",
+            "-count": "68",
+            "#text": "hanoi"
+          },
+          {
+            "-weight": "0.023082942097026604",
+            "-count": "59",
+            "#text": "problem"
+          },
+          {
+            "-weight": "0.02034428794992175",
+            "-count": "52",
+            "#text": "deal"
+          },
+          {
+            "-weight": "0.017996870109546165",
+            "-count": "46",
+            "#text": "north"
+          },
+          {
+            "-weight": "0.017605633802816902",
+            "-count": "45",
+            "#text": "agree"
+          },
+          {
+            "-weight": "0.017605633802816902",
+            "-count": "45",
+            "#text": "military"
+          },
+          {
+            "-weight": "0.017214397496087636",
+            "-count": "44",
+            "#text": "bombing"
+          },
+          {
+            "-weight": "0.01643192488262911",
+            "-count": "42",
+            "#text": "people"
+          },
+          {
+            "-weight": "0.01643192488262911",
+            "-count": "42",
+            "#text": "talk"
+          },
+          {
+            "-weight": "0.01643192488262911",
+            "-count": "42",
+            "#text": "end"
+          },
+          {
+            "-weight": "0.01486697965571205",
+            "-count": "38",
+            "#text": "time"
+          },
+          {
+            "-weight": "0.01486697965571205",
+            "-count": "38",
+            "#text": "settle"
+          },
+          {
+            "-weight": "0.013693270735524257",
+            "-count": "35",
+            "#text": "vietnam"
+          },
+          {
+            "-weight": "0.013693270735524257",
+            "-count": "35",
+            "#text": "work"
+          },
+          {
+            "-weight": "0.013693270735524257",
+            "-count": "35",
+            "#text": "put"
+          },
+          {
+            "-weight": "0.013693270735524257",
+            "-count": "35",
+            "#text": "play"
+          },
+          {
+            "-weight": "0.012910798122065728",
+            "-count": "33",
+            "#text": "south"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.020134228187919462",
+            "-count": "6",
+            "#text": "north vietnamese"
+          },
+          {
+            "-weight": "0.013422818791946308",
+            "-count": "4",
+            "#text": "making deal"
+          },
+          {
+            "-weight": "0.010067114093959731",
+            "-count": "3",
+            "#text": "morn ing"
+          },
+          {
+            "-weight": "0.010067114093959731",
+            "-count": "3",
+            "#text": "talk henry"
+          },
+          {
+            "-weight": "0.010067114093959731",
+            "-count": "3",
+            "#text": "point point"
+          },
+          {
+            "-weight": "0.010067114093959731",
+            "-count": "3",
+            "#text": "hanoi thieu"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "talk thinking"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "ended war american"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "helping words cards ther bombing fore end sad part south vietnam leadership thieu horse diem"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "week deal"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "point henry thinking"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "south vietnam"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "agree agree chuckles"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "week leery approach"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "responsibility impact twelve fifteen call lay talk"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "problem cease-fire"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "military effect great military great"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "main end war"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "people fight"
+          },
+          {
+            "-weight": "0.006711409395973154",
+            "-count": "2",
+            "#text": "view view"
+          }
+        ]
+      },
+      {
+        "-id": "2",
+        "-alpha": "0.5",
+        "-totalTokens": "1226",
+        "-titles": "saigon, time, fact, agreed, dobrynin, hanoi, message, government, hand, xon",
+        "word": [
+          {
+            "-weight": "0.03588907014681892",
+            "-count": "44",
+            "#text": "saigon"
+          },
+          {
+            "-weight": "0.020391517128874388",
+            "-count": "25",
+            "#text": "time"
+          },
+          {
+            "-weight": "0.01794453507340946",
+            "-count": "22",
+            "#text": "fact"
+          },
+          {
+            "-weight": "0.017128874388254486",
+            "-count": "21",
+            "#text": "agreed"
+          },
+          {
+            "-weight": "0.01468189233278956",
+            "-count": "18",
+            "#text": "dobrynin"
+          },
+          {
+            "-weight": "0.01468189233278956",
+            "-count": "18",
+            "#text": "hanoi"
+          },
+          {
+            "-weight": "0.013866231647634585",
+            "-count": "17",
+            "#text": "message"
+          },
+          {
+            "-weight": "0.013050570962479609",
+            "-count": "16",
+            "#text": "government"
+          },
+          {
+            "-weight": "0.013050570962479609",
+            "-count": "16",
+            "#text": "hand"
+          },
+          {
+            "-weight": "0.013050570962479609",
+            "-count": "16",
+            "#text": "xon"
+          },
+          {
+            "-weight": "0.013050570962479609",
+            "-count": "16",
+            "#text": "issues"
+          },
+          {
+            "-weight": "0.013050570962479609",
+            "-count": "16",
+            "#text": "south"
+          },
+          {
+            "-weight": "0.013050570962479609",
+            "-count": "16",
+            "#text": "press"
+          },
+          {
+            "-weight": "0.011419249592169658",
+            "-count": "14",
+            "#text": "we'd"
+          },
+          {
+            "-weight": "0.011419249592169658",
+            "-count": "14",
+            "#text": "chinese"
+          },
+          {
+            "-weight": "0.011419249592169658",
+            "-count": "14",
+            "#text": "civilian"
+          },
+          {
+            "-weight": "0.010603588907014683",
+            "-count": "13",
+            "#text": "broken"
+          },
+          {
+            "-weight": "0.010603588907014683",
+            "-count": "13",
+            "#text": "people"
+          },
+          {
+            "-weight": "0.010603588907014683",
+            "-count": "13",
+            "#text": "understand"
+          },
+          {
+            "-weight": "0.009787928221859706",
+            "-count": "12",
+            "#text": "paris"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.015789473684210527",
+            "-count": "3",
+            "#text": "stick agreed"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "leaked enemy"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "people accomplished nixon tapes"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "hurt big chinese"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "leave understandings hand"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "civilian personnel buy"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "hurt big"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "tomorrow afternoon paris time"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "we'd wind"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "governmental institution"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "bring brought retyped read easily"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "broken word regard publicity"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "message read"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "administrative structure"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "assumption fact"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "refer past speeches"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "leak press incredible"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "penh hanoi"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "finished brought"
+          },
+          {
+            "-weight": "0.010526315789473684",
+            "-count": "2",
+            "#text": "issues correct"
+          }
+        ]
+      },
+      {
+        "-id": "3",
+        "-alpha": "0.5",
+        "-totalTokens": "1735",
+        "-titles": "unclear, president, thieu, question, wrong, meeting, duc, october, saturday, left",
+        "word": [
+          {
+            "-weight": "0.06685878962536022",
+            "-count": "116",
+            "#text": "unclear"
+          },
+          {
+            "-weight": "0.02478386167146974",
+            "-count": "43",
+            "#text": "president"
+          },
+          {
+            "-weight": "0.02363112391930836",
+            "-count": "41",
+            "#text": "thieu"
+          },
+          {
+            "-weight": "0.018443804034582133",
+            "-count": "32",
+            "#text": "question"
+          },
+          {
+            "-weight": "0.018443804034582133",
+            "-count": "32",
+            "#text": "wrong"
+          },
+          {
+            "-weight": "0.017867435158501442",
+            "-count": "31",
+            "#text": "meeting"
+          },
+          {
+            "-weight": "0.017867435158501442",
+            "-count": "31",
+            "#text": "duc"
+          },
+          {
+            "-weight": "0.017867435158501442",
+            "-count": "31",
+            "#text": "october"
+          },
+          {
+            "-weight": "0.01440922190201729",
+            "-count": "25",
+            "#text": "saturday"
+          },
+          {
+            "-weight": "0.0138328530259366",
+            "-count": "24",
+            "#text": "left"
+          },
+          {
+            "-weight": "0.013256484149855908",
+            "-count": "23",
+            "#text": "lost"
+          },
+          {
+            "-weight": "0.013256484149855908",
+            "-count": "23",
+            "#text": "morning"
+          },
+          {
+            "-weight": "0.012680115273775217",
+            "-count": "22",
+            "#text": "election"
+          },
+          {
+            "-weight": "0.012680115273775217",
+            "-count": "22",
+            "#text": "yesterday"
+          },
+          {
+            "-weight": "0.01095100864553314",
+            "-count": "19",
+            "#text": "peace"
+          },
+          {
+            "-weight": "0.01037463976945245",
+            "-count": "18",
+            "#text": "difference"
+          },
+          {
+            "-weight": "0.01037463976945245",
+            "-count": "18",
+            "#text": "hmm"
+          },
+          {
+            "-weight": "0.009798270893371758",
+            "-count": "17",
+            "#text": "longer"
+          },
+          {
+            "-weight": "0.009798270893371758",
+            "-count": "17",
+            "#text": "chance"
+          },
+          {
+            "-weight": "0.009221902017291067",
+            "-count": "16",
+            "#text": "percent"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.027522935779816515",
+            "-count": "6",
+            "#text": "sons bitches"
+          },
+          {
+            "-weight": "0.027522935779816515",
+            "-count": "6",
+            "#text": "unclear unclear"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "fifty thousand"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "lived real"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "communists place"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "sessions duc reported"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "difference demand"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "percent chance ahead"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "settlement incentive"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "worst question"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "technical meeting"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "cambodian supply"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "peace wild hmm hmm"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "restrictions gamble"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "helped president's"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "unclear president stood"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "speech april announcement cambodian"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "laos taking"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "times how's"
+          },
+          {
+            "-weight": "0.009174311926605505",
+            "-count": "2",
+            "#text": "hard low-key"
+          }
+        ]
+      },
+      {
+        "-id": "4",
+        "-alpha": "0.5",
+        "-totalTokens": "891",
+        "-titles": "unclear, thieu, agree, cease-fire, aid, national, president, agreement, honor, council",
+        "word": [
+          {
+            "-weight": "0.04826038159371493",
+            "-count": "43",
+            "#text": "unclear"
+          },
+          {
+            "-weight": "0.029180695847362513",
+            "-count": "26",
+            "#text": "thieu"
+          },
+          {
+            "-weight": "0.020202020202020204",
+            "-count": "18",
+            "#text": "agree"
+          },
+          {
+            "-weight": "0.020202020202020204",
+            "-count": "18",
+            "#text": "cease-fire"
+          },
+          {
+            "-weight": "0.017957351290684626",
+            "-count": "16",
+            "#text": "aid"
+          },
+          {
+            "-weight": "0.017957351290684626",
+            "-count": "16",
+            "#text": "national"
+          },
+          {
+            "-weight": "0.017957351290684626",
+            "-count": "16",
+            "#text": "president"
+          },
+          {
+            "-weight": "0.016835016835016835",
+            "-count": "15",
+            "#text": "agreement"
+          },
+          {
+            "-weight": "0.015712682379349047",
+            "-count": "14",
+            "#text": "honor"
+          },
+          {
+            "-weight": "0.015712682379349047",
+            "-count": "14",
+            "#text": "council"
+          },
+          {
+            "-weight": "0.015712682379349047",
+            "-count": "14",
+            "#text": "months"
+          },
+          {
+            "-weight": "0.015712682379349047",
+            "-count": "14",
+            "#text": "united"
+          },
+          {
+            "-weight": "0.01122334455667789",
+            "-count": "10",
+            "#text": "reparations"
+          },
+          {
+            "-weight": "0.01122334455667789",
+            "-count": "10",
+            "#text": "points"
+          },
+          {
+            "-weight": "0.01122334455667789",
+            "-count": "10",
+            "#text": "continue"
+          },
+          {
+            "-weight": "0.010101010101010102",
+            "-count": "9",
+            "#text": "china"
+          },
+          {
+            "-weight": "0.008978675645342313",
+            "-count": "8",
+            "#text": "usher"
+          },
+          {
+            "-weight": "0.008978675645342313",
+            "-count": "8",
+            "#text": "bastards"
+          },
+          {
+            "-weight": "0.008978675645342313",
+            "-count": "8",
+            "#text": "aboard"
+          },
+          {
+            "-weight": "0.008978675645342313",
+            "-count": "8",
+            "#text": "clear"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "aid communists compromises morality compromises"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "unclear exchange"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "tough points insolu ble"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "cease-fire seated"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "honor saving unclear honor"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "thirtieth thirty-first"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "gress convene january"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "george meany"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "unclear thieu beating"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "unclear discussed winning"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "moderates fall foaming mouth swearing tough unclear"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "playing reparations united states expects agreement usher"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "side deals setting called national council national reconciliation concord"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "afraid nuke hang"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "usher era reconciliation democratic republic"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "rest agreed"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "committed rebuilding"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "victor reparations reparations reparations read clause guarantee observe agreement panting"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "affairs usher usher"
+          },
+          {
+            "-weight": "0.0136986301369863",
+            "-count": "2",
+            "#text": "support reconstruction aid"
+          }
+        ]
+      },
+      {
+        "-id": "5",
+        "-alpha": "0.5",
+        "-totalTokens": "613",
+        "-titles": "election, south, vietnam, deal, prisoners, collapse, days, humphrey, stay, nixon",
+        "word": [
+          {
+            "-weight": "0.03262642740619902",
+            "-count": "20",
+            "#text": "election"
+          },
+          {
+            "-weight": "0.02936378466557912",
+            "-count": "18",
+            "#text": "south"
+          },
+          {
+            "-weight": "0.02773246329526917",
+            "-count": "17",
+            "#text": "vietnam"
+          },
+          {
+            "-weight": "0.026101141924959218",
+            "-count": "16",
+            "#text": "deal"
+          },
+          {
+            "-weight": "0.021207177814029365",
+            "-count": "13",
+            "#text": "prisoners"
+          },
+          {
+            "-weight": "0.01631321370309951",
+            "-count": "10",
+            "#text": "collapse"
+          },
+          {
+            "-weight": "0.01631321370309951",
+            "-count": "10",
+            "#text": "days"
+          },
+          {
+            "-weight": "0.01468189233278956",
+            "-count": "9",
+            "#text": "humphrey"
+          },
+          {
+            "-weight": "0.01468189233278956",
+            "-count": "9",
+            "#text": "stay"
+          },
+          {
+            "-weight": "0.013050570962479609",
+            "-count": "8",
+            "#text": "nixon"
+          },
+          {
+            "-weight": "0.013050570962479609",
+            "-count": "8",
+            "#text": "vietnamese"
+          },
+          {
+            "-weight": "0.011419249592169658",
+            "-count": "7",
+            "#text": "senator"
+          },
+          {
+            "-weight": "0.011419249592169658",
+            "-count": "7",
+            "#text": "offer"
+          },
+          {
+            "-weight": "0.009787928221859706",
+            "-count": "6",
+            "#text": "transcript"
+          },
+          {
+            "-weight": "0.009787928221859706",
+            "-count": "6",
+            "#text": "hurt"
+          },
+          {
+            "-weight": "0.009787928221859706",
+            "-count": "6",
+            "#text": "years"
+          },
+          {
+            "-weight": "0.009787928221859706",
+            "-count": "6",
+            "#text": "jails"
+          },
+          {
+            "-weight": "0.009787928221859706",
+            "-count": "6",
+            "#text": "asked"
+          },
+          {
+            "-weight": "0.008156606851549755",
+            "-count": "5",
+            "#text": "congratulate"
+          },
+          {
+            "-weight": "0.008156606851549755",
+            "-count": "5",
+            "#text": "hubert"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.027777777777777776",
+            "-count": "3",
+            "#text": "head private information days pocket guessed"
+          },
+          {
+            "-weight": "0.027777777777777776",
+            "-count": "3",
+            "#text": "statement asked"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "mao retreat"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "manpower small rio janeiro copenha gen"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "nixon concede presidential election spoke early-morning hours presidential election"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "call congratulate historic"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "successful exam ple communications"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "assistant enters departs haig's transcript offer offer november"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "south vietnam"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "hurt mining hurt attrition"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "election election"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "power deal lawyer"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "prisoners stay jail"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "retreat reorganize"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "arise friend foe entrants"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "disciplined homogeneous formulate strategic sentence summarizes prove number fronts"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "january anytime deal collapsible collapse"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "states deal successfully entity thirty-one million supported soviets"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "scared desperate"
+          },
+          {
+            "-weight": "0.018518518518518517",
+            "-count": "2",
+            "#text": "election difficulty"
+          }
+        ]
+      },
+      {
+        "-id": "6",
+        "-alpha": "0.5",
+        "-totalTokens": "843",
+        "-titles": "message, stop, henry's, high, hopes, sunday, start, saturday, settlement, thoughts",
+        "word": [
+          {
+            "-weight": "0.036773428232502965",
+            "-count": "31",
+            "#text": "message"
+          },
+          {
+            "-weight": "0.021352313167259787",
+            "-count": "18",
+            "#text": "stop"
+          },
+          {
+            "-weight": "0.020166073546856466",
+            "-count": "17",
+            "#text": "henry's"
+          },
+          {
+            "-weight": "0.0166073546856465",
+            "-count": "14",
+            "#text": "high"
+          },
+          {
+            "-weight": "0.01542111506524318",
+            "-count": "13",
+            "#text": "hopes"
+          },
+          {
+            "-weight": "0.014234875444839857",
+            "-count": "12",
+            "#text": "sunday"
+          },
+          {
+            "-weight": "0.014234875444839857",
+            "-count": "12",
+            "#text": "start"
+          },
+          {
+            "-weight": "0.014234875444839857",
+            "-count": "12",
+            "#text": "saturday"
+          },
+          {
+            "-weight": "0.013048635824436536",
+            "-count": "11",
+            "#text": "settlement"
+          },
+          {
+            "-weight": "0.011862396204033215",
+            "-count": "10",
+            "#text": "thoughts"
+          },
+          {
+            "-weight": "0.010676156583629894",
+            "-count": "9",
+            "#text": "day"
+          },
+          {
+            "-weight": "0.010676156583629894",
+            "-count": "9",
+            "#text": "happened"
+          },
+          {
+            "-weight": "0.009489916963226572",
+            "-count": "8",
+            "#text": "christmas"
+          },
+          {
+            "-weight": "0.009489916963226572",
+            "-count": "8",
+            "#text": "run"
+          },
+          {
+            "-weight": "0.009489916963226572",
+            "-count": "8",
+            "#text": "buildup"
+          },
+          {
+            "-weight": "0.009489916963226572",
+            "-count": "8",
+            "#text": "sort"
+          },
+          {
+            "-weight": "0.0071174377224199285",
+            "-count": "6",
+            "#text": "letdown"
+          },
+          {
+            "-weight": "0.0071174377224199285",
+            "-count": "6",
+            "#text": "forget"
+          },
+          {
+            "-weight": "0.0071174377224199285",
+            "-count": "6",
+            "#text": "tomorrow"
+          },
+          {
+            "-weight": "0.0071174377224199285",
+            "-count": "6",
+            "#text": "face"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.023255813953488372",
+            "-count": "4",
+            "#text": "henry's thoughts"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "sort christmas season"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "clock escorts corts weather sensitive"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "sat urday saturday"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "reactions reading thirty forty"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "hopes high saturday"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "life unbelievable"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "hitting average sixty"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "tho buildup"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "kinds fundamental"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "tougher start"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "world talks succeed"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "buildup stop"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "weather complication sat"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "high hopes"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "guidance guidance returned consultations progress"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "stick guns response"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "tho instincts"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "impor tant"
+          },
+          {
+            "-weight": "0.011627906976744186",
+            "-count": "2",
+            "#text": "december funeral"
+          }
+        ]
+      },
+      {
+        "-id": "7",
+        "-alpha": "0.5",
+        "-totalTokens": "948",
+        "-titles": "unclear, vietnamese, agreement, ahead, north, paris, haig, duc, working, aid",
+        "word": [
+          {
+            "-weight": "0.04535864978902954",
+            "-count": "43",
+            "#text": "unclear"
+          },
+          {
+            "-weight": "0.028481012658227847",
+            "-count": "27",
+            "#text": "vietnamese"
+          },
+          {
+            "-weight": "0.026371308016877638",
+            "-count": "25",
+            "#text": "agreement"
+          },
+          {
+            "-weight": "0.017932489451476793",
+            "-count": "17",
+            "#text": "ahead"
+          },
+          {
+            "-weight": "0.017932489451476793",
+            "-count": "17",
+            "#text": "north"
+          },
+          {
+            "-weight": "0.015822784810126583",
+            "-count": "15",
+            "#text": "paris"
+          },
+          {
+            "-weight": "0.014767932489451477",
+            "-count": "14",
+            "#text": "haig"
+          },
+          {
+            "-weight": "0.013713080168776372",
+            "-count": "13",
+            "#text": "duc"
+          },
+          {
+            "-weight": "0.012658227848101266",
+            "-count": "12",
+            "#text": "working"
+          },
+          {
+            "-weight": "0.012658227848101266",
+            "-count": "12",
+            "#text": "aid"
+          },
+          {
+            "-weight": "0.012658227848101266",
+            "-count": "12",
+            "#text": "congress"
+          },
+          {
+            "-weight": "0.012658227848101266",
+            "-count": "12",
+            "#text": "thieu"
+          },
+          {
+            "-weight": "0.011603375527426161",
+            "-count": "11",
+            "#text": "true"
+          },
+          {
+            "-weight": "0.010548523206751054",
+            "-count": "10",
+            "#text": "strong"
+          },
+          {
+            "-weight": "0.010548523206751054",
+            "-count": "10",
+            "#text": "wait"
+          },
+          {
+            "-weight": "0.00949367088607595",
+            "-count": "9",
+            "#text": "choice"
+          },
+          {
+            "-weight": "0.00949367088607595",
+            "-count": "9",
+            "#text": "leave"
+          },
+          {
+            "-weight": "0.00949367088607595",
+            "-count": "9",
+            "#text": "ambassador"
+          },
+          {
+            "-weight": "0.00949367088607595",
+            "-count": "9",
+            "#text": "negotiations"
+          },
+          {
+            "-weight": "0.00949367088607595",
+            "-count": "9",
+            "#text": "tough"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.022099447513812154",
+            "-count": "4",
+            "#text": "economic aid"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "negotiate wire"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "kick traces continue agreement"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "lost touch sending"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "soviets pressed north vietnamese yielding completely haig"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "north vietnamese prison ers"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "ahead paris"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "idea continue aid"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "poisons agreement"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "convinced unclear true impossible"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "prime minister"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "inconceivable suicidal"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "troublesome unclear strong"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "joint chiefs"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "agreement paris situ ation case delay negotiations"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "heads case congress"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "true unclear aid goldwater goldwater jesus christ unclear"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "nguyen phu duc"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "congress congress"
+          },
+          {
+            "-weight": "0.011049723756906077",
+            "-count": "2",
+            "#text": "started regain job"
+          }
+        ]
+      },
+      {
+        "-id": "8",
+        "-alpha": "0.5",
+        "-totalTokens": "1511",
+        "-titles": "agreement, north, thieu, aid, vietnamese, south, haig, bilateral, bitch, letter",
+        "word": [
+          {
+            "-weight": "0.03507610853739246",
+            "-count": "53",
+            "#text": "agreement"
+          },
+          {
+            "-weight": "0.028457974851091992",
+            "-count": "43",
+            "#text": "north"
+          },
+          {
+            "-weight": "0.026472534745201854",
+            "-count": "40",
+            "#text": "thieu"
+          },
+          {
+            "-weight": "0.018530774321641297",
+            "-count": "28",
+            "#text": "aid"
+          },
+          {
+            "-weight": "0.01786896095301125",
+            "-count": "27",
+            "#text": "vietnamese"
+          },
+          {
+            "-weight": "0.01786896095301125",
+            "-count": "27",
+            "#text": "south"
+          },
+          {
+            "-weight": "0.01654533421575116",
+            "-count": "25",
+            "#text": "haig"
+          },
+          {
+            "-weight": "0.01588352084712111",
+            "-count": "24",
+            "#text": "bilateral"
+          },
+          {
+            "-weight": "0.010589013898080741",
+            "-count": "16",
+            "#text": "bitch"
+          },
+          {
+            "-weight": "0.009927200529450696",
+            "-count": "15",
+            "#text": "letter"
+          },
+          {
+            "-weight": "0.009927200529450696",
+            "-count": "15",
+            "#text": "total"
+          },
+          {
+            "-weight": "0.009927200529450696",
+            "-count": "15",
+            "#text": "hundred"
+          },
+          {
+            "-weight": "0.009927200529450696",
+            "-count": "15",
+            "#text": "technical"
+          },
+          {
+            "-weight": "0.009265387160820648",
+            "-count": "14",
+            "#text": "proposed"
+          },
+          {
+            "-weight": "0.009265387160820648",
+            "-count": "14",
+            "#text": "bilaterally"
+          },
+          {
+            "-weight": "0.009265387160820648",
+            "-count": "14",
+            "#text": "son"
+          },
+          {
+            "-weight": "0.009265387160820648",
+            "-count": "14",
+            "#text": "talks"
+          },
+          {
+            "-weight": "0.008603573792190603",
+            "-count": "13",
+            "#text": "january"
+          },
+          {
+            "-weight": "0.008603573792190603",
+            "-count": "13",
+            "#text": "day"
+          },
+          {
+            "-weight": "0.008603573792190603",
+            "-count": "13",
+            "#text": "hanoi"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.015337423312883436",
+            "-count": "5",
+            "#text": "signing agreement"
+          },
+          {
+            "-weight": "0.009202453987730062",
+            "-count": "3",
+            "#text": "north vietnamese forces"
+          },
+          {
+            "-weight": "0.009202453987730062",
+            "-count": "3",
+            "#text": "aid south"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "weakened south"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "effectiveness maniac basic"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "all-out attack"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "agreement collapses"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "blazed thieu"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "letter hundred letters"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "aid scuttle"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "aid accept"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "moorer express concern"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "kicked teeth"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "north vietnamese"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "we'd mile drag thieu forces"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "raised moorer"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "listened argued answered"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "altogether rough"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "figure figure coolest pos sible"
+          },
+          {
+            "-weight": "0.006134969325153374",
+            "-count": "2",
+            "#text": "fuse sams owe"
+          }
+        ]
+      },
+      {
+        "-id": "9",
+        "-alpha": "0.5",
+        "-totalTokens": "1135",
+        "-titles": "inauguration, public, agnew, saigon, tomorrow, hours, unclear, president, morning, bombing",
+        "word": [
+          {
+            "-weight": "0.03171806167400881",
+            "-count": "36",
+            "#text": "inauguration"
+          },
+          {
+            "-weight": "0.02643171806167401",
+            "-count": "30",
+            "#text": "public"
+          },
+          {
+            "-weight": "0.024669603524229075",
+            "-count": "28",
+            "#text": "agnew"
+          },
+          {
+            "-weight": "0.02378854625550661",
+            "-count": "27",
+            "#text": "saigon"
+          },
+          {
+            "-weight": "0.021145374449339206",
+            "-count": "24",
+            "#text": "tomorrow"
+          },
+          {
+            "-weight": "0.02026431718061674",
+            "-count": "23",
+            "#text": "hours"
+          },
+          {
+            "-weight": "0.016740088105726872",
+            "-count": "19",
+            "#text": "unclear"
+          },
+          {
+            "-weight": "0.015859030837004406",
+            "-count": "18",
+            "#text": "president"
+          },
+          {
+            "-weight": "0.014977973568281937",
+            "-count": "17",
+            "#text": "morning"
+          },
+          {
+            "-weight": "0.014977973568281937",
+            "-count": "17",
+            "#text": "bombing"
+          },
+          {
+            "-weight": "0.014096916299559472",
+            "-count": "16",
+            "#text": "hope"
+          },
+          {
+            "-weight": "0.014096916299559472",
+            "-count": "16",
+            "#text": "sign"
+          },
+          {
+            "-weight": "0.013215859030837005",
+            "-count": "15",
+            "#text": "send"
+          },
+          {
+            "-weight": "0.012334801762114538",
+            "-count": "14",
+            "#text": "announcement"
+          },
+          {
+            "-weight": "0.012334801762114538",
+            "-count": "14",
+            "#text": "activity"
+          },
+          {
+            "-weight": "0.012334801762114538",
+            "-count": "14",
+            "#text": "answer"
+          },
+          {
+            "-weight": "0.012334801762114538",
+            "-count": "14",
+            "#text": "risk"
+          },
+          {
+            "-weight": "0.01145374449339207",
+            "-count": "13",
+            "#text": "plan"
+          },
+          {
+            "-weight": "0.01145374449339207",
+            "-count": "13",
+            "#text": "meetings"
+          },
+          {
+            "-weight": "0.01145374449339207",
+            "-count": "13",
+            "#text": "time"
+          }
+        ],
+        "phrase": [
+          {
+            "-weight": "0.026490066225165563",
+            "-count": "4",
+            "#text": "news magazines"
+          },
+          {
+            "-weight": "0.019867549668874173",
+            "-count": "3",
+            "#text": "technical meetings"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "richard kennedy"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "sort afraid we'd"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "send agnew agnew"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "affects flavor inaugural address"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "inauguration rebuffed inauguration risk worth"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "confrontation shattered"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "sort plan"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "risk confrontation inauguration agnew inauguration"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "hours reply"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "hours shows anxious anxious practically"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "agnew blow inauguration plan"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "dangerous tie schedule culminates inauguration"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "plan fifteenth"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "inauguration saigon"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "titty saigon"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "begin reasonable reasonable sort silly"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "pressures start implementing"
+          },
+          {
+            "-weight": "0.013245033112582781",
+            "-count": "2",
+            "#text": "private public pub private public public public"
+          }
+        ]
+      }
+    ]
+  }
+}

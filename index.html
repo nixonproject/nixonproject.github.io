@@ -8,6 +8,9 @@
         <script type="text/javascript" src="js/nixon.js"></script>
         <script type="text/javascript" src="js/map.js"></script>
         <script type="text/javascript" src="js/alerts.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+        <script src="js/cloud.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/nixon.css">
@@ -54,7 +57,53 @@
         </script>
         <title>Nixon Project</title>
     </head>
+    <style>
+        /* Dropdown Button */
+        .dropbtn {
+            background-color: #95a5a6;
+            color: white;
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
 
+        /* Dropdown button on hover & focus */
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: #95a5a6;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            z-index:200;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        .show {display:block;}
+    </style>
     <body>
         <div id="one" class="square row_one column_one diag_rt_bot">
             <img id="title_image" src="http://ww1.hdnux.com/photos/53/74/36/11519904/3/920x920.jpg"/>
@@ -85,6 +134,52 @@
 
         <div id="two" class="square row_one column_two diag_rt_bot diag_lt_bot">
             <h1>Conversation Analysis</h1>
+
+            <div id="chart">
+                <h3 id="topic"></h3>
+            </div>
+            <div id="description">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Change Topic</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#" onclick="drawWordCloud(1)">Topic 1</a>
+                        <a href="#" onclick="drawWordCloud(2)">Topic 2</a>
+                        <a href="#" onclick="drawWordCloud(3)">Topic 3</a>
+                        <a href="#" onclick="drawWordCloud(4)">Topic 4</a>
+                        <a href="#" onclick="drawWordCloud(5)">Topic 5</a>
+                        <a href="#" onclick="drawWordCloud(6)">Topic 6</a>
+                        <a href="#" onclick="drawWordCloud(7)">Topic 7</a>
+                        <a href="#" onclick="drawWordCloud(8)">Topic 8</a>
+                        <a href="#" onclick="drawWordCloud(9)">Topic 9</a>
+                        <a href="#" onclick="drawWordCloud(10)">Topic 10</a>
+                    </div>
+                    <svg></svg>
+                </div>
+                <div id="text">
+                    <p>
+                        After months of negotiations between the North and South Vietnamese, by December 14th,
+                        the Nixon Administration thought all hopes of negotiations have disappeared and a bombing campaign was
+                        necessary. From December 18 - 19th, the United States Air Force, Navy, and Marine Corps flew 3,420
+                        sorties over North Vietnam including up to 120 B-52 sorties per day.
+                        During this time, the public became frustrated at Nixon for failing to deliver on his peace talk rhetoric
+                        from his presidential campaign.
+                    </p><br/>
+                    <p>
+                        Following his presidency, President Nixon attempted to defend this decision by stating it was his
+                        secretary of state, Henry Kissinger, who advocated for the bombing while he, President Nixon, wanted to continue to pursue
+                        peace talks.
+                    </p><br/>
+                    <p>
+                        To evaluate this claim, the Nixon Tape team analyzed the transcripts of 17 conversations between October 8th
+                        to December 28th. The following word cloud was build using analysis produced by topic modeling (described in
+                        the section to the right) of the conversations. Topic modeling analysis generated ten topics, grouping of text,
+                        and each word cloud represents one of the groupings weighted by relevance to the topic. The labels above each
+                        word cloud were determined by the Nixon Tape team based on the words, their relative importance to the topic, and
+                        the context of the conversations.
+                    </p>
+
+                </div>
+            </div>
         </div>
 
         <div id="three" class="square row_one column_three diag_lt_bot">
@@ -390,6 +485,313 @@
         <script src="js/cytoscape.min.js" type="text/javascript"></script>
         <script src="js/network.js" type="text/javascript"></script>
         <script src="js/network-script.js" type="text/javascript"></script>
+        <script>
+            /* When the user clicks on the button,
+             toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+        <script>
+            drawWordCloud(1);
+            function drawWordCloud(numTopic){
+                $('svg').remove();
+                var word_count = {
+                    1 :	{
+                        day	:38	,
+                        settle:32	,
+                        put	:27	,
+                        accept:26	,
+                        hanoi:25	,
+                        gave:22	,
+                        issue:21	,
+                        november:19	,
+                        commission:18	,
+                        accepted:18	,
+                        week:18	,
+                        agreement:17	,
+                        wanted:17	,
+                        international:16	,
+                        concessions:16	,
+                        concession:16	,
+                        monday:15	,
+                        text:14	,
+                        language:14	,
+                        sullivan:14
+                    },
+                    2 :	{
+                        point	:	91	,
+                        henry	:	90	,
+                        thieu	:	71	,
+                        hanoi	:	68	,
+                        problem	:	59	,
+                        deal	:	52	,
+                        north	:	46	,
+                        agree	:	45	,
+                        military	:	45	,
+                        bombing	:	44	,
+                        people	:	42	,
+                        talk	:	42	,
+                        end	:	42	,
+                        time	:	38	,
+                        settle	:	38	,
+                        vietnam	:	35	,
+                        work	:	35	,
+                        put	:	35	,
+                        play	:	35	,
+                        south	:	33	,
+                    },
+                    3 :	{
+                        saigon	:	44	,
+                        time	:	25	,
+                        fact	:	22	,
+                        agreed	:	21	,
+                        dobrynin	:	18	,
+                        hanoi	:	18	,
+                        message	:	17	,
+                        government	:	16	,
+                        hand	:	16	,
+                        xon	:	16	,
+                        issues	:	16	,
+                        south	:	16	,
+                        press	:	16	,
+                        wed	:	14	,
+                        chinese	:	14	,
+                        civilian	:	14	,
+                        broken	:	13	,
+                        people	:	13	,
+                        understand	:	13	,
+                        paris	:	12	,
+                    },
+                    4 :	{
+                        unclear	:	116	,
+                        president	:	43	,
+                        thieu	:	41	,
+                        question	:	32	,
+                        wrong	:	32	,
+                        meeting	:	31	,
+                        duc	:	31	,
+                        october	:	31	,
+                        saturday	:	25	,
+                        left	:	24	,
+                        lost	:	23	,
+                        morning	:	23	,
+                        election	:	22	,
+                        yesterday	:	22	,
+                        peace	:	19	,
+                        difference	:	18	,
+                        hmm	:	18	,
+                        longer	:	17	,
+                        chance	:	17	,
+                        percent	:	16	,
+                    },
+                    5 :	{
+                        unclear	:	43	,
+                        thieu	:	26	,
+                        agree	:	18	,
+                        ceasefire	:	18	,
+                        aid	:	16	,
+                        national	:	16	,
+                        president	:	16	,
+                        agreement	:	15	,
+                        honor	:	14	,
+                        council	:	14	,
+                        months	:	14	,
+                        united	:	14	,
+                        reparations	:	10	,
+                        points	:	10	,
+                        continue	:	10	,
+                        china	:	9	,
+                        usher	:	8	,
+                        bastards	:	8	,
+                        aboard	:	8	,
+                        clear	:	8	,
+                    },
+                    6 :	{
+                        election	:	20	,
+                        south	:	18	,
+                        vietnam	:	17	,
+                        deal	:	16	,
+                        prisoners	:	13	,
+                        collapse	:	10	,
+                        days	:	10	,
+                        humphrey	:	9	,
+                        stay	:	9	,
+                        nixon	:	8	,
+                        vietnamese	:	8	,
+                        senator	:	7	,
+                        offer	:	7	,
+                        transcript	:	6	,
+                        hurt	:	6	,
+                        years	:	6	,
+                        jails	:	6	,
+                        asked	:	6	,
+                        congratulate	:	5	,
+                        hubert	:	5	,
+                    },
+                    7 :	{
+                        message	:	31	,
+                        stop	:	18	,
+                        henry	:	17	,
+                        high	:	14	,
+                        hopes	:	13	,
+                        sunday	:	12	,
+                        start	:	12	,
+                        saturday	:	12	,
+                        settlement	:	11	,
+                        thoughts	:	10	,
+                        day	:	9	,
+                        happened	:	9	,
+                        christmas	:	8	,
+                        run	:	8	,
+                        buildup	:	8	,
+                        sort	:	8	,
+                        letdown	:	6	,
+                        forget	:	6	,
+                        tomorrow	:	6	,
+                        face	:	6	,
+                    },
+                    8:	{
+                        unclear	:	43	,
+                        vietnamese	:	27	,
+                        agreement	:	25	,
+                        ahead	:	17	,
+                        north	:	17	,
+                        paris	:	15	,
+                        haig	:	14	,
+                        duc	:	13	,
+                        working	:	12	,
+                        aid	:	12	,
+                        congress	:	12	,
+                        thieu	:	12	,
+                        TRUE	:	11	,
+                        strong	:	10	,
+                        wait	:	10	,
+                        choice	:	9	,
+                        leave	:	9	,
+                        ambassador	:	9	,
+                        negotiations	:	9	,
+                        tough	:	9	,
+                    },
+                    9:	{
+                        agreement	:	53	,
+                        north	:	43	,
+                        thieu	:	40	,
+                        aid	:	28	,
+                        vietnamese	:	27	,
+                        south	:	27	,
+                        haig	:	25	,
+                        bilateral	:	24	,
+                        bitch	:	16	,
+                        letter	:	15	,
+                        total	:	15	,
+                        hundred	:	15	,
+                        technical	:	15	,
+                        proposed	:	14	,
+                        bilaterally	:	14	,
+                        son	:	14	,
+                        talks	:	14	,
+                        january	:	13	,
+                        day	:	13	,
+                        hanoi	:	13	,
+                    },
+                    10:	{
+                        inauguration	:	36	,
+                        public	:	30	,
+                        agnew	:	28	,
+                        saigon	:	27	,
+                        tomorrow	:	24	,
+                        hours	:	23	,
+                        unclear	:	19	,
+                        president	:	18	,
+                        morning	:	17	,
+                        bombing	:	17	,
+                        hope	:	16	,
+                        sign	:	16	,
+                        send	:	15	,
+                        announcement	:	14	,
+                        activity	:	14	,
+                        answer	:	14	,
+                        risk	:	14	,
+                        plan	:	13	,
+                        meetings	:	13	,
+                        time	:	13	,
+                    }
+                };
+                var topics = {
+                    1:'Topic 1',
+                    2:'Topic 2',
+                    3:'Topic 3',
+                    4:'Topic 4',
+                    5:'Topic 5',
+                    6:'Topic 6',
+                    7:'Topic 7',
+                    8:'Topic 8',
+                    9:'Topic 9',
+                    10:'Topic 10',
+                };
+                $('#topic').text(topics[numTopic]);
+                var svg_location = "#chart";
+                var width = $('#chart').width();
+                var height = $('#chart').height();
+
+                var fill = d3.scale.category20();
+
+                var word_entries = d3.entries(word_count[numTopic]);
+
+                var xScale = d3.scale.linear()
+                    .domain([0, d3.max(word_entries, function(d) {
+                        return d.value;
+                    })
+                    ])
+                    .range([10,100]);
+
+                d3.layout.cloud().size([width, height])
+                    .timeInterval(20)
+                    .words(word_entries)
+                    .fontSize(function(d) { return xScale(+d.value); })
+                    .text(function(d) { return d.key; })
+                    .rotate(function() { return ~~(Math.random() * 2) * 90; })
+                    .font("Spectral")
+                    .on("end", draw)
+                    .start();
+
+                function draw(words) {
+                    d3.select(svg_location).append("svg")
+                        .attr("width", width)
+                        .attr("height", height)
+                        .append("g")
+                        .attr("transform", "translate(" + [width >> 1, height >> 1] + ")")
+                        .selectAll("text")
+                        .data(words)
+                        .enter().append("text")
+                        .style("font-size", function(d) { return xScale(d.value) + "px"; })
+                        .style("font-family", "Spectral")
+                        .attr("text-anchor", "middle")
+                        .attr("transform", function(d) {
+                            return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                        })
+                        .text(function(d) { return d.key; });
+                }
+
+                d3.layout.cloud().stop();
+            }
+        </script>
     </body>
 
 </html>
