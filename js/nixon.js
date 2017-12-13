@@ -195,6 +195,9 @@ $(document).ready(function(){
     
     $("img").on("mouseenter", function(e){
         var p = document.createElement('p');
+        var s = document.createElement('span');
+        s.className = 'span';
+        s.style.background = 'black';
         p.className = 'arrow_name';
         p.style.display = 'none';
         p.style.position = 'absolute';
@@ -205,88 +208,96 @@ $(document).ready(function(){
         switch(e.target.className) {
             case 'arrow_down':
                 var t = document.createTextNode(cell_names[current+3]);
+                s.appendChild(t);
                 $(this).attr("id", "temp");
                 p.style.left = '0%';
                 p.style.textAlign = 'center';
                 p.style.bottom = '8%';
-                p.appendChild(t);
+                p.appendChild(s);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
                 $(this).fadeTo(200, 1);
                 break;
             case 'arrow_up':
                 var t = document.createTextNode(cell_names[current-3]);
+                s.appendChild(t);
                 $(this).attr("id", "temp");
                 p.style.left = '0%';
                 p.style.textAlign = 'center';
                 p.style.top = '8%';
-                p.appendChild(t);
+                p.appendChild(s);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
                 $(this).fadeTo(200, 1);
                 break;
             case 'arrow_left':
                 var t = document.createTextNode(cell_names[current-1]);
+                s.appendChild(t);
                 $(this).attr("id", "temp");
                 p.style.left = '4%';
                 p.style.textAlign = 'left';
                 p.style.bottom = '54%';
-                p.appendChild(t);
+                p.appendChild(s);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
                 $(this).fadeTo(200, 1);
                 break;
             case 'arrow_right':
                 var t = document.createTextNode(cell_names[current+1]);
+                s.appendChild(t);
                 $(this).attr("id", "temp");
                 p.style.left = '4%';
                 p.style.textAlign = 'right';
                 p.style.bottom = '54%';
-                p.appendChild(t);
+                p.appendChild(s);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
                 $(this).fadeTo(200, 1);
                 break;
             case 'arrow_down_right':
                 var t = document.createTextNode(cell_names[current+4]);
+                s.appendChild(t);
                 $(this).attr("id", "temp");
                 p.style.left = '4%';
                 p.style.textAlign = 'right';
                 p.style.bottom = '3%';
-                p.appendChild(t);
+                p.appendChild(s);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
                 $(this).fadeTo(200, 1);
                 break;
             case 'arrow_down_left':
                 var t = document.createTextNode(cell_names[current+2]);
+                s.appendChild(t);
                 $(this).attr("id", "temp");
                 p.style.left = '3%';
                 p.style.textAlign = 'left';
                 p.style.bottom = '3%';
-                p.appendChild(t);
+                p.appendChild(s);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
                 $(this).fadeTo(200, 1);
                 break;
             case 'arrow_up_right':
                 var t = document.createTextNode(cell_names[current-2]);
+                s.appendChild(t);
                 $(this).attr("id", "temp");
                 p.style.left = '3%';
                 p.style.textAlign = 'right';
                 p.style.top = '3%';
-                p.appendChild(t);
+                p.appendChild(s);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
                 $(this).fadeTo(200, 1);
                 break;
             case 'arrow_up_left':
                 var t = document.createTextNode(cell_names[current-4]);
+                s.appendChild(t);
                 $(this).attr("id", "temp");
                 p.style.left = '3%';
                 p.style.textAlign = 'left';
                 p.style.top = '3%';
-                p.appendChild(t);
+                p.appendChild(s);
                 document.getElementById(cell_id[current]).appendChild(p);
                 $('.arrow_name').fadeIn(200);
                 $(this).fadeTo(200, 1);
