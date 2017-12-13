@@ -60,9 +60,9 @@
     <style>
         /* Dropdown Button */
         .dropbtn {
-            background-color: #4CAF50;
+            background-color: #95a5a6;
             color: white;
-            padding: 16px;
+            padding: 5px;
             font-size: 16px;
             border: none;
             cursor: pointer;
@@ -70,13 +70,14 @@
 
         /* Dropdown button on hover & focus */
         .dropbtn:hover, .dropbtn:focus {
-            background-color: #3e8e41;
+            background-color: #95a5a6;
         }
 
         /* The container <div> - needed to position the dropdown content */
         .dropdown {
             position: relative;
             display: inline-block;
+            z-index:200;
         }
 
         /* Dropdown Content (Hidden by Default) */
@@ -150,11 +151,32 @@
                         <a href="#" onclick="drawWordCloud(7)">Topic 7</a>
                         <a href="#" onclick="drawWordCloud(8)">Topic 8</a>
                         <a href="#" onclick="drawWordCloud(9)">Topic 9</a>
-                        <a href="#" onclick="drawWordCloud(10)">Topic 20</a>
+                        <a href="#" onclick="drawWordCloud(10)">Topic 10</a>
                     </div>
                     <svg></svg>
                 </div>
                 <div id="text">
+                    <p>
+                        After months of negotiations between the North and South Vietnamese, by December 14th,
+                        the Nixon Administration thought all hopes of negotiations have disappeared and a bombing campaign was
+                        necessary. From December 18 - 19th, the United States Air Force, Navy, and Marine Corps flew 3,420
+                        sorties over North Vietnam including up to 120 B-52 sorties per day.
+                        During this time, the public became frustrated at Nixon for failing to deliver on his peace talk rhetoric
+                        from his presidential campaign.
+                    </p><br/>
+                    <p>
+                        Following his presidency, President Nixon attempted to defend this decision by stating it was his
+                        secretary of state, Henry Kissinger, who advocated for the bombing while he, President Nixon, wanted to continue to pursue
+                        peace talks.
+                    </p><br/>
+                    <p>
+                        To evaluate this claim, the Nixon Tape team analyzed the transcripts of 17 conversations between October 8th
+                        to December 28th. The following word cloud was build using analysis produced by topic modeling (described in
+                        the section to the right) of the conversations. Topic modeling analysis generated ten topics, grouping of text,
+                        and each word cloud represents one of the groupings weighted by relevance to the topic. The labels above each
+                        word cloud were determined by the Nixon Tape team based on the words, their relative importance to the topic, and
+                        the context of the conversations.
+                    </p>
 
                 </div>
             </div>

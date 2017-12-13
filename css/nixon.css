@@ -73,6 +73,7 @@ ol{
     right:5vw;
     top:25vh;
 }
+#two #text{overflow-y:scroll;height:90%; font-size:15px!important;}
 
 #three{
     background:#4E4E4E;
