@@ -389,6 +389,9 @@ function audio_check(x){
         tag.setAttribute("src", '1.mp3');
         tag.load();       
     }
+    else if (x == 2){
+        drawWordCloud(1);
+    }
     else if (x == 6){
         var frame = document.getElementById('bombings');
         frame.setAttribute("src","https://www.arcgis.com/apps/MapSeries/index.html?appid=6290e3f7d25d429aaa58838947f65883");        
