@@ -396,6 +396,8 @@ function audio_check(x){
     else{
         var tag = document.getElementById('audio');
         tag.src = "";        
+        var frame = document.getElementById('bombings');
+        frame.src = "";
         $("#timeline").animate({ scrollTop: 0}, 600);
         timeline_pos = 0;      
         current_height = 0;        
