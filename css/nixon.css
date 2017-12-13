@@ -208,10 +208,24 @@ ol{
 }
 #topic_graphs{
     position:absolute;
-    top:25%;
+    top:28%;
     width:100%;
-    background:white;
+    color:white;
     font-size:2.4w;
+}
+#topic_graphs th{
+    cursor:pointer;
+}
+#six_topic{
+    position:absolute;
+    top:40%;  
+    width:100%;
+    text-align:center;
+}
+#charts_div{
+    position:absolute;
+    top:50%;
+    width:100%;
 }
 #seven{
 }

@@ -8,6 +8,7 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/nixon.js"></script>
         <script type="text/javascript" src="js/map.js"></script>
+        <script type="text/javascript" src="js/topics.js"></script>
         <script type="text/javascript" src="js/alerts.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
@@ -201,15 +202,7 @@
 
         <div id="three" class="square row_one column_three diag_lt_bot">
             <h1>Topic Modeling</h1>
-            <p>
-                One of the humanities questions that the Nixon Tapes team
-                posed was how President Nixon’s administration, specifically
-                Henry Kissinger, influenced his actions and decisions during
-                the December bombings. To answer this question, we found it
-                necessary to examine the topics that each individual was involved
-                in and analyze how their conversations correlated with each
-                topic over time. To accomplish this, we chose to use topic modeling.
-            </p>
+            <img style="position:absolute; right:5%; top:5%; cursor:pointer;" onclick="alert_three()" src="images/info.png"/>
             <iframe width="684.5" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTVuGBrQdKPqIgPycPQDajZPaWMYtjdARgegCXNSAoMBlrTACwhFXb8MdqHKPO0V3uuuwYh-y6Ud101/pubchart?oid=927735473&amp;format=interactive"></iframe>
         </div>
 
@@ -449,27 +442,33 @@
 
         <div id="six" class="square row_two column_three diag_lt_top diag_lt_bot">
             <h1>Conversation Influences</h1>
-            <img style="position:absolute; right:5%; top:10%; cursor:pointer;" onclick="alert_six()" src="images/info.png"/>
+            <img style="position:absolute; right:5%; top:5%; cursor:pointer;" onclick="alert_six()" src="images/info.png"/>
             <table id="topic_graphs">
                 <tbody>
                     <tr>
-                        <th>Topic 1</th>
-                        <th>Topic 2</th>
-                        <th>Topic 3</th>
-                        <th>Topic 4</th>
-                        <th>Topic 5</th>
-                        <th>Topic 6</th>
-                        <th>Topic 7</th>
-                        <th>Topic 8</th>
-                        <th>Topic 9</th>
-                        <th>Topic 10</th>
+                        <th class="topic_name" onclick="load_chart(1, this)">Topic 1</th>
+                        <th class="topic_name" onclick="load_chart(2, this)">Topic 2</th>
+                        <th class="topic_name" onclick="load_chart(3, this)">Topic 3</th>
+                        <th class="topic_name" onclick="load_chart(4, this)">Topic 4</th>
+                        <th class="topic_name" onclick="load_chart(5, this)">Topic 5</th>
+                        <th class="topic_name" onclick="load_chart(6, this)">Topic 6</th>
+                        <th class="topic_name" onclick="load_chart(7, this)">Topic 7</th>
+                        <th class="topic_name" onclick="load_chart(8, this)">Topic 8</th>
+                        <th class="topic_name" onclick="load_chart(9, this)">Topic 9</th>
+                        <th class="topic_name" onclick="load_chart(10, this)">Topic 10</th>
                     </tr>
                 </tbody>
             </table>
+            <h2 id="six_topic"></h2>
+            <div id="charts_div">
+                <iframe id="frame_1" width="30%" height="40%" frameborder="0" scrolling="no" src=""></iframe>
+                <iframe id="frame_2" width="30%" height="40%" frameborder="0" scrolling="no" src=""></iframe>
+                <iframe id="frame_3" width="30%" height="40%" frameborder="0" scrolling="no" src=""></iframe>
+            </div>
         </div>
         <div id="seven" class="square row_three column_one diag_rt_top">        
             <iframe id="bombings" width="80%" height="85%" src="" frameborder="0" scrolling="yes"></iframe>
-            <img style="position:absolute; right:10%; top:15%; cursor:pointer;" onclick="alert_seven()" src="images/info.png"/>
+            <img style="position:absolute; right:8%; top:15%; cursor:pointer;" onclick="alert_seven()" src="images/info.png"/>
         </div>
 
         <div id="eight" class="square row_three column_two diag_lt_top diag_rt_top">

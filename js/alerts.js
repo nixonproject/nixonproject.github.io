@@ -2,6 +2,7 @@ function close(){
     $('.info_alert').remove();
 }
 
+
 function alert_seven(){
     var div = document.createElement("div");
     var p = document.createElement("p");
@@ -99,4 +100,40 @@ function alert_six(){
     var cell = document.getElementById('six');
     div.className = 'info_alert';
     cell.appendChild(div);    
+}
+
+function alert_three(){
+    var div = document.createElement("div");
+    var p = document.createElement("p");
+    var t = document.createTextNode('One of the humanities questions that the Nixon Tapes team posed was how President Nixon’s administration, specifically Henry Kissinger, influenced his actions and decisions during the December bombings. To answer this question, we found it necessary to examine the topics that each individual was involved in and analyze how their conversations correlated with each topic over time. To accomplish this, we chose to use topic modeling.');
+    p.appendChild(t);
+    p.style.paddingTop = '5%';
+    div.appendChild(p);
+    div.style.zIndex = '150';
+    div.style.color = 'black';
+    div.style.background = 'white';
+    div.style.position = 'absolute';
+    div.style.height = '80%';
+    div.style.width = '80%';
+    div.style.top = '10%';
+    div.style.left = '10%';
+    div.style.boxShadow = "5px 5px 5px 5px darkgray";
+    div.style.borderRadius = "25px";
+    
+    p = document.createElement("p");
+    t = document.createTextNode('X');
+    p.appendChild(t);    
+    p.style.position = 'absolute';
+    p.style.top = '0%';
+    p.style.cursor = 'pointer';
+    p.style.color = 'red';
+    p.style.fontSize = '10vh';
+    p.style.left = '2%';
+    p.onclick = close;
+    div.appendChild(p);
+    
+
+    var cell = document.getElementById('three');
+    div.className = 'info_alert';
+    cell.appendChild(div);  
 }

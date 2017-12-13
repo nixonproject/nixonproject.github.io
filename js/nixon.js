@@ -401,15 +401,27 @@ function audio_check(x){
     else if (x == 1){
         drawWordCloud(1);
     }
+    else if (x == 5){
+        $('.topic_name').css("text-decoration", "none");
+        $('.topic_name').first().css("text-decoration", "underline");
+        var frame_1 = document.getElementById('frame_1');
+        frame_1.setAttribute("src",kiss_frames[0]);
+        var frame_2 = document.getElementById('frame_2');
+        frame_2.setAttribute("src",haig_frames[0]);
+        var frame_3 = document.getElementById('frame_3');
+        frame_3.setAttribute("src",hald_frames[0]);
+        var topic = document.getElementById('six_topic');
+        topic.innerHTML = frame_names[x-1];
+    }
     else if (x == 6){
         var frame = document.getElementById('bombings');
         frame.setAttribute("src","https://www.arcgis.com/apps/MapSeries/index.html?appid=6290e3f7d25d429aaa58838947f65883");        
     }
     else{
         var tag = document.getElementById('audio');
-        tag.src = "";        
+        tag.setAttribute("src","");    
         var frame = document.getElementById('bombings');
-        frame.src = "";
+        frame.setAttribute("src","");
         $("#timeline").animate({ scrollTop: 0}, 600);
         timeline_pos = 0;      
         current_height = 0;        
