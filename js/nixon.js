@@ -199,7 +199,7 @@ $(document).ready(function(){
         p.style.display = 'none';
         p.style.position = 'absolute';
         p.style.width = '93vw';
-        p.style.zIndex = '5';
+        p.style.zIndex = '800';
         p.style.color = '#d3d3d3';
         p.style.fontFamily = 'Courier';
         switch(e.target.className) {
@@ -388,6 +388,10 @@ function audio_check(x){
         var tag = document.getElementById('audio');
         tag.setAttribute("src", '1.mp3');
         tag.load();       
+    }
+    else if (x == 6){
+        var frame = document.getElementById('bombings');
+        frame.setAttribute("src","https://www.arcgis.com/apps/MapSeries/index.html?appid=6290e3f7d25d429aaa58838947f65883");        
     }
     else{
         var tag = document.getElementById('audio');
