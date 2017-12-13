@@ -449,21 +449,27 @@
 
         <div id="six" class="square row_two column_three diag_lt_top diag_lt_bot">
             <h1>Conversation Influences</h1>
-            <p>
-                Topic Modeling uses machine learning and natural language processing to
-                determine topics and ideas based off of input text or data. Topics, in this
-                case, refer to a grouping of around 20 words that are closely related. Topic
-                modeling provides a standardized methodology to determine content of texts
-                without the perspective of a particular historian. This was our first
-                attempt at topic modeling. Our process included a 3-step methodology:<br/><br/>
-                    1. Cleaning and formatting data<br/>
-                    2. Using MALLET to produce the topic models<br/>
-                    3. Creating data visualizations from the topic models
-            </p>
+            <img style="position:absolute; right:5%; top:10%; cursor:pointer;" onclick="alert_six()" src="images/info.png"/>
+            <table id="topic_graphs">
+                <tbody>
+                    <tr>
+                        <th>Topic 1</th>
+                        <th>Topic 2</th>
+                        <th>Topic 3</th>
+                        <th>Topic 4</th>
+                        <th>Topic 5</th>
+                        <th>Topic 6</th>
+                        <th>Topic 7</th>
+                        <th>Topic 8</th>
+                        <th>Topic 9</th>
+                        <th>Topic 10</th>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div id="seven" class="square row_three column_one diag_rt_top">        
             <iframe id="bombings" width="80%" height="85%" src="" frameborder="0" scrolling="yes"></iframe>
-            <img style="position:absolute; right:15%; top:15%; cursor:pointer;" onclick="alert_seven()" src="images/info.png"/>
+            <img style="position:absolute; right:10%; top:15%; cursor:pointer;" onclick="alert_seven()" src="images/info.png"/>
         </div>
 
         <div id="eight" class="square row_three column_two diag_lt_top diag_rt_top">

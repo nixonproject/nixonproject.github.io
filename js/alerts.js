@@ -49,3 +49,54 @@ function alert_seven(){
     div.className = 'info_alert';
     cell.appendChild(div);
 }
+
+function alert_six(){
+    var div = document.createElement("div");
+    var p = document.createElement("p");
+    var b = document.createElement("br");
+    var t = document.createTextNode('Topic Modeling uses machine learning and natural language processing to determine topics and ideas based off of input text or data. Topics, in this case, refer to a grouping of around 20 words that are closely related. Topic modeling provides a standardized methodology to determine content of texts without the perspective of a particular historian. This was our first attempt at topic modeling. Our process included a 3-step methodology:');
+    p.appendChild(t);
+    p.style.paddingTop = '5%';
+    div.appendChild(p);
+    div.appendChild(b);
+    b = document.createElement("br");
+    p = document.createElement("p");
+    t = document.createTextNode('1. Cleaning and formatting data');
+    p.appendChild(t);
+    div.appendChild(p);
+    p = document.createElement("p");
+    t = document.createTextNode('2. Using MALLET to produce the topic models');
+    p.appendChild(t);
+    div.appendChild(p);
+    p = document.createElement("p");
+    t = document.createTextNode('3. Creating data visualizations from the topic models');
+    p.appendChild(t);
+    div.appendChild(p);
+    div.style.zIndex = '150';
+    div.style.color = 'black';
+    div.style.background = 'white';
+    div.style.position = 'absolute';
+    div.style.height = '80%';
+    div.style.width = '80%';
+    div.style.top = '10%';
+    div.style.left = '10%';
+    div.style.boxShadow = "5px 5px 5px 5px darkgray";
+    div.style.borderRadius = "25px";
+    
+    p = document.createElement("p");
+    t = document.createTextNode('X');
+    p.appendChild(t);    
+    p.style.position = 'absolute';
+    p.style.top = '0%';
+    p.style.cursor = 'pointer';
+    p.style.color = 'red';
+    p.style.fontSize = '10vh';
+    p.style.left = '2%';
+    p.onclick = close;
+    div.appendChild(p);
+    
+
+    var cell = document.getElementById('six');
+    div.className = 'info_alert';
+    cell.appendChild(div);    
+}
