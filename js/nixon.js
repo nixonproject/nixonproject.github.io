@@ -389,7 +389,7 @@ function audio_check(x){
         tag.setAttribute("src", '1.mp3');
         tag.load();       
     }
-    else if (x == 2){
+    else if (x == 1){
         drawWordCloud(1);
     }
     else if (x == 6){
