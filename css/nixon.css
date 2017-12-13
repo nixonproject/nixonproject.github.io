@@ -201,6 +201,12 @@ ol{
 
 #eight{
     background: linear-gradient(to right, black, #4E4E4E);
+    text-align:left
+}
+iframe{
+    position:absolute;
+    bottom:0%;
+    left:0%;
 }
 #nine{
     background:#4E4E4E;
