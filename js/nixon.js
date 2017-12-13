@@ -396,9 +396,7 @@ function up_right_click(){
 function audio_check(x){
     console.log(current_height);
     if (x == 3){
-        var tag = document.getElementById('audio');
-        tag.setAttribute("src", '1.mp3');
-        tag.load();       
+        //nothing for now      
     }
     else if (x == 1){
         drawWordCloud(1);
