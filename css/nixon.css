@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     z-index:1;
-    font-family:Georgia;
+    font-family:'Lato', sans-serif;
 }
 html{
     overflow:hidden;
@@ -11,9 +11,9 @@ body{
     top:0%;
 }
 h1{
-    padding-top:5%;
+    padding-top:2%;
     font-size:10vh;
-    font-family:Courier;
+    font-family:'Spectral SC', serif;
 }
 ol{
     list-style:decimal;
@@ -43,9 +43,9 @@ ol{
 #one .intro_p{
     top:10%;
     left:25%;
-    width:55%;
-    font-size:1.25vw;
-    font-family:Georgia;
+    width:60%;
+    font-size:2.5vh;
+    font-family:'Lato', sans-serif;
 }
 #first_p:first-letter {
 	font-size:13vh;
@@ -65,7 +65,11 @@ ol{
 #two{
     background: linear-gradient(to right, black, #4E4E4E);
 }
-#two #chart {width:60vw;height:60vh;margin:15px 15px 15px 6vw;}
+#two #chart {
+    width:60vw;
+    height:60vh;
+    margin:15px 15px 15px 6vw;
+}
 #two svg{background-color:lightgrey; padding:10px; border:solid 4px darkgray;}
 #two #description{
     width:25vw;
@@ -74,7 +78,17 @@ ol{
     right:5vw;
     top:25vh;
 }
-#two #text{overflow-y:scroll;height:90%; font-size:15px!important;}
+#two #text{
+    overflow-y:scroll;
+    height:90%;
+    font-size:15px!important;
+}
+#two #topic{
+    background-color: #344c69;
+    color:white;
+    width:103%;
+
+}
 
 #three{
     background:#4E4E4E;
@@ -210,14 +224,14 @@ ol{
     top:28%;
     width:100%;
     color:white;
-    font-size:2.4w;
+    font-size:2.4vw;
 }
 #topic_graphs th{
     cursor:pointer;
 }
 #six_topic{
     position:absolute;
-    top:40%;  
+    top:40%;
     width:100%;
     text-align:center;
 }
@@ -241,6 +255,25 @@ ol{
 #nine{
     background:#4E4E4E;
 }
+#nine #dh-group, #nine #special-thanks{
+    text-align:left;
+    padding: 0 5% 5% 5%;
+}
+#nine .column{
+    width:45vw;
+}
+#nine #sources{
+    position:absolute;
+    left:50vw;
+    z-index:1000;
+    font-size:18px;
+    text-align:left;
+}
+#nine #firstcol{
+    position:absolute;
+    left:5vw;
+}
+
 .row_one{
     position:absolute;
     top:0%;
