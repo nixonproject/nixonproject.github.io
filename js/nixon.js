@@ -316,6 +316,7 @@ function up_click(){
     current -= 3;
     
     audio_check(current);
+    localStorage.setItem("current_cell", current);
     
 }
 function down_click(){    
@@ -326,6 +327,7 @@ function down_click(){
     current += 3;
     
     audio_check(current);
+    localStorage.setItem("current_cell", current);
     
 }
 function left_click(){    
@@ -336,6 +338,7 @@ function left_click(){
     current -= 1;
     
     audio_check(current);
+    localStorage.setItem("current_cell", current);
     
 }
 function right_click(){    
@@ -346,6 +349,7 @@ function right_click(){
     current += 1;
     
     audio_check(current);
+    localStorage.setItem("current_cell", current);
     
 }
 function down_left_click(){    
@@ -357,6 +361,7 @@ function down_left_click(){
     current += 2;
     
     audio_check(current);
+    localStorage.setItem("current_cell", current);
     
 }
 function down_right_click(){    
@@ -368,6 +373,7 @@ function down_right_click(){
     current += 4;
     
     audio_check(current);
+    localStorage.setItem("current_cell", current);
     
 }
 function up_left_click(){    
@@ -379,6 +385,7 @@ function up_left_click(){
     current -= 4;
     
     audio_check(current);
+    localStorage.setItem("current_cell", current);
     
 }
 function up_right_click(){    
@@ -390,11 +397,11 @@ function up_right_click(){
     current -= 2;
     
     audio_check(current);
+    localStorage.setItem("current_cell", current);
     
 }
 
-function audio_check(x){
-    console.log(current_height);
+function audio_check(x){  
     if (x == 3){
         //nothing for now      
     }
