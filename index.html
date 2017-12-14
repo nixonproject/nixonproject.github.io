@@ -14,7 +14,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
         <script src="js/cloud.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Spectral+SC" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/nixon.css">
         <link href="css/network.css" rel="stylesheet"/>
         <script>
@@ -78,17 +78,19 @@
     <style>
         /* Dropdown Button */
         .dropbtn {
-            background-color: #95a5a6;
+            background-color: #2980b9;
             color: white;
             padding: 5px;
             font-size: 16px;
             border: none;
             cursor: pointer;
+            width:100%;
+            margin:5px;
         }
 
         /* Dropdown button on hover & focus */
         .dropbtn:hover, .dropbtn:focus {
-            background-color: #95a5a6;
+            background-color: #2980b9;
         }
 
         /* The container <div> - needed to position the dropdown content */
@@ -125,29 +127,32 @@
     <body>
         <div id="one" class="square row_one column_one diag_rt_bot">
             <img id="title_image" src="http://ww1.hdnux.com/photos/53/74/36/11519904/3/920x920.jpg"/>
-            <h1>The Nixon Tapes</h1>
-            <p id="first_p" class="intro_p" style="padding-top:7%;">
-                As part of the Fall 2017 Digital Humanities course taught by Professor Miriam Posner, our
-                team was given the Nixon Tapes database to analyze and visualize. From the start, the three
-                main objectives of this project has been 1) to develop technical data analytics skills, 2)
-                put into practice digital humanities methodologies of handling data, and 3) answer humanist
-                questions regarding the Nixon Tapes.
-            </p><br/>
-            <p class="intro_p">
-                President Richard Milhous Nixon has been one of the most
-                polarizing figures in modern American history. From re-establishing relationships with China to
-                his ultimate downfall during the Watergate scandal, President Nixon will always elicit a strong
-                reaction from anyone knowledgeable about American history. While President Nixon’s resignation
-                can be claimed as the most dramatic event of his presidency, our team wanted to examine his
-                foreign policy decisions with regards to the Vietnam and Cambodia bombings during the peace
-                negotiations in 1972.
-            </p><br/>
-            <p class="intro_p">
-                This website is organized into 9 sections, each section either highlights
-                a visualization of the dataset or analysis of the dataset. Through these sections, our team
-                developed visualizations to explore the following questions:
-                <br/><br/>What was the context of President’s Nixon decisions? How did they affect his decisions?
-            </p>
+            <div>
+                <h1 style="text-align:left;">The Nixon Tapes</h1><br>
+                <p id="first_p" class="intro_p" style="margin-top:35vh;">
+                    As part of the UCLA Fall 2017 Digital Humanities course taught by Dr. Miriam Posner, our
+                    team was given the Nixon Tapes database to analyze and visualize. The three
+                    main objectives of this project have been 1)
+                    put into practice digital humanities methodologies of handling data and 2) answer humanist
+                    questions regarding the Nixon Tapes.
+                </p><br/>
+                <p class="intro_p">
+                    President Richard Milhous Nixon has been one of the most
+                    polarizing figures in modern American history. From re-establishing relationships with China to
+                    his ultimate downfall during the Watergate scandal, President Nixon will always elicit a strong
+                    reaction from people. Our team wanted to examine his
+                    foreign policy decisions with regards to the Vietnam and Cambodia bombings during the peace
+                    negotiations in 1972.
+                </p><br/>
+                <p class="intro_p">
+                    This website is organized into 9 sections, each section highlights
+                    a visualization of the dataset. These visualizations are
+                    meant to be interactive, so we invite you to explore the dataset yourself.
+                    Was President Nixon a power-hungry aggressor or a
+                    peace seeking diplomat caught in a complex situation? Were his actions a result of his
+                    environment or his ambition? Click around to develop a conclusion yourself.
+                </p>
+            </div>
         </div>
 
         <div id="two" class="square row_one column_two diag_rt_bot diag_lt_bot">
@@ -202,8 +207,27 @@
 
         <div id="three" class="square row_one column_three diag_lt_bot">
             <h1>Topic Modeling</h1>
-            <img style="position:absolute; right:5%; top:5%; cursor:pointer;" onclick="alert_three()" src="images/info.png"/>
-            <iframe width="684.5" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTVuGBrQdKPqIgPycPQDajZPaWMYtjdARgegCXNSAoMBlrTACwhFXb8MdqHKPO0V3uuuwYh-y6Ud101/pubchart?oid=927735473&amp;format=interactive"></iframe>
+            <div style="column-count:3;column-gap:0;">
+                <p style="font-size:1.1vw;">
+                    This conversation in particular is interesting because this took place just following Secretary of State Kissinger's
+                    negotiations with the North Vietnamese in Paris. This conversation was also held just after the Washington Post had
+                     reported that an FBI investigation had found evidence of a campaign of political sabotage
+                    by the Nixon forces that was "unprecedented in scope and intensity." Thus this visualization represents the context
+                     as well as each speaker's focus in the conversation.
+                </p><br>
+                <p style="font-size:1.1vw;">
+                    The stacked bar chart represents how similar each speaker's speech in this conversation resembled one of
+                    the 10 topics that Mallet had identified. For instance, it is clear that Henry Kissinger and President Nixon's
+                    speech topics most closely aligned with "Appeasing on Agreements with Thieu."
+                </p>
+                <p style="font-size:1.1vw;">
+                    This visualization was made by first parsing out the conversation by speaker into speaker text files using Python.
+                    Then each speaker text files were inputted into Mallet's topic modeling analysis to get the percentage likelihood of
+                    the speech matching up with each topic. Finally these percentages were visualized in Google Sheets chart.
+                </p>
+            </div>
+            <br>
+            <iframe width="750" height="450" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTVuGBrQdKPqIgPycPQDajZPaWMYtjdARgegCXNSAoMBlrTACwhFXb8MdqHKPO0V3uuuwYh-y6Ud101/pubchart?oid=927735473&amp;format=interactive"></iframe>
         </div>
 
         <div id="map-canvas"></div>
@@ -242,7 +266,7 @@
                     <div class="date_div">
                         <img class="dates" src="images/dates/4.png"/>
                     </div>
-                    <p>Final decision to carpet bomb Cambodia. Written in Haldeman’s diary about “Operation Breakfast”</p>
+                    <p>Final decision to carpet bomb Cambodia. Written in Haldeman's diary about “Operation Breakfast”</p>
                     <div class="clipping"><p>newspaper</p></div>
                     <img class="t_down" src="images/arrows/tline_down.png"/>
                 </div>
@@ -287,7 +311,7 @@
                     <div class="date_div">
                         <img class="dates" src="images/dates/9.png"/>
                     </div>
-                    <p>“We’ll blockade those sons of bitches and starve them out.” - Richard Nixon (4.17.1972)</p>
+                    <p>“We'll blockade those sons of bitches and starve them out.” - Richard Nixon (4.17.1972)</p>
                     <div class="clipping"><p>newspaper</p></div>
                     <img class="t_down" src="images/arrows/tline_down.png"/>
                 </div>
@@ -323,7 +347,7 @@
                     <div class="date_div">
                         <img class="dates" src="images/dates/13.png"/>
                     </div>
-                    <p>“We’ll make our own deal and you’ll have to paddle your own canoe.” - Richard Nixon (11.18.1972)</p>
+                    <p>“We'll make our own deal and you'll have to paddle your own canoe.” - Richard Nixon (11.18.1972)</p>
                     <div class="clipping"><p>newspaper</p></div>
                     <img class="t_down" src="images/arrows/tline_down.png"/>
                 </div>
@@ -332,7 +356,7 @@
                     <div class="date_div">
                         <img class="dates" src="images/dates/14.png"/>
                     </div>
-                    <p>“They’re tough on the points that are almost insoluble." - Richard Nixon (11.29.1972)</p>
+                    <p>“They're tough on the points that are almost insoluble." - Richard Nixon (11.29.1972)</p>
                     <div class="clipping"><p>newspaper</p></div>
                     <img class="t_down" src="images/arrows/tline_down.png"/>
                 </div>
@@ -350,7 +374,7 @@
                     <div class="date_div">
                         <img class="dates" src="images/dates/16.png"/>
                     </div>
-                    <p>“We’ve got to continue to crack it up there, so that they know we can still come back.” - Richard Nixon (12.20.1972)</p>
+                    <p>“We've got to continue to crack it up there, so that they know we can still come back.” - Richard Nixon (12.20.1972)</p>
                     <div class="clipping"><p>newspaper</p></div>
                     <img class="t_down" src="images/arrows/tline_down.png"/>
                 </div>
@@ -359,7 +383,7 @@
                     <div class="date_div">
                         <img class="dates" src="images/dates/17.png"/>
                     </div>
-                    <p>Conversation between Nixon and Kissinger, decrying the South Vietnamese leader’s lack of cooperation, calling him “demented”</p>
+                    <p>Conversation between Nixon and Kissinger, decrying the South Vietnamese leader's lack of cooperation, calling him “demented”</p>
                     <div class="clipping"><p>newspaper</p></div>
                     <img class="t_down" src="images/arrows/tline_down.png"/>
                 </div>
@@ -368,7 +392,7 @@
                     <div class="date_div">
                         <img class="dates" src="images/dates/18.png"/>
                     </div>
-                    <p>“I am certain, now he’s coming along.” - Henry Kissinger (1.21.1973)</p>
+                    <p>“I am certain, now he's coming along.” - Henry Kissinger (1.21.1973)</p>
                     <div class="clipping"><p>newspaper</p></div>
                     <img class="t_down" src="images/arrows/tline_down.png"/>
                 </div>
@@ -410,10 +434,10 @@
                     period. In borrowing the term from network analysis, we see that these conversations do actually
                     hold “weight” in the realization of foreign policy decisions, which ultimately manifested in the
                     resumption of mass bombings in North Vietnam that December. We approach this network in the context
-                    of these conversations’ actual gravity in determining the United States further entrenchment into
+                    of these conversations' actual gravity in determining the United States further entrenchment into
                     Vietnam, and the furthering of imperial domination in the Global South. The network functions as a
-                    simple tool for gauging who took up the most space in the President’s inner circle at the time,
-                    perhaps translating to taking up some influence on the administration’s decisions.
+                    simple tool for gauging who took up the most space in the President's inner circle at the time,
+                    perhaps translating to taking up some influence on the administration's decisions.
                 </p>
             </div>
             <div class="info" id="convo-network">
@@ -425,13 +449,13 @@
                     parameters we only included edges that had a weight above five, meaning that each
                     actor had to at least participate in five conversations together. Using the two-mode
                     method of analysis, we were able to visualize the interconnectedness and density of
-                    powerful members in Nixon’s cabinet, as well as those who are more on the periphery.
+                    powerful members in Nixon's cabinet, as well as those who are more on the periphery.
                 </p><br/>
                 <p>
                     The network again shows Stephen B. Bull, Henry Kissinger, and H.R. Haldeman as nodes
                     holding the most weight. However, amidst those with broad-reaching authority in the
                     administration are important members of staff who facilitate these conversations and
-                    connections, such as the White House operator, the White House photographer, and Nixon’s
+                    connections, such as the White House operator, the White House photographer, and Nixon's
                     personal valet, Manolo Sanchez, who has a significant between-centrality. The role these
                     staff members play is essential in allowing the network to function. <br/>
 
@@ -472,36 +496,66 @@
         </div>
 
         <div id="eight" class="square row_three column_two diag_lt_top diag_rt_top">
-            <h1>About Key Figures</h1>
-            <p>
-                This bimodal network analysis uses edges to denote connections between key figures,
-                with each node having been present in conversation(s) together. Because of the
-                sheer volume of names in the data, conversations were selected according to our
-                list of key dates and decisions leading up to the December Bombings. With these
-                parameters we only included edges that had a weight above five, meaning that each
-                actor had to at least participate in five conversations together. Using the two-mode
-                method of analysis, we were able to visualize the interconnectedness and density of
-                powerful members in Nixon’s cabinet, as well as those who are more on the periphery.
-            </p><br/>
-            <p>
-                The network again shows Stephen B. Bull, Henry Kissinger, and H.R. Haldeman as nodes
-                holding the most weight. However, amidst those with broad-reaching authority in the
-                administration are important members of staff who facilitate these conversations and
-                connections, such as the White House operator, the White House photographer, and Nixon’s
-                personal valet, Manolo Sanchez, who has a significant between-centrality. The role these
-                staff members play is essential in allowing the network to function. <br/>
-
-                Each network was made using OpenRefine, RStudio, D3.js, and Cytoscape.
-            </p>
+            <h1 style="text-align: center;">Data Critique</h1>
+            <div style="font-size:17px;column-count:3; column-gap:0;">
+                <p><span style="font-size:2em;">Our</span> team was first given an Excel sheet that shows the start and end dates and times, participants in the conversation, a brief description of said conversation, the location of the conversation, and the release date of the recording. There are other columns as well, but those are for identifying the physical tape itself as opposed to information about the content. The online additions to the dataset provide full transcripts of some conversations and the audio recordings too. The dataset can illuminate the context in which the recordings took place in addition to the geographical and temporal data it provides.
+                </p><br>
+                <p>
+                    Additionally, the data was first recorded by way of a audio taping system set up by White House officials. The system recorded many important conversations concerning the Nixon Administration- with recording devices set up in the Oval office, the Cabinet Room, and the Aspen Lodge at Camp David-dating from February 16, 1971 to July 18, 1973. The National Archives has made the recordings readily available to the public through the creation of a standardized and open format. Such formating includes comma-separated values (CSV) files and zipped folders containing seven JavaScript Object Notation (JSON) files. Moreover, the staff at the National Archives used varying analysis techniques to structure the metadata according time, date, and location of each conversation (which total over 4,000 unique data rows). Interesting enough, the staff used audio translating software to generate writing script of select conversations in order to preserve accuracy of such accounts.
+                </p><br>
+                <p>
+                    Furthermore, the original sources of the data are from the national archives of the US government. The White House Tapes contain sound recordings from President Richard Nixon's telephone calls recorded at the White House in Washington D.C. and the Presidential Retreat at Camp David, MD, recordings from meetings in the White House's Oval Office, Cabinet Room, President's office in the Old Office Executive Building, and Aspen Lodge at Camp David. The Richard Nixon Presidential Library and Museum is part of the National Archives and Records Administration, and is trying to digitize all of the tapes for public use.
+                </p><br>
+                <p>
+                    Moreover, the organization of the dataset is arranged using the given parameters of time, sequence, location, participant in conversation, and collection. As a dataset generated by the National Archives and Records Administration, the presented ontology is intertwined with state power on the federal level. The dataset's relationship with the government informs its ideological framework, using parameters that are in line with the predominating, Western conceptions of time and location. Being a catalogue of conversations held by the president, the situated data is inherently ego-centric. Each entry point revolves around the president, as every record represents a conversation held by officials surrounding him during his administration. There are dense power dynamics contained in the relationships expressed in the data, as these conversations were responsible for policies, and decisions with immense impact.
+                </p><br>
+                <p>
+                    Finally, if our dataset (the initial CSV file) was the only source, some information that would be left out would include the audio recordings, transcripts, and political context of the dataset. While the existence of these tapes say a lot about President Nixon's own insecurities and paranoia within his own administration, the CSV alone does not fully convey these emotions and the user truly gets a better sense by listening to his voice and mannerisms as well as reading through transcripts. Who President Nixon talks to and how he talks with each individual often reflect the stress that he was under that the original CSV file did not since it was primarily made for record-keeping purposes for the Richard Nixon Presidential Library.
+                </p>
+            </div>
         </div>
 
         <div id="nine" class="square row_three column_three diag_lt_top">
-            <h1>Conclusion</h1>
-            <p>
-                Special thanks to Cary McStay, Tapes Supervisory Archivist at
-                the Richard Nixon Presidential Library and Museum, for her insight
-                and providing our group with useful and important resources.
-            </p>
+            <h1>Credits</h1>
+            <div class="column" id="firstcol">
+                <div id="dh-group">
+                    <h3>Digital Humanities 101 Group</h3>
+                    <ul>
+                        <li>David Castro - Operation Linebacker Mapping, Timeline</li>
+                        <li>Daniel Huang - Network Analysis, Topic Modeling, Website</li>
+                        <li>Dylan Karlsson - Network Analysis, Topic Modeling, Timeline</li>
+                        <li>Ariana Wang - Topic Modeling</li>
+                        <li>Margaret Wu - Timeline</li>
+                        <li>Campbell Yamane - Website</li>
+                    </ul>
+                </div>
+                <div id="special-thanks">
+                    <h3>Special Thanks</h3>
+                    <ul>
+                        <li>Cary McStay - Tapes Supervisory Archivist | Richard Nixon Presidential Library and Museum</li>
+                        <li>Dave Shepard, Ph.D - Lead Academic Developer | UCLA Digital Humanities Department</li>
+                        <li>Miriam Posner, Ph.D - Assistant Professor | Information Studies and Digital Humanities</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column" id="sources">
+                <h3>Sources</h3>
+                <ul>
+                    <li>Brinkley, Douglas, and Luke Nichter. Nixon Tapes, 1971-1972. Houghton Mifflin Harcourt, 2015.</li>
+                    <li>Brinkley, Douglas, and Luke Nichter. The Nixon Tapes, 1973. Houghton Mifflin Harcourt, 2016</li>
+                    <li>Glad, Betty, and Michael W. Link. "President Nixon's Inner Circle of Advisers." Presidential Studies Quarterly, vol. 26, no. 1, 1996, pp. 13–40. JSTOR, JSTOR, www.jstor.org/stable/27551548.</li>
+                    <li>Farrell, John A. Richard Nixon: the Life. Doubleday, 2017.</li>
+                    <li>Hughes, Ken. Chasing Shadows: the Nixon Tapes, the Chennault Affair, and the Origins of Watergate. University of Virginia Press, 2015.</li>
+                    <li>"Memoirs v. Tapes: President Nixon & the December Bombings." Memoirs v. Tapes: President Nixon & The December Bombings, The Nixon Library and Museum, <www.nixonlibrary.gov/exhibits/decbomb/splash.html></li>
+                    <li>Nichter, Luke A. Richard Nixon and Europe: The Reshaping of the Postwar Atlantic World. Cambridge University Press, 2015.</li>
+                    <li>Siniver, Asaf. Nixon, Kissinger, and U.S. Foreign Policy Making: the Machinery of Crisis. Cambridge University Press, 2011.</li>
+                    <li>Small, Melvin. The Presidency of Richard Nixon. University Press of Kansas, 2003.</li>
+                    <li>Stoessinger, John. Henry Kissinger: The Anguish of Power. Norton, 1978.</li>
+                    <li>Caswell, Michelle. "Khmer Rouge archives: accountability, truth, and memory in Cambodia." Archival Science 10.1 (2010): 25-44. <a href="https://link.springer.com/article/10.1007%2Fs10502-010-9114-1>">https://link.springer.com/article/10.1007%2Fs10502-010-9114-1></a></li>
+                    <li>Nixon Tapes, 1971-1972; Nixon Tapes, 1973; Nixon, Kissinger, and U.S. Foreign Policy Making: the Machinery of Crisis; Henry Kissinger: The Anguish of Power</li>
+
+                </ul>
+            </div>
         </div>
         <!--don't move these! these need the DOM to be loaded before the code can be executed-->
         <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
