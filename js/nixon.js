@@ -2,7 +2,7 @@
 var current = 0;
 var cell_names = ["Introduction","Conversation Analysis","Topic Modeling","Timeline of Events",
                   "Nixon's Inner Circle","Conversation Influences", "The Bombings",
-                  "About Key Figures","Conclusion"];
+                  "Data Critique","Conclusion"];
 var cell_id = ['one','two','three','four','five','six','seven','eight','nine'];
 
 
