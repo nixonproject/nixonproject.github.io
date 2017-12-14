@@ -129,26 +129,25 @@ ol{
     position:absolute;
     color:white;
     text-align:left;
-    top:15%;
+    top:14%;
     width:80%;
     margin:0 auto;
-    font-size:5vh;
+    font-size:2vw;
     font-family:Courier;
 }
 .dates{
     position: relative;
-    top: 50%;
+    top:50%;
     left:45%;
     transform: translateY(-50%);
 }
 .clipping{
     position:absolute;
     color:white;
-    top:40%;
+    top:43%;
+    left:1%;
     width:50%;
-    height:40%;
-    font-size:5vh;
-    background:rgba(29, 202, 255, 0.3);
+    height:38%;
 }
 .t_up{
     position:absolute;
