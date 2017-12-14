@@ -48,12 +48,18 @@ function load_chart(x, el){
     $('.topic_name').css("background", "#2980b9");
     el.style.color = '#2980b9';
     el.style.background = 'white';
-    var frame_1 = document.getElementById('frame_1');
-    var topic = document.getElementById('six_topic');
-    topic.innerHTML = frame_names[x-1];
-    frame_1.setAttribute("src",kiss_frames[x-1]);
-    var frame_2 = document.getElementById('frame_2');
-    frame_2.setAttribute("src",haig_frames[x-1]);
-    var frame_3 = document.getElementById('frame_3');
-    frame_3.setAttribute("src",hald_frames[x-1]);
+    $('.topic_frames').fadeOut(function(){
+        var frame_1 = document.getElementById('frame_1');
+        var topic = document.getElementById('six_topic');
+        topic.innerHTML = frame_names[x-1];           
+        frame_1.setAttribute("src",kiss_frames[x-1]);
+        var frame_2 = document.getElementById('frame_2');
+        frame_2.setAttribute("src",haig_frames[x-1]);
+        var frame_3 = document.getElementById('frame_3');
+        frame_3.setAttribute("src",hald_frames[x-1]);        
+    });
+    setTimeout(function() {
+        $('#six_topic').fadeIn();
+        $('.topic_frames').fadeIn();    
+    }, 500);
 }
