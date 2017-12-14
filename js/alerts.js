@@ -73,6 +73,12 @@ function alert_six(){
     t = document.createTextNode('3. Creating data visualizations from the topic models');
     p.appendChild(t);
     div.appendChild(p);
+    b = document.createElement("br");
+    p = document.createElement("p");
+    div.appendChild(b);
+    t=document.createTextNode('The following graphs represent topic intensity over time comparing President Nixon to other prominent members of his administration. Each date represents a conversation two speakers have with each other. What this can tell us is how one person mentioning a topic earlier on, can influence the other persons intensity of the topic at a later date.');
+    p.appendChild(t);
+    div.appendChild(p);
     div.style.zIndex = '150';
     div.style.color = 'black';
     div.style.background = 'white';

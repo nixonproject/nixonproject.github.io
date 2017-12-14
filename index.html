@@ -223,7 +223,7 @@
                     The stacked bar chart represents how similar each speaker's speech in this conversation resembled one of
                     the 10 topics that Mallet had identified. For instance, it is clear that Henry Kissinger and President Nixon's
                     speech topics most closely aligned with "Appeasing on Agreements with Thieu."
-                </p>
+                </p><br>
                 <p style="font-size:1.1vw;">
                     This visualization was made by first parsing out the conversation by speaker into speaker text files using Python.
                     Then each speaker text files were inputted into Mallet's topic modeling analysis to get the percentage likelihood of
@@ -352,6 +352,7 @@
                         <img class="dates" src="images/dates/13.png"/>
                     </div>
                     <p>“We’ll make our own deal and you’ll have to paddle your own canoe.” - Richard Nixon (11.18.1972)</p>
+
                     <img class="t_down" src="images/arrows/tline_down.png"/>
                 </div>
                 <div class="timeline_point">
@@ -492,9 +493,10 @@
                 <iframe id="frame_3" class="topic_frames" width="30%" height="40%" frameborder="0" scrolling="no" ></iframe>
             </div>
         </div>
-        <div id="seven" class="square row_three column_one diag_rt_top">        
-            <iframe id="bombings" width="80%" height="85%"  frameborder="0" src="" scrolling="yes"></iframe>
-            <img style="position:absolute; right:8%; top:15%; cursor:pointer;" onclick="alert_seven()" src="images/info.png"/>
+        <div id="seven" class="square row_three column_one diag_rt_top">
+            <iframe id="bombings" width="95%" height="90%"  frameborder="0" src="" scrolling="yes"></iframe>
+            <img src="images/ajax_loader_blue_512.gif" style="width:50px;height:50px; margin-top:50vh;">
+            <img style="position:absolute; right:6%; top:2%; width:4%; cursor:pointer;" onclick="alert_seven()" src="images/info.png"/>
         </div>
 
         <div id="eight" class="square row_three column_two diag_lt_top diag_rt_top">
