@@ -44,8 +44,10 @@ var frame_names = [
     'Public Relations and Perception'
 ];
 function load_chart(x, el){
-    $('.topic_name').css('text-decoration', 'none');
-    el.style.textDecoration = 'underline';
+    $('.topic_name').css("color", "white");
+    $('.topic_name').css("background", "#2980b9");
+    el.style.color = '#2980b9';
+    el.style.background = 'white';
     var frame_1 = document.getElementById('frame_1');
     var topic = document.getElementById('six_topic');
     topic.innerHTML = frame_names[x-1];

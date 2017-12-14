@@ -402,8 +402,10 @@ function audio_check(x){
         drawWordCloud(1);
     }
     else if (x == 5){
-        $('.topic_name').css("text-decoration", "none");
-        $('.topic_name').first().css("text-decoration", "underline");
+        $('.topic_name').css("color", "white");
+        $('.topic_name').css("background", "#2980b9");
+        $('.topic_name').first().css("color", "#2980b9");
+        $('.topic_name').first().css("background", "white");
         var frame_1 = document.getElementById('frame_1');
         frame_1.setAttribute("src",kiss_frames[0]);
         var frame_2 = document.getElementById('frame_2');
