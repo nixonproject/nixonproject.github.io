@@ -18,9 +18,9 @@ function arrow_down(){
     img.addEventListener("click", down_click);
     img.style.opacity = '0.5';
     img.style.zIndex = '10';
-    
+
     return img;
-}  
+}
 
 function arrow_up(){
     var img = document.createElement('img');
@@ -33,10 +33,10 @@ function arrow_up(){
     img.addEventListener("click", up_click);
     img.style.opacity = '0.5';
     img.style.zIndex = '10';
-    
+
     return img;
-}  
- 
+}
+
 function arrow_right(){
     var img = document.createElement('img');
     img.className = 'arrow_right';
@@ -48,10 +48,10 @@ function arrow_right(){
     img.addEventListener("click", right_click);
     img.style.opacity = '0.5';
     img.style.zIndex = '10';
-    
+
     return img;
-}   
- 
+}
+
 function arrow_left(){
     var img = document.createElement('img');
     img.className = 'arrow_left';
@@ -63,9 +63,9 @@ function arrow_left(){
     img.addEventListener("click", left_click);
     img.style.opacity = '0.5';
     img.style.zIndex = '10';
-    
+
     return img;
-}    
+}
 function arrow_down_left(){
     var img = document.createElement('img');
     img.className = 'arrow_down_left';
@@ -77,9 +77,9 @@ function arrow_down_left(){
     img.addEventListener("click", down_left_click);
     img.style.opacity = '0.5';
     img.style.zIndex = '10';
-    
+
     return img;
-}  
+}
 
 function arrow_down_right(){
     var img = document.createElement('img');
@@ -92,10 +92,10 @@ function arrow_down_right(){
     img.addEventListener("click", down_right_click);
     img.style.opacity = '0.5';
     img.style.zIndex = '10';
-    
+
     return img;
-}  
- 
+}
+
 function arrow_up_right(){
     var img = document.createElement('img');
     img.className = 'arrow_up_right';
@@ -107,10 +107,10 @@ function arrow_up_right(){
     img.addEventListener("click", up_right_click);
     img.style.opacity = '0.5';
     img.style.zIndex = '10';
-    
+
     return img;
-}   
- 
+}
+
 function arrow_up_left(){
     var img = document.createElement('img');
     img.className = 'arrow_up_left';
@@ -122,9 +122,9 @@ function arrow_up_left(){
     img.addEventListener("click", up_left_click);
     img.style.opacity = '0.5';
     img.style.zIndex = '10';
-    
+
     return img;
-}    
+}
 
 
 $(document).ready(function(){
@@ -134,65 +134,73 @@ $(document).ready(function(){
     var column_one = document.getElementsByClassName("column_one");
     var column_two = document.getElementsByClassName("column_two");
     var column_three = document.getElementsByClassName("column_three");
-    
+
     var up_left = document.getElementsByClassName("diag_lt_top");
     var up_right = document.getElementsByClassName("diag_rt_top");
     var down_left = document.getElementsByClassName("diag_lt_bot");
     var down_right = document.getElementsByClassName("diag_rt_bot");
-    
+
     tracking_array = document.getElementsByClassName("square");
 
-    
+
     //row arrows
     for (var i = 0; i < row_one.length; i++) {
         row_one[i].appendChild(arrow_down());
-    }    
+    }
     for (var i = 0; i < row_two.length; i++) {
         row_two[i].appendChild(arrow_down());
         row_two[i].appendChild(arrow_up());
-    }      
+    }
     for (var i = 0; i < row_three.length; i++) {
         row_three[i].appendChild(arrow_up());
-    } 
-    
+    }
+
     //column arrows
     for (var i = 0; i < column_one.length; i++) {
         column_one[i].appendChild(arrow_right());
-    }   
+    }
     for (var i = 0; i < column_two.length; i++) {
         column_two[i].appendChild(arrow_right());
         column_two[i].appendChild(arrow_left());
-    }   
+    }
     for (var i = 0; i < column_three.length; i++) {
         column_three[i].appendChild(arrow_left());
-    }  
-    
+    }
+
     //diag arrows
     for (var i = 0; i < up_left.length; i++) {
         up_left[i].appendChild(arrow_up_left());
-    }   
+    }
     for (var i = 0; i < up_right.length; i++) {
         up_right[i].appendChild(arrow_up_right());
-    }   
+    }
     for (var i = 0; i < down_left.length; i++) {
         down_left[i].appendChild(arrow_down_left());
-    }  
+    }
     for (var i = 0; i < down_right.length; i++) {
         down_right[i].appendChild(arrow_down_right());
-    }  
-    
+    }
+
 
     console.log(tracking_array);
-    
+
     $("img").on("mouseleave", function(e){
         $('#temp').fadeTo(200, 0.5);
         $('#temp').attr("id", "");
         $('.arrow_name').fadeOut(200, function(e){
-                $('.arrow_name').remove();                
+                $('.arrow_name').remove();
             }
         );
     });
-    
+
+    $('.clipping').mouseenter(function() {
+        $(this).animate({width: "+=200px", height: "+=200px", top: "-=100px", left: "-=100px"}, 'slow');
+    });
+
+    $('.clipping').mouseleave(function() {
+      $(this).animate({width: "-=200px", height: "-=200px", top: "+=100px", left: "+=100px"}, 'slow');
+    });
+
     $("img").on("mouseenter", function(e){
         var p = document.createElement('p');
         var s = document.createElement('span');
@@ -304,106 +312,106 @@ $(document).ready(function(){
                 break;
         }
     });
-    
+
 });
 
 //arrow control functions
-function up_click(){    
+function up_click(){
     $('html,body').animate({
         scrollTop: $(window).scrollTop() - $( window ).height()
     });
-    
+
     current -= 3;
-    
+
     audio_check(current);
     localStorage.setItem("current_cell", current);
-    
+
 }
-function down_click(){    
+function down_click(){
     $('html,body').animate({
         scrollTop: $(window).scrollTop() + $( window ).height()
     });
-    
+
     current += 3;
-    
+
     audio_check(current);
     localStorage.setItem("current_cell", current);
-    
+
 }
-function left_click(){    
+function left_click(){
     $('html,body').animate({
         scrollLeft: $(window).scrollLeft() - $( window ).width()
     });
-    
+
     current -= 1;
-    
+
     audio_check(current);
     localStorage.setItem("current_cell", current);
-    
+
 }
-function right_click(){    
+function right_click(){
     $('html,body').animate({
         scrollLeft: $(window).scrollLeft() + $( window ).width()
     });
-    
+
     current += 1;
-    
+
     audio_check(current);
     localStorage.setItem("current_cell", current);
-    
+
 }
-function down_left_click(){    
+function down_left_click(){
     $('html,body').animate({
         scrollTop: $(window).scrollTop() + $( window ).height(),
         scrollLeft: $(window).scrollLeft() - $( window ).width()
     });
-    
+
     current += 2;
-    
+
     audio_check(current);
     localStorage.setItem("current_cell", current);
-    
+
 }
-function down_right_click(){    
+function down_right_click(){
     $('html,body').animate({
         scrollTop: $(window).scrollTop() + $( window ).height(),
         scrollLeft: $(window).scrollLeft() + $( window ).width()
     });
-    
+
     current += 4;
-    
+
     audio_check(current);
     localStorage.setItem("current_cell", current);
-    
+
 }
-function up_left_click(){    
+function up_left_click(){
     $('html,body').animate({
         scrollTop: $(window).scrollTop() - $( window ).height(),
         scrollLeft: $(window).scrollLeft() - $( window ).width()
     });
-    
+
     current -= 4;
-    
+
     audio_check(current);
     localStorage.setItem("current_cell", current);
-    
+
 }
-function up_right_click(){    
+function up_right_click(){
     $('html,body').animate({
         scrollTop: $(window).scrollTop() - $( window ).height(),
         scrollLeft: $(window).scrollLeft() + $( window ).width()
     });
-    
+
     current -= 2;
-    
+
     audio_check(current);
     localStorage.setItem("current_cell", current);
-    
+
 }
 
-function audio_check(x){  
+function audio_check(x){
     if (x == 3){
-        //nothing for now      
+        //nothing for now
     }
     else if (x == 1){
         drawWordCloud(1);
@@ -424,16 +432,16 @@ function audio_check(x){
     }
     else if (x == 6){
         var frame = document.getElementById('bombings');
-        frame.setAttribute("src","https://www.arcgis.com/apps/MapSeries/index.html?appid=6290e3f7d25d429aaa58838947f65883");        
+        frame.setAttribute("src","https://www.arcgis.com/apps/MapSeries/index.html?appid=6290e3f7d25d429aaa58838947f65883");
     }
     else{
         var tag = document.getElementById('audio');
-        tag.setAttribute("src","");    
+        tag.setAttribute("src","");
         var frame = document.getElementById('bombings');
         frame.setAttribute("src","");
         $("#timeline").animate({ scrollTop: 0}, 600);
-        timeline_pos = 0;      
-        current_height = 0;        
+        timeline_pos = 0;
+        current_height = 0;
         load(lon[0],lat[0]);
     }
 }
