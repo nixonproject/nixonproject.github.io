@@ -201,6 +201,18 @@ $(document).ready(function(){
       $(this).animate({width: "-=200px", height: "-=200px", top: "+=100px", left: "+=100px"}, 'slow');
     });
 
+    $('.playaudio').click(function(){
+      var talk = document.getElementById("audio");
+      if (talk.paused){
+        talk.play();
+        $(this).text("||");
+      }
+      else{
+        talk.pause();
+        $(this).text(">");
+      }
+    });
+
     $("img").on("mouseenter", function(e){
         var p = document.createElement('p');
         var s = document.createElement('span');

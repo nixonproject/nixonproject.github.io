@@ -324,3 +324,10 @@ ol{
 a{
   color:#1dcaff;
 }
+.timeline_point .playaudio{
+  position:absolute;
+  top:50%;
+}
+.playaudio{
+  cursor:pointer;
+}
